@@ -31,6 +31,8 @@ Proyecto Realizado Por Sergio Peñate Alejo
 ## Built with
 
 * [Postman](https://www.postman.com/)
+* [Justinmind]( https://www.justinmind.com/)
+* [Visual Paradigm]( https://www.visual-paradigm.com/)
 * [MySql]( https://www.mysql.com/)
 * [Node.Js]( https://nodejs.org/en/)
 * [Ionic](https://ionicframework.com/)
