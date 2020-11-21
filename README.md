@@ -5,9 +5,9 @@ Primer proyecto sobre la obesidad en canarias
 
 # App content
 
-* [Documentación]()
-* [Mockup Images]()
-* [Prototype]()
+* [Documentación]() Documentación del Proyecto
+* [Mockup Images](https://github.com/SergioPA11/Proyecto-1/tree/main/Mockup) Mockup del Proyecto
+* [Prototype](https://github.com/SergioPA11/Proyecto-1/blob/main/Mockup/Prototype%201.vp) Prototipado del Proyecto
 
 * [Future (Backend, Frontend)]
 
@@ -19,10 +19,17 @@ Primer proyecto sobre la obesidad en canarias
 * [Node.Js]( https://nodejs.org/en/)
 * [Justinmind]( https://www.justinmind.com/)
 * [Visual Paradigm]( https://www.visual-paradigm.com/)
+* [Ionic](https://ionicframework.com/)
+* [Angular](https://angular.io/api/common/http/HttpClient)
+
 
 ## Built with
 
-
+* [Postman](https://www.postman.com/)
+* [MySql]( https://www.mysql.com/)
+* [Node.Js]( https://nodejs.org/en/)
+* [Ionic](https://ionicframework.com/)
+* [Angular](https://angular.io/api/common/http/HttpClient)
 
 
 
