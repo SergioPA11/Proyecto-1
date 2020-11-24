@@ -4,7 +4,7 @@ Proyecto Realizado Por Sergio Peñate Alejo
 
 ![logo Ies El Rincon](https://github.com/SergioPA11/Proyecto-1/blob/main/Mockup/rincon.png)
 
-# App content
+# 📱 App content
 
 * [Mockup Images](https://github.com/SergioPA11/Proyecto-1/tree/main/Mockup) Mockup del Proyecto
 * [Prototype](https://github.com/SergioPA11/Proyecto-1/blob/main/Mockup/Prototype%201.vp) Prototipado del Proyecto
@@ -37,7 +37,7 @@ Proyecto Realizado Por Sergio Peñate Alejo
 * [Ionic](https://ionicframework.com/)
 * [Angular](https://angular.io/api/common/http/HttpClient)
 
-## thanks for
+## 👉🏽 thanks for
 
 * [Néstor Batista](https://github.com/Nestorbd)
 
