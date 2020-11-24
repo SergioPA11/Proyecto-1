@@ -39,6 +39,6 @@ Proyecto Realizado Por Sergio Peñate Alejo
 
 ## thanks for
 
-* [Néstor Batista]()
+* [Néstor Batista](https://github.com/Nestorbd)
 
 ## 🙏🏽 Thanks for your visit
