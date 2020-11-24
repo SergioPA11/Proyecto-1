@@ -16,7 +16,7 @@ Proyecto Realizado Por Sergio Peñate Alejo
 * [Mockup](https://github.com/SergioPA11/Proyecto-1/blob/main/Documentaci%C3%B3n.pdf) Explicado en el apartado 6.1 de la documentación
 * [Usabilidad](https://github.com/SergioPA11/Proyecto-1/blob/main/Documentaci%C3%B3n.pdf) Explicado en el apartado 6.2 de la documentación
 
-## Prerequisites
+## 🧰 Prerequisites
 
 * [Git]( https://git-scm.com/)
 * [MySql]( https://www.mysql.com/)
@@ -39,4 +39,4 @@ Proyecto Realizado Por Sergio Peñate Alejo
 
 
 
-## Thanks for your visit
+## 🙏🏽 Thanks for your visit
