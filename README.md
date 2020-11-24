@@ -37,7 +37,7 @@ Proyecto Realizado Por Sergio Peñate Alejo
 * [Ionic](https://ionicframework.com/)
 * [Angular](https://angular.io/api/common/http/HttpClient)
 
-## 👉🏽 thanks for
+## 👉🏽 Thanks for
 
 * [Néstor Batista](https://github.com/Nestorbd)
 
