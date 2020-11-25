@@ -35,10 +35,12 @@ Proyecto Realizado Por Sergio Peñate Alejo
 ### Relational Model
 ![realtional model](https://github.com/SergioPA11/Proyecto-1/blob/main/Mockup/Uml.PNG)
 * [Go up](#-Proyecto-1)
+* [Go to Documentation](#-Documentation)
 
 ### E/R Diagram
 ![e/r](https://github.com/SergioPA11/Proyecto-1/blob/main/Mockup/er.PNG)
 * [Go up](#-Proyecto-1)
+* [Go to Documentation](#-Documentation)
 
 ## User Requirements
 
@@ -55,10 +57,12 @@ Proyecto Realizado Por Sergio Peñate Alejo
 * Internet.
 
 * [Go up](#-Proyecto-1)
+* [Go to Documentation](#-Documentation)
 
 ## Use Case
 ![Use case](https://github.com/SergioPA11/Proyecto-1/blob/main/Mockup/CasosDeUsos.PNG)
 * [Go up](#-Proyecto-1)
+* [Go to Documentation](#-Documentation)
 
 ## Interfaces
 
@@ -92,6 +96,7 @@ When pressing the button See Map, this screen will show us where we have the map
 of the institutes, and if we want to go back we have the menu already explained above.
 
 * [Go up](#-Proyecto-1)
+* [Go to Documentation](#-Documentation)
 
 ### Usability
 
@@ -107,6 +112,7 @@ The application shown as we can see in the three images provided, we see a very 
 * Simplicity in its design: as I have already emphasized, the most that stands out is its simple design, thus helping the user.
 
 * [Go up](#-Proyecto-1)
+* [Go to Documentation](#-Documentation)
 
 ## 🧰 Prerequisites
 
