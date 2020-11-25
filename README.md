@@ -2,7 +2,7 @@
 Primer proyecto sobre la obesidad en canarias
 Proyecto Realizado Por Sergio Peñate Alejo
 
-![logo Ies El Rincon](https://github.com/SergioPA11/Proyecto-1/blob/main/Mockup/rincon.png)
+![logo Ies El Rincon](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/rincon.png)
 
 # Index
 
@@ -14,14 +14,14 @@ Proyecto Realizado Por Sergio Peñate Alejo
 
 # 📱 App content
 
-* [Mockup Images](https://github.com/SergioPA11/Proyecto-1/tree/main/Mockup) Mockup del Proyecto
-* [Prototype](https://github.com/SergioPA11/Proyecto-1/blob/main/Mockup/Prototype%201.vp) Prototipado del Proyecto
+* [Mockup Images](https://github.com/SergioPA11/Proyecto-1/tree/master/Mockup) Mockup del Proyecto
+* [Prototype](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Prototype%201.vp) Prototipado del Proyecto
 
 * [Future (Backend, Frontend)]
 
 ## 📋 Documentation
 
-* [Documentación](https://github.com/SergioPA11/Proyecto-1/blob/main/Documentaci%C3%B3n.pdf) Documentación del Proyecto
+* [Documentación](https://github.com/SergioPA11/Proyecto-1/blob/master/Documentaci%C3%B3n.pdf) Documentación del Proyecto
 * [Mockup](#Mockup) Explicado en el apartado 6.1 de la documentación
 * [Usability](#Usability) Explicado en el apartado 6.2 de la documentación
 
@@ -33,12 +33,12 @@ Proyecto Realizado Por Sergio Peñate Alejo
 ## Data Model
 
 ### Relational Model
-![realtional model](https://github.com/SergioPA11/Proyecto-1/blob/main/Mockup/Uml.PNG)
+![realtional model](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Uml.PNG)
 * [Go up](#-Proyecto-1)
 * [Go to Documentation](#-Documentation)
 
 ### E/R Diagram
-![e/r](https://github.com/SergioPA11/Proyecto-1/blob/main/Mockup/er.PNG)
+![e/r](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/er.PNG)
 * [Go up](#-Proyecto-1)
 * [Go to Documentation](#-Documentation)
 
@@ -60,37 +60,37 @@ Proyecto Realizado Por Sergio Peñate Alejo
 * [Go to Documentation](#-Documentation)
 
 ## Use Case
-![Use case](https://github.com/SergioPA11/Proyecto-1/blob/main/Mockup/CasosDeUsos.PNG)
+![Use case](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/CasosDeUsos.PNG)
 * [Go up](#-Proyecto-1)
 * [Go to Documentation](#-Documentation)
 
 ## Interfaces
 
 ### Mockup
-![login](https://github.com/SergioPA11/Proyecto-1/blob/main/Mockup/Mockup_scale/login1.PNG)
+![login](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Mockup_scale/login1.PNG)
 
 This is the first screen when starting the application, on this screen we will log in where we will register to use the App, We have 3
 fields to fill in, where it asks us for the name, username and password.
 
-![login error](https://github.com/SergioPA11/Proyecto-1/blob/main/Mockup/Mockup_scale/login2.PNG)
+![login error](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Mockup_scale/login2.PNG)
 
 This is also the first screen when starting the application, on this screen we performed the login but in this case the registration goes wrong. We have 3
 fields to fill in, where we are asked for the name, username and password, but they are not filled in correctly and that is why it comes out this way.
 
-![Menu](https://github.com/SergioPA11/Proyecto-1/blob/main/Mockup/Mockup_scale/menu.PNG)
+![Menu](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Mockup_scale/menu.PNG)
 
 After successfully logging in, it will show us this screen, on this screen we find 2 icons at the top where one is a login icon, which when touched will take us back to the initial screen, on the right is the icon of configuration, in the center of the screen we find three buttons that tell us the following:
 Enter Data (Explanation in image 4), Edit Data (Explanation in image 5), View Map (Explanation in image 6).
 
-![IntroData](https://github.com/SergioPA11/Proyecto-1/blob/main/Mockup/Mockup_scale/intruDatos.PNG)
+![IntroData](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Mockup_scale/intruDatos.PNG)
 
 When pressing the Enter Data button, it will show us this screen where we have already explained what was previously explained with the blue bar at the top, but in that case an icon of an arrow is added that is to go to the menu screen when it is pressed, We see the tanita icon that is the brand of the scales where teachers take the data to be able to enter them in the following fields, Body Fat, Visceral Fat, BMI and the age to be able to compare, this field is not taken out by the tanita I have put it I additionally, when entering all the data we press the "Add Data" button.
 
-![EditData](https://github.com/SergioPA11/Proyecto-1/blob/main/Mockup/Mockup_scale/editDatos.PNG)
+![EditData](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Mockup_scale/editDatos.PNG)
 
 When pressing the Edit Data button, it will show us this screen where we have already explained what was explained above with the blue bar at the top, we see the tanita icon the same as in Enter Data, the difference with the screen to enter data, is that the data the following fields are already occupied, Body Fat, Visceral Fat, BMI and age, you can modify the data and press the button to edit it.
 
-![Map](https://github.com/SergioPA11/Proyecto-1/blob/main/Mockup/Mockup_scale/mapa.PNG)
+![Map](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Mockup_scale/mapa.PNG)
 
 When pressing the button See Map, this screen will show us where we have the map of Gran Canaria, and we can look at each municipality to see the statistics,
 of the institutes, and if we want to go back we have the menu already explained above.
@@ -100,7 +100,7 @@ of the institutes, and if we want to go back we have the menu already explained 
 
 ### Usability
 
-![Usability](https://github.com/SergioPA11/Proyecto-1/blob/main/Mockup/Mockup_scale/usability.PNG)
+![Usability](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Mockup_scale/usability.PNG)
 
 The application shown as we can see in the three images provided, we see a very simple design where we have 1 button to log in, and another 3 buttons to use the application, the application meets the following characteristics:
 * Useful: for what has been done since the application shows the statistics of each municipality to see the obesity rates in each of them.
