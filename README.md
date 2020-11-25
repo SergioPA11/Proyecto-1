@@ -34,9 +34,11 @@ Proyecto Realizado Por Sergio Peñate Alejo
 
 ### Relational Model
 ![realtional model](https://github.com/SergioPA11/Proyecto-1/blob/main/Mockup/Uml.PNG)
+* [Go up](#-Proyecto-1)
 
 ### E/R Diagram
 ![e/r](https://github.com/SergioPA11/Proyecto-1/blob/main/Mockup/er.PNG)
+* [Go up](#-Proyecto-1)
 
 ## User Requirements
 
@@ -52,9 +54,11 @@ Proyecto Realizado Por Sergio Peñate Alejo
 
 * Internet.
 
+* [Go up](#-Proyecto-1)
+
 ## Use Case
 ![Use case](https://github.com/SergioPA11/Proyecto-1/blob/main/Mockup/CasosDeUsos.PNG)
-
+* [Go up](#-Proyecto-1)
 
 ## Interfaces
 
@@ -87,6 +91,7 @@ When pressing the Edit Data button, it will show us this screen where we have al
 When pressing the button See Map, this screen will show us where we have the map of Gran Canaria, and we can look at each municipality to see the statistics,
 of the institutes, and if we want to go back we have the menu already explained above.
 
+* [Go up](#-Proyecto-1)
 
 ### Usability
 
@@ -101,6 +106,7 @@ The application shown as we can see in the three images provided, we see a very 
 * Forecast of errors: as we see in image 2 and in the explanation of the mockup, if the user performs the form incorrectly or leaves it blank, that screen would appear.
 * Simplicity in its design: as I have already emphasized, the most that stands out is its simple design, thus helping the user.
 
+* [Go up](#-Proyecto-1)
 
 ## 🧰 Prerequisites
 
@@ -112,6 +118,7 @@ The application shown as we can see in the three images provided, we see a very 
 * [Ionic](https://ionicframework.com/)
 * [Angular](https://angular.io/api/common/http/HttpClient)
 
+* [Go up](#-Proyecto-1)
 
 ## 🛠️ Built with
 
@@ -123,8 +130,12 @@ The application shown as we can see in the three images provided, we see a very 
 * [Ionic](https://ionicframework.com/)
 * [Angular](https://angular.io/api/common/http/HttpClient)
 
+* [Go up](#-Proyecto-1)
+
 ## 👉🏽 Thanks for
 
 * [Néstor Batista](https://github.com/Nestorbd)
 
 ## 🙏🏽 Thanks for your visit
+
+* [Go up](#-Proyecto-1)
