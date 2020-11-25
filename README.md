@@ -6,11 +6,11 @@ Proyecto Realizado Por Sergio Peñate Alejo
 
 # Index
 
-* [App content](#App-content)
-* [Documentation](#Documentation)
-* [Prerequisites](#Prerequisites)
-* [Built with](#Built-with)
-* [Thanks for](#Thanks-for)
+* [App content](#-App-content)
+* [Documentation](#-Documentation)
+* [Prerequisites](#-Prerequisites)
+* [Built with](#-Built-with)
+* [Thanks for](#-Thanks-for)
 
 # 📱 App content
 
