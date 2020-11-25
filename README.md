@@ -4,6 +4,14 @@ Proyecto Realizado Por Sergio Peñate Alejo
 
 ![logo Ies El Rincon](https://github.com/SergioPA11/Proyecto-1/blob/main/Mockup/rincon.png)
 
+# Index
+
+* [App content](#App-content)
+* [Documentation](#Documentation)
+* [Prerequisites](#Prerequisites)
+* [Built with](#Built-with)
+* [Thanks for](#Thanks-for)
+
 # 📱 App content
 
 * [Mockup Images](https://github.com/SergioPA11/Proyecto-1/tree/main/Mockup) Mockup del Proyecto
@@ -11,10 +19,16 @@ Proyecto Realizado Por Sergio Peñate Alejo
 
 * [Future (Backend, Frontend)]
 
-## 📋 Documentación
+## 📋 Documentation
+
 * [Documentación](https://github.com/SergioPA11/Proyecto-1/blob/main/Documentaci%C3%B3n.pdf) Documentación del Proyecto
-* [Mockup](https://github.com/SergioPA11/Proyecto-1/blob/main/Documentaci%C3%B3n.pdf) Explicado en el apartado 6.1 de la documentación
-* [Usabilidad](https://github.com/SergioPA11/Proyecto-1/blob/main/Documentaci%C3%B3n.pdf) Explicado en el apartado 6.2 de la documentación
+* [Mockup]() Explicado en el apartado 6.1 de la documentación
+* [Usabilidad]() Explicado en el apartado 6.2 de la documentación
+
+* [Data model](#Data-Model)
+* [User Requirements](#User-Requirements)
+* [Use Case](#Use-Case)
+* [Interfaces](#Interfaces)
 
 ## 🧰 Prerequisites
 
