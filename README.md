@@ -1,3 +1,5 @@
+![enter image description here](https://img.shields.io/badge/Author-SergioPA11-blue)
+
 # 💻 Proyecto-1
 Primer proyecto sobre la obesidad en canarias
 Proyecto Realizado Por Sergio Peñate Alejo
