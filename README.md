@@ -4,7 +4,7 @@ Proyecto Realizado Por Sergio Peñate Alejo
 
 ![logo Ies El Rincon](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/rincon.png)
 
-# Index
+# 💬 Index
 
 * [App content](#-App-content)
 * [Documentation](#-Documentation)
