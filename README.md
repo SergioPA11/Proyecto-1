@@ -1,4 +1,4 @@
-![enter image description here](https://img.shields.io/badge/Author-SergioPeñateAlejo-cian)
+![enter image description here](https://img.shields.io/badge/Author-Sergio_Peñate_Alejo-cyan)
 
 # 💻 Proyecto-1
 Primer proyecto sobre la obesidad en canarias
