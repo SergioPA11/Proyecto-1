@@ -29,6 +29,13 @@ To load the project we will use the following line:
 $ git clone https://github.com/SergioPA11/Proyecto-1
 ```
 
+
+To install all the packages of the project we use the following line:
+
+```
+$ npm install
+```
+
 To start the server in Node.Js we will use the following line:
 
 ```
