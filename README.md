@@ -21,6 +21,20 @@ Proyecto Realizado Por Sergio Peñate Alejo
 
 * [Future (Backend, Frontend)]
 
+## Backend
+
+To load the project we will use the following line:
+
+```
+$ git clone https://github.com/SergioPA11/Proyecto-1
+```
+
+To start the server in Node.Js we will use the following line:
+
+```
+$ node server.js
+```
+
 ## 📋 Documentation
 
 * [Documentación](https://github.com/SergioPA11/Proyecto-1/blob/master/Documentaci%C3%B3n.pdf) Documentación del Proyecto
