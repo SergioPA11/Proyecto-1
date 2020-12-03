@@ -67,17 +67,25 @@ $ node server.js
 
 ## User Requirements
 
-* Know through two data (Body Fat and Visceral Fat) the obesity index in each institute.
+### R1 Plataform
 
-* Map of the districts or municipalities of Gran Canaria.
+* R1.1 The application is mobile, both ios and android
+* R1.2 It can be web too, but in principle it is mobile
+* R1.3 It is about 6 simple interfaces, with a menu
 
-* Simplicity.
+### R2 User
 
-* The user must have:
+* R2.1 The only user who has to register is the teacher
+* R2.2 External users only see the map, only the map will appear in the app
+* R2.3 Registered teacher can add, edit and view the map
 
-* Available a mobile phone compatible with the app.
+### R3 App
 
-* Internet.
+* R3.1 External users only see the map, only the map will appear in the app
+* R3.2 The edit section, delete will be enabled but will not be used at first
+* R3.3 When starting the app, we have a login, if the login fails, a wrong login will appear
+* R3.4 It has a menu, with three buttons where we have to add, edit and view
+* R3.5 The edit and delete function does not yet have functionality at the moment, but it is included for future use
 
 * [Go up](#-Proyecto-1)
 * [Go to Documentation](#-Documentation)
