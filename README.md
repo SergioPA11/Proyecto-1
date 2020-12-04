@@ -169,7 +169,7 @@ The application shown as we can see in the three images provided, we see a very 
 
 * [Go up](#-Proyecto-1)
 
-## 👉🏽 Thanks for
+## 👉🏽 Thanks to
 
 * [Néstor Batista](https://github.com/Nestorbd)
 
