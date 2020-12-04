@@ -42,6 +42,35 @@ To start the server in Node.Js we will use the following line:
 $ node server.js
 ```
 
+## 🖥️ Frontend
+
+To load the project we will use the following line:
+
+```
+$ git clone https://github.com/SergioPA11/Proyecto-1
+```
+
+To install all the packages of the project we use the following line:
+
+```
+$ npm install
+```
+
+To start the server in Node.Js we will use the following line:
+
+```
+$ ionic serve
+
+Or this line if we want to see it as mobile
+
+$ ionic serve --lab
+```
+
+In order to use the previous line we need to install the following:
+```
+$ npm install @ionic/lab --save-dev
+```
+
 ## 📋 Documentation
 
 * [Documentación](https://github.com/SergioPA11/Proyecto-1/blob/master/Documentaci%C3%B3n.pdf) Documentación del Proyecto
