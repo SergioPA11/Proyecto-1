@@ -96,17 +96,21 @@ You want to register the data of the students of several institutes of the sila 
 ### Medium step
 ```
 Legend 
-The word that is in bold would be the primary keys, the ones with the * symbol are foreign
+The word that is in bold would be the primary keys, 
+the ones with the * symbol are foreign
 ```
 
-Teacher(**id**, Name, Username, Password)
-Teacher_School(**id_Teacher**, **id_School**)
+Teacher (**id**, Name, Username, Password)
+
+Teacher_School (**id_Teacher**, **id_School**)
 
 Primary key from **id_Teacher** and foreing **id_School***
+
 Primary key from **id_School** and foreing **id_Teacher***
 
-School(**id**, idTeacher, Name, Street, municipality)
-Student(**id**, Fat_mass, Vesicular_mass, sex, year)
+School (**id**, idTeacher, Name, Street, municipality)
+
+Student (**id**, Fat_mass, Vesicular_mass, sex, year)
 
 ### Relational Model
 ![realtional model](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Uml.PNG)
