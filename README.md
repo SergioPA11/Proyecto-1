@@ -84,13 +84,32 @@ $ npm install @ionic/lab --save-dev
 
 ## Data Model
 
-### Relational Model
-![realtional model](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Uml.PNG)
-* [Go up](#-Proyecto-1)
-* [Go to Documentation](#-Documentation)
+### Statement
+
+You want to register the data of the students of several institutes of the sila of Gran Canaria, for this we have the table School where the institutes of the island would be stored, and from the institutes, we have the table of students where the data of the body mass, visceral mass, age or group, sex, in order to obtain a statistic where we will look at the obesity index in the Canary Islands.
 
 ### E/R Diagram
 ![e/r](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/er.PNG)
+* [Go up](#-Proyecto-1)
+* [Go to Documentation](#-Documentation)
+
+### Medium step
+```
+Legend 
+The word that is in bold would be the primary keys, the ones with the * symbol are foreign
+```
+
+Teacher(**id**, Name, Username, Password)
+Teacher_School(**id_Teacher**, **id_School**)
+
+Primary key from **id_Teacher** and foreing **id_School***
+Primary key from **id_School** and foreing **id_Teacher***
+
+School(**id**, idTeacher, Name, Street, municipality)
+Student(**id**, Fat_mass, Vesicular_mass, sex, year)
+
+### Relational Model
+![realtional model](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Uml.PNG)
 * [Go up](#-Proyecto-1)
 * [Go to Documentation](#-Documentation)
 
