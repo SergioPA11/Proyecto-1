@@ -95,6 +95,8 @@ You want to register the data of the students of several institutes of the sila 
 
 ### E/R Diagram
 ![e/r](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/er.PNG)
+
+* To go up to the start:
 * [Go up](#-Proyecto-1)
 * [Go to Documentation](#-Documentation)
 
@@ -119,6 +121,8 @@ Student (**id**, Fat_mass, Vesicular_mass, sex, year)
 
 ### Relational Model
 ![realtional model](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Uml.PNG)
+
+* To go up to the start:
 * [Go up](#-Proyecto-1)
 * [Go to Documentation](#-Documentation)
 
@@ -144,11 +148,14 @@ Student (**id**, Fat_mass, Vesicular_mass, sex, year)
 * R3.4 It has a menu, with three buttons where we have to add, edit and view
 * R3.5 The edit and delete function does not yet have functionality at the moment, but it is included for future use
 
+* To go up to the start:
 * [Go up](#-Proyecto-1)
 * [Go to Documentation](#-Documentation)
 
 ## Use Case
 ![Use case](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/CasosDeUsos.PNG)
+
+* To go up to the start:
 * [Go up](#-Proyecto-1)
 * [Go to Documentation](#-Documentation)
 
@@ -185,6 +192,7 @@ When pressing the Edit Data button, it will show us this screen where we have al
 When pressing the button See Map, this screen will show us where we have the map of Gran Canaria, and we can look at each municipality to see the statistics,
 of the institutes, and if we want to go back we have the menu already explained above.
 
+* To go up to the start:
 * [Go up](#-Proyecto-1)
 * [Go to Documentation](#-Documentation)
 
@@ -205,11 +213,15 @@ The application shown as we can see in the three images provided, we see a very 
 
 ### Proyect usability
 
-
+* To go up to the start:
 * [Go up](#-Proyecto-1)
 * [Go to Documentation](#-Documentation)
 
 ## Manuals
+
+
+* To go up to the start:
+* [Go up](#-Proyecto-1)
 
 ## Technology Stack
 
@@ -224,11 +236,17 @@ Angular with Ionic
 * **Web Service**
 RestFull
 
+* To go up to the start:
+* [Go up](#-Proyecto-1)
+
 ## Technology comparison
 
 * Frontend technology comparison
 
 * Backend technology comparison
+
+* To go up to the start:
+* [Go up](#-Proyecto-1)
 
 ## Planification
 
@@ -244,6 +262,7 @@ RestFull
 * [Ionic](https://ionicframework.com/)
 * [Angular](https://angular.io/api/common/http/HttpClient)
 
+* To go up to the start:
 * [Go up](#-Proyecto-1)
 
 ## 🛠️ Built with
@@ -255,7 +274,9 @@ RestFull
 * [Node.Js]( https://nodejs.org/en/)
 * [Ionic](https://ionicframework.com/)
 * [Angular](https://angular.io/api/common/http/HttpClient)
+* [Leaflet](https://leafletjs.com/)
 
+To go up to the start:
 * [Go up](#-Proyecto-1)
 
 ## 👉🏽 Thanks to
@@ -265,4 +286,5 @@ RestFull
 
 ## 🙏🏽 Thanks for your visit
 
+* To go up to the start:
 * [Go up](#-Proyecto-1)
