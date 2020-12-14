@@ -243,7 +243,32 @@ RestFull
 
 * Frontend technology comparison
 
+The technology that I use for my project is Ionic Framework, which as we already know we can start or create our project on several platforms, in this case we have 3 different ones: Ios, Android and web page, when creating an app in this technology it offers us more ease for programmers since we work for 3 services at the same time in a single code, this is thanks to the fact that it is hybrid, if it were native we would have to change the code for what we are going to do in a specific format
+
+| Comparative | Hybrid applications | Native apps |
+| --- | --- | --- |
+| Learning curve | Simple to learn, and only one curve for all developments | More complicated, and requires learning for each platform separately |
+| Export to different platforms | Very simple, it is developed once and exported to all | Requires development for each programming language |
+| Development cost | Lower cost, requiring only one development and being this simpler | Higher cost, you have to develop more times and in more complex languages |
+| Ease of finding developers | Very simple, and a single person can export to multiple platforms | Somewhat less simple, and normally requires one person for each platform |
+| Performance | Very good, except maybe for very demanding applications, games, 3D | Optimum |
+| Access to device features | Very spacious, although not complete | Full |
+| Visual appearance and user experience | Very good, simulating behaviors with HTML5 and CSS3, although it may not be optimal | May be optimal |
+
 * Backend technology comparison
+
+On the server side we have used various services such as Spring, Node.
+In our case we have used Node.Js, this technology offers us the following:
+
+Node.js compilation is done at runtime, Just In Time (JIT), this brings with it a greater optimization of the functions that are called the most times.
+
+By means of clusters it allows to have a high scalability.
+
+We can expand our code by adding modules easily thanks to the Node Package Manager (NPM).
+
+High performance in projects where we need real-time execution.
+
+In startups or small teams we can create front-end, back-end and even a mobile application with the same language.
 
 * To go up to the start:
 * [Go up](#-Proyecto-1)
