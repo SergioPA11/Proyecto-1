@@ -16,10 +16,15 @@ Proyecto Realizado Por Sergio Peñate Alejo
 
 # 📱 App content
 
+The need comes after an analysis carried out by the government of Spain where it registers the Canary Islands in the second most overweight community in Spain.
+In this case it is not a company, it is a Physical Education Teacher at the Felo Monzón institute.
+
+The main idea of the development is to visualize with some statistics introduced by the physical education teacher, in the application I would add the following data: Height, Weight, Age, Center, Municipality in order to get a statistic by municipality, it is done in that mode to see it on a graph or map of the island, and when selecting the municipality, show some statistics.
+
+After the meeting with Gillermo, he told us that he needs something simple, something fast and easy to use, that the teachers who use it do not spend more than x time to enter the data in the app
+
 * [Mockup Images](https://github.com/SergioPA11/Proyecto-1/tree/master/Mockup) Mockup del Proyecto
 * [Prototype](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Prototype%201.vp) Prototipado del Proyecto
-
-* [Future (Backend, Frontend)]
 
 ## 🖥️ Backend
 
@@ -147,6 +152,8 @@ Student (**id**, Fat_mass, Vesicular_mass, sex, year)
 * [Go up](#-Proyecto-1)
 * [Go to Documentation](#-Documentation)
 
+## System operation
+
 ## Interfaces
 
 ### Mockup
@@ -183,6 +190,8 @@ of the institutes, and if we want to go back we have the menu already explained 
 
 ### Usability
 
+### Mockup usability
+
 ![Usability](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Mockup_scale/usability.PNG)
 
 The application shown as we can see in the three images provided, we see a very simple design where we have 1 button to log in, and another 3 buttons to use the application, the application meets the following characteristics:
@@ -194,8 +203,36 @@ The application shown as we can see in the three images provided, we see a very 
 * Forecast of errors: as we see in image 2 and in the explanation of the mockup, if the user performs the form incorrectly or leaves it blank, that screen would appear.
 * Simplicity in its design: as I have already emphasized, the most that stands out is its simple design, thus helping the user.
 
+### Proyect usability
+
+
 * [Go up](#-Proyecto-1)
 * [Go to Documentation](#-Documentation)
+
+## Manuals
+
+## Technology Stack
+
+* **Backend:** 
+Node.Js
+MySql(BD)
+Sequalize(ORM)
+
+* **Frontend:**
+Angular with Ionic
+
+* **Web Service**
+RestFull
+
+## Technology comparison
+
+* Frontend technology comparison
+
+* Backend technology comparison
+
+## Planification
+
+* [Proyect planning](https://github.com/SergioPA11/Proyecto-1/projects/1)
 
 ## 🧰 Prerequisites
 
@@ -224,6 +261,7 @@ The application shown as we can see in the three images provided, we see a very 
 ## 👉🏽 Thanks to
 
 * [Néstor Batista](https://github.com/Nestorbd)
+* [Tiburcio Cruz](https://github.com/tcrurav)
 
 ## 🙏🏽 Thanks for your visit
 
