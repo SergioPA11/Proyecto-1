@@ -1,8 +1,7 @@
 ![enter image description here](https://img.shields.io/badge/Author-Sergio_Peñate_Alejo-cyan)
 
 # 💻 Proyecto-1
-Primer proyecto sobre la obesidad en canarias
-Proyecto Realizado Por Sergio Peñate Alejo
+First project on obesity in the Canary Islands
 
 ![logo Ies El Rincon](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/rincon.png)
 
@@ -26,61 +25,12 @@ After the meeting with Gillermo, he told us that he needs something simple, some
 * [Mockup Images](https://github.com/SergioPA11/Proyecto-1/tree/master/Mockup) Mockup del Proyecto
 * [Prototype](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Prototype%201.vp) Prototipado del Proyecto
 
-## 🖥️ Backend
-
-To load the project we will use the following line:
-
-```
-$ git clone https://github.com/SergioPA11/Proyecto-1
-```
-
-
-To install all the packages of the project we use the following line:
-
-```
-$ npm install
-```
-
-To start the server in Node.Js we will use the following line:
-
-```
-$ node server.js
-```
-
-## 🖥️ Frontend
-
-To load the project we will use the following line:
-
-```
-$ git clone https://github.com/SergioPA11/Proyecto-1
-```
-
-To install all the packages of the project we use the following line:
-
-```
-$ npm install
-```
-
-To start the server in Node.Js we will use the following line:
-
-```
-$ ionic serve
-
-Or this line if we want to see it as mobile
-
-$ ionic serve --lab
-```
-
-In order to use the previous line we need to install the following:
-```
-$ npm install @ionic/lab --save-dev
-```
-
 ## 📋 Documentation
 
 * [Documentación](https://github.com/SergioPA11/Proyecto-1/blob/master/Documentaci%C3%B3n.pdf) Documentación del Proyecto
 * [Mockup](#Mockup) Explicado en el apartado 6.1 de la documentación
 * [Usability](#Usability) Explicado en el apartado 6.2 de la documentación
+* [Postman](https://documenter.getpostman.com/view/12915849/TVspjUH7)
 
 * [Data model](#Data-Model)
 * [User Requirements](#User-Requirements)
@@ -215,6 +165,36 @@ The application shown as we can see in the three images provided, we see a very 
 
 ![UsabilityProyect](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Mockup_scale/Usabilidad.PNG)
 
+* Useful: for what has been done since the application shows the statistics of each municipality to see the obesity rates in each of them
+* Easy to use: thanks to its simple design, it is easy to use due to the simplicity shown in the images such as the implementation of 3 buttons to access 3 different screens as needed by the user. The buttons are so simple that only the user would have to press them to use them
+* Easy to learn: basically you do not have to learn to use the application due to its simplicity, the user uses it intuitively making it much easier for the user, each button is well specified indicating where each of them is directed
+* Elegant in its design: Trying to be an application in principle for Gran Canaria I have decided to use a color palette based on the Canarian flag including the colors: white, blue, yellow
+* It is Efficient: in its use, due to the little time it takes to use the application, it has a fast interface, thus appreciating its use
+* Forecast of errors: If the user fills in the registration forms incorrectly or makes a failed login, an error will appear on the screen with words in red where it will tell the user that they have failed in any registration or login operation
+
+![Codigo](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Mockup_scale/Codigo2.png)
+
+* Simplicity in its design: as I have already emphasized, the most that stands out is its simple design, thus helping the user
+* The user must be able to customize the interface: The user can change from mode to night mode just by touching a button in the settings
+
+![Codigo](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Mockup_scale/codigo1.png)
+
+* Interface consistency: To facilitate the use of the application, it has been designed with a simple design, quick to learn since it is used intuitively, a great speed of use behind its menu that facilitates information to the user
+* Feedback: The answers are appropriate to the user, if you add data, modify or want to see the map, the application will do it
+
+![mapa](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Mockup_scale/map.PNG)
+
+* Simplicity of design: As we see in the image that I have given, we see that we do not saturate the user with many buttons or a lot of information on the screen so that he does not feel lost at any time
+* Minimal surprise: The application is created in such a way so that it is used without any problem and nothing happens that the user cannot react at the moment
+
+* Writing text in the interface: The blocks of the buttons, letters or all kinds of text formatting, are very brief so that the user does not delay in carrying out their operations.
+In the first image we see the menu buttons
+
+* Visual design: The visual design is designed so that the user focuses on the most fundamental functions of the application, such as viewing the data, adding or editing it.
+
+![registro](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Mockup_scale/registre.PNG)
+
+* Layout of form windows: The position of the forms are placed in such a way that, as we see in the image above, we have the registration form in the center so that the user pays the maximum attention, just as at login and the two remaining forms are located on top
 
 
 * To go up to the start:
@@ -223,7 +203,57 @@ The application shown as we can see in the three images provided, we see a very 
 
 ## Manuals
 
+## 🖥️ Backend
 
+In order to use the server we need to install Node.Js and a sql service such as Sql Workbench or Xampp
+And install git to be able to use the git clone
+
+To load the project we will use the following line:
+
+```
+$ git clone https://github.com/SergioPA11/Proyecto-1
+```
+
+To install all the packages of the project we use the following line:
+
+```
+$ npm install
+```
+
+To start the server in Node.Js we will use the following line:
+
+```
+$ node server.js
+```
+
+## 🖥️ Frontend
+
+To load the project we will use the following line:
+
+```
+$ git clone https://github.com/SergioPA11/Proyecto-1
+```
+
+To install all the packages of the project we use the following line:
+
+```
+$ npm install
+```
+
+To start the server in Node.Js we will use the following line:
+
+```
+$ ionic serve
+
+Or this line if we want to see it as mobile
+
+$ ionic serve --lab
+```
+
+In order to use the previous line we need to install the following:
+```
+$ npm install @ionic/lab --save-dev
+```
 
 * To go up to the start:
 * [Go up](#-Proyecto-1)
@@ -302,6 +332,7 @@ To go up to the start:
 
 * [Néstor Batista](https://github.com/Nestorbd)
 * [Tiburcio Cruz](https://github.com/tcrurav)
+* [Eliel Bruna](https://github.com/elbrus19)
 
 ## 🙏🏽 Thanks for your visit
 
