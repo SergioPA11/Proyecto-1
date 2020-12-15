@@ -206,6 +206,22 @@ In the first image we see the menu buttons
 In order to use the server we need to install Node.Js and a sql service such as Sql Workbench or Xampp
 And install git to be able to use the git clone
 
+
+
+In order to use the application you will have to modify the .env and adapt your passwords
+```
+JWT_SECRET=V3RY#1MP0RT@NT$3CR3T#
+
+MYSQL_DATABASE=health_db
+MYSQL_USER=root
+MYSQL_PASSWORD=1234
+MYSQL_ROOT_PASSWORD=1234
+
+DB_HOST=localhost
+
+NODE_ENV=development
+```
+
 To load the project we will use the following line:
 
 ```
