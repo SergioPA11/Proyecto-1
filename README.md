@@ -109,8 +109,6 @@ Student (**id**, Fat_mass, Vesicular_mass, sex, year)
 * [Go up](#-Proyecto-1)
 * [Go to Documentation](#-Documentation)
 
-## System operation
-
 ## Interfaces
 
 ### Mockup
