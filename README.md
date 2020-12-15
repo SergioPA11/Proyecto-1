@@ -320,10 +320,6 @@ The main advantage of Microsoft PowerApps is that they are very simple: companie
 * [Git]( https://git-scm.com/)
 * [MySql]( https://www.mysql.com/)
 * [Node.Js]( https://nodejs.org/en/)
-* [Justinmind]( https://www.justinmind.com/)
-* [Visual Paradigm]( https://www.visual-paradigm.com/)
-* [Ionic](https://ionicframework.com/)
-* [Angular](https://angular.io/api/common/http/HttpClient)
 
 * To go up to the start:
 * [Go up](#-Proyecto-1)
