@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Configuración</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/menu" name="arrow-back"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-item>
+    <ion-label>Modo Oscuro</ion-label>
+    <ion-toggle slot="end" (ionChange)= toggleTheme($event) ></ion-toggle>
+  </ion-item>
+</ion-content>

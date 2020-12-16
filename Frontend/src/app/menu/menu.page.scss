@@ -1,0 +1,34 @@
+  
+#container1{
+    text-align: center;
+  
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 25%;
+    transform: translateY(-50%);
+  }
+
+  #container2{
+    text-align: center;
+  
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 45%;
+    transform: translateY(-50%);
+  }
+
+  #container3{
+    text-align: center;
+  
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 65%;
+    transform: translateY(-50%);
+  }
+  
+ion-content{
+  --background: #E7E7E7;
+}
