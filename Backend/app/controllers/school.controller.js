@@ -1,12 +1,12 @@
 const db = require("../models");
-const School = db.school;
+const School = db.schools;
 const Op = db.Sequelize.Op;
 
 // Create and Save a new Stats
 // req --> request (contains the body)
 exports.create = (req, res) => {
   // Validate request
-  if (!req.body.name|| !req.body.street || !req.body.group_class ) {
+  if (!req.body.name|| !req.body.direction ) {
     res.status(400).send({
       message: "Content can not be empty!"
     });
@@ -14,15 +14,13 @@ exports.create = (req, res) => {
   }
 
   // Create a Stats
-  const school = {
+  const schools = {
     name: req.body.name,
-    street: req.body.street,
-    group_class: req.body.group_class,
-    municipality: req.body.municipality
+    direction: req.body.direction
   };
 
   // Save Stats in the database
-  School.create(school)
+  School.create(schools)
     .then(data => {
       res.send(data);
     })

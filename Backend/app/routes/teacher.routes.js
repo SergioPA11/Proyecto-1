@@ -1,20 +1,20 @@
 module.exports = app => {
-    const teacher = require("../controllers/teacher.controller.js");
+    const teachers = require("../controllers/teacher.controller.js");
     const auth = require("../controllers/auth.js");
   
     var router = require("express").Router();
   
     // Create a new User
-    router.post("/", teacher.create);
+    router.post("/", teachers.create);
   
     // Retrieve all User
-    router.get("/", auth.isAuthenticated, teacher.findAll);
+    router.get("/", auth.isAuthenticated, teachers.findAll);
     
     // Retrieve a single User with id
-    router.get("/:id", auth.isAuthenticated, teacher.findOne);
+    router.get("/:id", auth.isAuthenticated, teachers.findOne);
   
     // Update a User with id
-    router.put("/:id", auth.isAuthenticated, teacher.update);
+    router.put("/:id", auth.isAuthenticated, teachers.update);
 
     // Sign in
     router.post("/signin", auth.signin);

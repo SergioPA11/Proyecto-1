@@ -1,5 +1,5 @@
 const db = require("../models");
-const Teacher = db.teacher;
+const Teacher = db.teachers;
 const Op = db.Sequelize.Op;
 const utils = require("../../utils");
 const  bcrypt  =  require('bcryptjs');
@@ -15,35 +15,35 @@ exports.create = (req, res) => {
   }
 
   // Create a User
-  let teacher = {
+  let teachers = {
     password: req.body.password,
     name: req.body.name,
     username: req.body.username
     //isAdmin: req.body.isAdmin ? req.body.isAdmin : false
   };
 
-  Teacher.findOne({ where: { username: teacher.username } })
+  Teacher.findOne({ where: { username: teachers.username } })
     .then(data => {
       if (data) {
-        const result = bcrypt.compareSync(teacher.password, data.password);
+        const result = bcrypt.compareSync(teachers.password, data.password);
         if (!result) return res.status(401).send('Password not valid!');
         const token = utils.generateToken(data);
         // get basic user details
-        const  teacherObj = utils.getCleanUser(data);
+        const  teachersObj = utils.getCleanUser(data);
         // return the token along with user details
-        return res.json({ teacher:  teacherObj, access_token: token });
+        return res.json({ teachers:  teachersObj, access_token: token });
       }
 
-      teacher.password = bcrypt.hashSync(req.body.password);
+      teachers.password = bcrypt.hashSync(req.body.password);
 
       // User not found. Save new User in the database
-      Teacher.create(teacher)
+      Teacher.create(teachers)
         .then(data => {
           const token = utils.generateToken(data);
           // get basic user details
-          const teacherObj = utils.getCleanUser(data);
+          const teachersObj = utils.getCleanUser(data);
           // return the token along with user details
-          return res.json({ teacher: teacherObj, access_token: token });
+          return res.json({ teachers: teachersObj, access_token: token });
         })
         .catch(err => {
           res.status(500).send({
@@ -161,10 +161,10 @@ exports.update = (req, res) => {
 
 // Find user by username and password
 exports.findTeacherByUsernameAndPassword = (req, res) => {
-  const teacher = req.body.username;
+  const teachers = req.body.username;
   const pwd = req.body.password;
 
-  Teacher.findOne({ where: { username: teacher, password: pwd } })
+  Teacher.findOne({ where: { username: teachers, password: pwd } })
     .then(data => {
       res.send(data);
     })

@@ -1,0 +1,23 @@
+{
+    "shortid": "q34ntloIm7",
+    "name": "Inform",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": {
+        "$$date": 1610987040383
+    },
+    "modificationDate": {
+        "$$date": 1611082267331
+    },
+    "_id": "Vrwau9UCgK2a6R60",
+    "$entitySet": "templates",
+    "data": null,
+    "scripts": [
+        {
+            "shortid": "-4OhzNHYvK"
+        }
+    ]
+}

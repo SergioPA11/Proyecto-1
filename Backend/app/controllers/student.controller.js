@@ -1,12 +1,12 @@
 const db = require("../models");
-const Student = db.student;
+const Student = db.students;
 const Op = db.Sequelize.Op;
 
 // Create and Save a new Stats
 // req --> request (contains the body)
 exports.create = (req, res) => {
   // Validate request
-  if (!req.body.vesicular_mass || !req.body.fat_mass ) {
+  if (!req.body.year || !req.body.sex ) {
     res.status(400).send({
       message: "Content can not be empty!"
     });
@@ -14,15 +14,28 @@ exports.create = (req, res) => {
   }
 
   // Create a Stats
-  const student = {
-    vesicular_mass: req.body.vesicular_mass,
-    fat_mass: req.body.fat_mass,
+  const students = {
+    courseId: req.body.courseId,
+    id_School: req.body.id_School,
     year: req.body.year,
-    sex: req.body.sex
+    metabolic_age: req.body.metabolic_age,
+    average_of_fat: req.body.average_of_fat,
+    average_of_Hydration: req.body.average_of_Hydration,
+    muscle_weight: req.body.muscle_weight,
+    muscle_mass_level: req.body.muscle_mass_level,
+    bone_weight: req.body.bone_weight,
+    kilocalories: req.body.kilocalories,
+    sex: req.body.sex,
+    registration_date: req.body.registration_date,
+    BMI: req.body.BMI,
+    weight: req.body.weight,
+    height: req.body.height,
+    abdominal_perimeter: req.body.abdominal_perimeter,
+    physical_activity_level: req.body.physical_activity_level
   };
 
   // Save Stats in the database
-  Student.create(student)
+  Student.create(students)
     .then(data => {
       res.send(data);
     })
@@ -105,7 +118,7 @@ exports.delete = (req, res) => {
   const id = req.params.id;
 
   Student.destroy({
-    where: { id: id }
+    where: { studentid: id }
   })
     .then(num => {
       if (num == 1) {

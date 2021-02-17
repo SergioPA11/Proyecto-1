@@ -1,0 +1,174 @@
+2021-01-18T16:27:46.905Z - error: Error when processing OData POST: /odata/assets Error: Entity name can not be empty
+    at module.exports (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at module.exports (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\util\validateEntityName.js:26:11)
+    at Object.insert (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\store\collection.js:86:7)
+    at ODataServer.<anonymous> (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\odata.js:34:69)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\simple-odata-server\lib\odataServer.js:201:14
+    at ODataServer.<anonymous> (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\odata.js:29:7)
+    at ODataServer.executeInsert (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\simple-odata-server\lib\odataServer.js:196:12)
+    at processBody (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\simple-odata-server\lib\insert.js:29:9)
+    at module.exports (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\simple-odata-server\lib\insert.js:59:12)
+    at Object.fn (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\simple-odata-server\lib\odataServer.js:90:5)
+    at Router.router.dispatch (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\simple-odata-server\lib\router.js:63:12)
+    at ODataServer.handle (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\simple-odata-server\lib\odataServer.js:64:15)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\routes.js:24:47
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\routes.js:17:5
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\reporter.express.js:188:5
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at cors (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:188:7)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:214:15)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+2021-01-18T17:26:42.025Z - error: Error during processing request at http://localhost:5488/api/report/Inform, details: SyntaxError: Unexpected string in JSON at position 271
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\render\request.js:48:17)
+    at module.exports (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\render\request.js:31:23)
+    at module.exports (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\render\render.js:115:19)
+    at Reporter.render (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\reporter.js:324:12)
+    at Object.reporter.express.render (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\routes.js:42:14)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\routes.js:75:22
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:281:22
+    at param (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:354:14)
+    at param (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:410:3)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\routes.js:17:5
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-studio\lib\studio.js:85:7
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\reporter.express.js:188:5
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at cors (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:188:7)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:214:15)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:204:7)
+2021-01-18T17:28:20.070Z - error: Error during processing request at http://localhost:5488/api/report/Inform, details: SyntaxError: Unexpected token } in JSON at position 268
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\render\request.js:48:17)
+    at module.exports (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\render\request.js:31:23)
+    at module.exports (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\render\render.js:115:19)
+    at Reporter.render (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\reporter.js:324:12)
+    at Object.reporter.express.render (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\routes.js:42:14)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\routes.js:75:22
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:281:22
+    at param (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:354:14)
+    at param (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:410:3)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\routes.js:17:5
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-studio\lib\studio.js:85:7
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\reporter.express.js:188:5
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at cors (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:188:7)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:214:15)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:204:7)
+2021-01-18T17:28:26.644Z - error: Error during processing request at http://localhost:5488/api/report/Inform, details: SyntaxError: Unexpected token } in JSON at position 268
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\render\request.js:48:17)
+    at module.exports (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\render\request.js:31:23)
+    at module.exports (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\render\render.js:115:19)
+    at Reporter.render (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\reporter.js:324:12)
+    at Object.reporter.express.render (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\routes.js:42:14)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\routes.js:75:22
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:281:22
+    at param (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:354:14)
+    at param (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:410:3)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\routes.js:17:5
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-studio\lib\studio.js:85:7
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\reporter.express.js:188:5
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at cors (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:188:7)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:214:15)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:204:7)
+2021-01-18T19:23:21.216Z - error: Error during processing request at http://localhost:5488/api/validate-import?fullImport=false&targetFolder=KOAAQHk, details: Error: end of central directory record signature not found
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\yauzl\index.js:187:14
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\yauzl\index.js:631:5
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\fd-slicer\index.js:32:7
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:488:5)
+2021-01-18T19:23:37.450Z - error: Error during processing request at http://localhost:5488/api/validate-import?fullImport=true&targetFolder=KOAAQHk, details: Error: end of central directory record signature not found
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\yauzl\index.js:187:14
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\yauzl\index.js:631:5
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\fd-slicer\index.js:32:7
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:488:5)

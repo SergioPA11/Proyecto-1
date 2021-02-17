@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <style>
+            {#asset invoice-styles.css @encoding=utf8}
+        </style>
+    </head>
+    <body>
+        <div class="invoice-box">
+            <table cellpadding="0" cellspacing="0">
+                <tr class="top">
+                    <td colspan="2">
+                        <table>
+                            <tr>
+                                <td class="title">
+                                    <img src="{#asset rincon.png @encoding=dataURI}" style="width:100%; max-width:200px;" />
+                                </td>
+                                <td>
+                                    Invoice : {{number}}
+                                    <br> Created: {{now}}
+                                    <br> Due: {{nowPlus20Days}}
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr class="information">
+                    <td colspan="2 ">
+                        <table>
+                            <tr>
+                                <td>
+                                    {{seller.name}}<br>
+                                    {{seller.road}}<br>
+                                    {{seller.country}}
+                                </td>
+                                <td>
+                                    {{buyer.name}}<br>
+                                    {{buyer.road}}<br>
+                                    {{buyer.country}}
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr class="heading">
+                    <td>
+                        Vesicular_mass
+                    </td>
+                    <td>
+                        Fat_mass
+                    </td>
+                    <td>
+                        Year
+                    </td>
+                    <td>
+                        Sex
+                    </td>
+                </tr>
+                {{#each students}}
+                <tr class="item">
+                    <td>
+                        {{vesicular_mass}}
+                    </td>
+                    <td>
+                         {{fat_mass}}
+                    </td>
+                    <td>
+                        {{year}}
+                    </td>
+                    <td>
+                         {{sex}}
+                    </td>
+                </tr>
+                {{/each}}
+            </table>
+        </div>
+    </body>
+</html>

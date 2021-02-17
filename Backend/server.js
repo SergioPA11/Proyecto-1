@@ -53,23 +53,29 @@ app.use(function (req, res, next) {
 
     token = token.replace('Bearer ', '');
     // .env should contain a line like JWT_SECRET=V3RY#1MP0RT@NT$3CR3T#
-    jwt.verify(token, process.env.JWT_SECRET, function (err, teacher) {
+    jwt.verify(token, process.env.JWT_SECRET, function (err, teachers) {
         if (err) {
             return res.status(401).json({
                 error: true,
                 message: "Invalid user."
             });
         } else {
-            req.teacher = teacher; //set the user to req so other routes can use it
+            req.teachers = teachers; //set the user to req so other routes can use it
             req.token = token;
             next();
         }
     });
 });
 
+require("./app/routes/school.routes")(app);
 require("./app/routes/teacher.routes")(app);
 require("./app/routes/student.routes")(app);
-require("./app/routes/school.routes")(app);
+require("./app/routes/teacher_school.routes")(app);
+require("./app/routes/district.routes")(app);
+require("./app/routes/municipality.routes")(app);
+require("./app/routes/district_school.routes")(app);
+require("./app/routes/course.routes")(app);
+require("./app/routes/reports.routes")(app);
 
 app.listen(port, () => {
     console.log('Server started on: ' + port);

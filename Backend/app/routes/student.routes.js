@@ -1,25 +1,25 @@
 module.exports = app => {
-    const student = require("../controllers/student.controller.js");
+    const students = require("../controllers/student.controller.js");
   
     var router = require("express").Router();
   
     // Create a new Stats
-    router.post("/", student.create);
+    router.post("/", students.create);
   
     // Retrieve all Stats
-    router.get("/", student.findAll);
+    router.get("/", students.findAll);
   
     // Retrieve a single Stats with id
-    router.get("/:id", student.findOne);
+    router.get("/:id", students.findOne);
   
     // Update a Stats with id
-    router.put("/:id", student.update);
+    router.put("/:id", students.update);
   
     // Delete a Stats with id
-    router.delete("/:id", student.delete);
+    router.delete("/:id", students.delete);
   
     // Delete all Stats
-    router.delete("/", student.deleteAll);
+    router.delete("/", students.deleteAll);
   
-    app.use('/api/student', router);
+    app.use('/api/students', router);
   };

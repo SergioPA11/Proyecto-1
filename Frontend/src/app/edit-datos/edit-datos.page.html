@@ -10,35 +10,107 @@
 <ion-content>
   <form [formGroup]="DatosForm" (ngSubmit)="onFormSubmit()">
     <ion-item>
-      <ion-label position="floating">Vesicular mass</ion-label>
-      <ion-input formControlName="vesicular_mass" type="text" required></ion-input>
+      <ion-label position="floating">Metabolic Age</ion-label>
+      <ion-input formControlName="metabolic_age" type="number" required></ion-input>
     </ion-item>
 
     <ion-item>
-      <ion-label position="floating">Fat mass</ion-label>
-      <ion-input formControlName="fat_mass" type="text" required>
+      <ion-label position="floating">Average of Fat</ion-label>
+      <ion-input formControlName="average_of_fat" type="number" required>
       </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Average of Hydration</ion-label>
+      <ion-input formControlName="average_of_Hydration" type="number" required>
+      </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Muscle Weight</ion-label>
+      <ion-input formControlName="muscle_weight" type="number" required>
+      </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Muscle Mass Level</ion-label>
+      <ion-input formControlName="muscle_mass_level" type="number" required>
+      </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Bone Weight</ion-label>
+      <ion-input formControlName="bone_weight" type="number" required>
+      </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Kilocalories</ion-label>
+      <ion-input formControlName="kilocalories" type="number" required>
+      </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Weight</ion-label>
+      <ion-input formControlName="weight" type="number" required>
+      </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Height</ion-label>
+      <ion-input formControlName="height" type="number" required>
+      </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <!-- <ion-label position="floating">Municipio</ion-label> -->
+      <!-- <ion-input formControlName="municipio" type="text" required></ion-input> -->
+      <ion-label>BMI</ion-label>
+      <ion-select placeholder="Select One">
+        <ion-select-option value="18,5">Underweight</ion-select-option>
+        <ion-select-option value="18,5-24,9">Normal or Healthy Weight</ion-select-option>
+        <ion-select-option value="25-29,9">Overweight</ion-select-option>
+        <ion-select-option value="30-34,9">Obese</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Abdominal Perimeter</ion-label>
+      <ion-input formControlName="abdominal_perimeter" type="number" required>
+      </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <!-- <ion-label position="floating">Municipio</ion-label> -->
+      <!-- <ion-input formControlName="municipio" type="text" required></ion-input> -->
+      <ion-label>Physical Activity Level</ion-label>
+      <ion-select placeholder="Select One">
+        <ion-select-option value="0">Las Palmas</ion-select-option>
+        <ion-select-option value="1">Las Palmas</ion-select-option>
+        <ion-select-option value="2">Las Palmas</ion-select-option>
+        <ion-select-option value="3">Las Palmas</ion-select-option>
+        <ion-select-option value="4">Las Palmas</ion-select-option>
+        <ion-select-option value="5">Las Palmas</ion-select-option>
+        <ion-select-option value="6">Las Palmas</ion-select-option>
+        <ion-select-option value="7">Las Palmas</ion-select-option>
+      </ion-select>
     </ion-item>
 
     <ion-item>
       <ion-label position="floating">Year</ion-label>
-      <ion-input formControlName="year" type="text" required>
+      <ion-input formControlName="year" type="date" required>
       </ion-input>
     </ion-item>
 
-    <!-- <ion-item>
-      <ion-label position="floating">Municipio</ion-label> -->
-      <!-- <ion-input formControlName="municipio" type="text" required></ion-input>
-      <ion-label>Municipio</ion-label>
-      <ion-select placeholder="Select One">
-        <ion-select-option value="LP">Las Palmas</ion-select-option>
-      </ion-select>
-    </ion-item> -->
-
     <ion-item>
       <ion-label position="floating">Sex</ion-label>
-      <ion-input formControlName="sex" type="text" required>
-      </ion-input>
+      <!-- <ion-input formControlName="sex" type="text" required> -->
+        <!-- </ion-input> -->
+        <ion-select formControlName="sex" placeholder="Select One">
+          <ion-select-option  value="F">Femenino</ion-select-option>
+          <ion-select-option  value="M">Masculino</ion-select-option>
+          <ion-select-option  value="other">Otro</ion-select-option>
+        </ion-select>
     </ion-item>
 
     <ion-row>

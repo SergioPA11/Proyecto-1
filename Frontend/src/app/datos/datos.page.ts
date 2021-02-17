@@ -43,4 +43,8 @@ export class DatosPage implements OnInit {
     this.router.navigateByUrl("/edit-datos");
   }
 
+  getInform(){
+    window.open("http://localhost:4000/api/inform")
+  }
+
 }

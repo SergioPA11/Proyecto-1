@@ -3,14 +3,14 @@ const utils = require('../../utils');
 const bcrypt = require('bcryptjs');
 
 const db = require("../models");
-const Teacher = db.teacher;
+const Teacher = db.teachers;
 
 exports.signin = (req, res) => {
-  const teacher = req.body.username;
+  const teachers = req.body.username;
   const pwd = req.body.password;
 
   // return 400 status if username/password is not exist
-  if (!teacher || !pwd) {
+  if (!teachers || !pwd) {
     return res.status(400).json({
       error: true,
       message: "Username or Password required."
@@ -18,7 +18,7 @@ exports.signin = (req, res) => {
   }
 
   // return 401 status if the credential is not match.
-  Teacher.findOne({ where: { username: teacher } })
+  Teacher.findOne({ where: { username: teachers } })
     .then(data => {
       const result = bcrypt.compareSync(pwd, data.password);
       if(!result) return  res.status(401).send('Password not valid!');
@@ -28,7 +28,7 @@ exports.signin = (req, res) => {
       // get basic user details
       const userObj = utils.getCleanUser(data);
       // return the token along with user details
-      return res.json({ teacher: userObj, access_token: token });
+      return res.json({ teachers: userObj, access_token: token });
     })
     .catch(err => {
       res.status(500).send({
@@ -50,16 +50,16 @@ exports.isAuthenticated = (req, res, next) => {
   }
   // check token that was passed by decoding token using secret
   // .env should contain a line like JWT_SECRET=V3RY#1MP0RT@NT$3CR3T#
-  jwt.verify(token, process.env.JWT_SECRET, function (err, teacher) {
+  jwt.verify(token, process.env.JWT_SECRET, function (err, teachers) {
     if (err) return res.status(401).json({
       error: true,
       message: "Invalid token."
     });
 
-    Teacher.findByPk(teacher.id)
+    Teacher.findByPk(teachers.id)
       .then(data => {
         // return 401 status if the userId does not match.
-        if (!teacher.id) {
+        if (!teachers.id) {
           return res.status(401).json({
             error: true,
             message: "Invalid user."

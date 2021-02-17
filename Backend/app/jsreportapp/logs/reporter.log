@@ -1,0 +1,1834 @@
+2021-01-18T16:05:04.033Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-01-18T16:05:04.046Z - info: Searching for available extensions in D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\
+2021-01-18T16:05:04.071Z - info: Extensions location cache not found, crawling directories
+2021-01-18T16:05:05.331Z - info: Found 35 extensions
+2021-01-18T16:05:05.487Z - debug: Writing extension locations cache to C:\Users\sergi\AppData\Local\Temp\jsreport\core\locations.json
+2021-01-18T16:05:05.489Z - debug: Discovered 35 extensions
+2021-01-18T16:05:05.553Z - info: Setting dedicated-process (process based) strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2021-01-18T16:05:05.564Z - debug: Extension authentication@2.6.1 is disabled, skipping
+2021-01-18T16:05:05.565Z - info: Using extension cli@2.2.5
+2021-01-18T16:05:05.578Z - info: Using extension debug@2.1.3
+2021-01-18T16:05:05.581Z - info: Using extension express@2.8.1
+2021-01-18T16:05:05.845Z - info: Using extension freeze@2.0.0
+2021-01-18T16:05:05.857Z - info: Using extension handlebars@2.1.0
+2021-01-18T16:05:05.861Z - info: Using extension import-export@2.1.1
+2021-01-18T16:05:05.916Z - info: Using extension jsrender@2.1.1
+2021-01-18T16:05:05.918Z - info: Using extension tags@2.5.0
+2021-01-18T16:05:05.929Z - info: Using extension templates@2.4.0
+2021-01-18T16:05:05.935Z - info: Using extension authorization@2.4.0
+2021-01-18T16:05:05.949Z - debug: Extension authorization@2.4.0 was disabled
+2021-01-18T16:05:05.950Z - info: Using extension base@2.0.2
+2021-01-18T16:05:05.963Z - info: Using extension browser-client@2.2.2
+2021-01-18T16:05:05.969Z - info: Using extension child-templates@1.4.0
+2021-01-18T16:05:05.989Z - info: Using extension chrome-pdf@1.10.0
+2021-01-18T16:05:06.077Z - debug: Chrome strategy is dedicated-process
+2021-01-18T16:05:06.077Z - info: Using extension data@2.4.0
+2021-01-18T16:05:06.080Z - info: Using extension docx@2.9.0
+2021-01-18T16:05:06.084Z - info: Using extension fs-store@2.9.1
+2021-01-18T16:05:06.267Z - info: Using extension licensing@2.2.3
+2021-01-18T16:05:06.284Z - info: Using extension pdf-utils@1.10.1
+2021-01-18T16:05:06.441Z - info: Using extension pptx@0.7.0
+2021-01-18T16:05:06.464Z - info: Using extension reports@2.5.1
+2021-01-18T16:05:06.488Z - info: Using extension static-pdf@0.4.0
+2021-01-18T16:05:06.524Z - info: Using extension studio@2.10.1
+2021-01-18T16:05:06.592Z - debug: studio request logs are enabled (flush interval: 2000)
+2021-01-18T16:05:06.594Z - info: Using extension text@2.0.0
+2021-01-18T16:05:06.596Z - info: Using extension version-control@1.6.0
+2021-01-18T16:05:06.689Z - info: Using extension assets@1.7.0
+2021-01-18T16:05:06.700Z - info: Using extension html-to-xlsx@2.8.3
+2021-01-18T16:05:07.323Z - info: html-to-xlsx detected chrome as available html engine
+2021-01-18T16:05:07.324Z - info: Using extension scheduling@2.5.0
+2021-01-18T16:05:07.391Z - info: Using extension scripts@2.6.0
+2021-01-18T16:05:07.396Z - info: Using extension studio-theme-dark@0.3.0
+2021-01-18T16:05:07.398Z - info: Using extension xlsx@2.5.0
+2021-01-18T16:05:07.579Z - info: Using extension public-templates@2.2.0
+2021-01-18T16:05:07.592Z - debug: Extension public-templates@2.2.0 was disabled
+2021-01-18T16:05:07.593Z - info: Using extension resources@2.1.0
+2021-01-18T16:05:07.595Z - info: Using extension sample-template@2.6.1
+2021-01-18T16:05:07.598Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-01-18T16:05:07.599Z - info: Using fs provider for template store.
+2021-01-18T16:05:07.615Z - info: fs store is persisting using fs
+2021-01-18T16:05:07.618Z - info: fs store sync is disabled
+2021-01-18T16:05:07.630Z - info: fs store underlying changes synchronization with studio is disabled
+2021-01-18T16:05:07.654Z - info: fs store is loading data
+2021-01-18T16:05:07.680Z - info: fs store is initialized successfully
+2021-01-18T16:05:07.695Z - debug: studio default theme is: light
+2021-01-18T16:05:07.712Z - info: Creating default express app.
+2021-01-18T16:05:07.808Z - info: jsreport server successfully started on http port: 5488
+2021-01-18T16:05:07.811Z - info: Verifying license key free
+2021-01-18T16:05:07.812Z - info: Using free license
+2021-01-18T16:05:07.818Z - debug: Inserting samples
+2021-01-18T16:05:07.838Z - debug: Creating folder "samples" for sample entities
+2021-01-18T16:05:07.886Z - debug: Inserting sample entity Invoice (entitySet: folders)
+2021-01-18T16:05:07.937Z - debug: Inserting sample entity Sales (entitySet: folders)
+2021-01-18T16:05:07.996Z - debug: Inserting sample entity Orders (entitySet: folders)
+2021-01-18T16:05:08.029Z - debug: Inserting sample entity shared (entitySet: folders)
+2021-01-18T16:05:08.045Z - debug: Inserting sample entity invoice-data (entitySet: data)
+2021-01-18T16:05:08.071Z - debug: Inserting sample entity sales-data (entitySet: data)
+2021-01-18T16:05:08.084Z - debug: Inserting sample entity sales-main (entitySet: templates)
+2021-01-18T16:05:08.118Z - debug: Inserting sample entity invoice-main (entitySet: templates)
+2021-01-18T16:05:08.145Z - debug: Inserting sample entity orders-main (entitySet: templates)
+2021-01-18T16:05:08.167Z - debug: Inserting sample entity orders-header (entitySet: templates)
+2021-01-18T16:05:08.197Z - debug: Inserting sample entity invoice-styles.css (entitySet: assets)
+2021-01-18T16:05:08.214Z - debug: Inserting sample entity invoice-logo.png (entitySet: assets)
+2021-01-18T16:05:08.237Z - debug: Inserting sample entity sales-styles.css (entitySet: assets)
+2021-01-18T16:05:08.263Z - debug: Inserting sample entity global helpers.js (entitySet: assets)
+2021-01-18T16:05:08.281Z - debug: Inserting sample entity orders-styles.css (entitySet: assets)
+2021-01-18T16:05:08.297Z - debug: Inserting sample entity orders-script (entitySet: scripts)
+2021-01-18T16:05:08.316Z - info: reporter initialized
+2021-01-18T16:05:44.698Z - debug: OData query on templates
+2021-01-18T16:05:44.711Z - debug: OData query on folders
+2021-01-18T16:05:44.718Z - debug: OData query on tags
+2021-01-18T16:05:44.734Z - debug: OData query on data
+2021-01-18T16:05:44.747Z - debug: OData query on assets
+2021-01-18T16:05:44.749Z - debug: OData query on scripts
+2021-01-18T16:05:44.765Z - debug: OData query on xlsxTemplates
+2021-01-18T16:05:44.767Z - debug: OData query on schedules
+2021-01-18T16:05:44.781Z - debug: OData query on settings
+2021-01-18T16:05:44.931Z - debug: OData query on templates
+2021-01-18T16:05:45.004Z - debug: OData query on settings
+2021-01-18T16:05:56.027Z - debug: OData query on templates
+2021-01-18T16:05:56.030Z - debug: OData query on folders
+2021-01-18T16:05:56.042Z - debug: OData query on data
+2021-01-18T16:05:56.044Z - debug: OData query on assets
+2021-01-18T16:05:56.046Z - debug: OData query on tags
+2021-01-18T16:05:56.049Z - debug: OData query on scripts
+2021-01-18T16:05:56.051Z - debug: OData query on xlsxTemplates
+2021-01-18T16:05:56.065Z - debug: OData query on schedules
+2021-01-18T16:05:56.082Z - debug: OData query on settings
+2021-01-18T16:05:56.224Z - debug: OData query on templates
+2021-01-18T16:05:56.279Z - debug: OData query on settings
+2021-01-18T16:14:27.378Z - debug: OData query on templates
+2021-01-18T16:18:09.110Z - debug: OData query on templates
+2021-01-18T16:18:09.145Z - debug: OData query on settings
+2021-01-18T16:18:09.592Z - info: Starting rendering request 1 (user: null)
+2021-01-18T16:18:09.603Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T16:18:09.607Z - debug: Adding sample data Sy5S19ncg
+2021-01-18T16:18:09.609Z - debug: Resources not defined for this template.
+2021-01-18T16:18:09.612Z - debug: Base url not specified, skipping its injection.
+2021-01-18T16:18:09.626Z - debug: Replaced assets ["invoice-styles.css","invoice-logo.png"]
+2021-01-18T16:18:09.627Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T16:18:10.094Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T16:18:10.094Z - debug: Calculating item Website design; you should see this message in debug run
+2021-01-18T16:18:10.100Z - debug: Executing recipe chrome-pdf
+2021-01-18T16:18:12.944Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T16:18:13.291Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/e172257f-c9ba-4e7a-854e-f901ab617703-chrome-pdf.html
+2021-01-18T16:18:13.311Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/e172257f-c9ba-4e7a-854e-f901ab617703-chrome-pdf.html
+2021-01-18T16:18:13.320Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-18T16:18:13.324Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-18T16:18:13.386Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2021-01-18T16:18:13.890Z - info: Rendering request 1 finished in 4299 ms
+2021-01-18T16:18:13.891Z - debug: Skipping storing report.
+2021-01-18T16:18:31.053Z - debug: OData query on templates
+2021-01-18T16:18:31.076Z - debug: OData query on settings
+2021-01-18T16:18:54.704Z - debug: OData query on data
+2021-01-18T16:19:24.575Z - debug: OData query on assets
+2021-01-18T16:19:34.209Z - debug: OData query on assets
+2021-01-18T16:21:44.987Z - debug: OData query on templates
+2021-01-18T16:21:47.106Z - info: Starting rendering request 2 (user: null)
+2021-01-18T16:21:47.108Z - info: Rendering template { name: orders-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T16:21:47.109Z - debug: Data item not defined for this template.
+2021-01-18T16:21:47.110Z - debug: Resources not defined for this template.
+2021-01-18T16:21:47.113Z - debug: Executing script orders-script using dedicated-process strategy
+2021-01-18T16:21:47.844Z - warn: Rendering request 2 finished with error in 738 ms
+2021-01-18T16:21:47.854Z - warn: Error when processing render request 2 Error while executing user script. require of "https" module has been blocked. To be able to require custom modules you need to add to configuration { "allowLocalFilesAccess": true } or enable just specific module using { "extensions": { "scripts": { "allowedModules": ["https"] } }. 
+
+  1 | // server side script fetching remote data and preparing report data source
+> 2 | const https = require('https');
+    |               ^
+  3 | 
+  4 | // call remote http rest api
+  5 | function fetchOrders() {
+
+ Error: require of "https" module has been blocked. To be able to require custom modules you need to add to configuration { "allowLocalFilesAccess": true } or enable just specific module using { "extensions": { "scripts": { "allowedModules": ["https"] } }
+    at _require (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\render\safeSandbox.js:75:19)
+    at Object.base.apply (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-user-script.js:2:15
+    at Script.runInContext (vm.js:131:20)
+    at VM.run (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\vm2\lib\main.js:219:62)
+    at run (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\render\safeSandbox.js:171:19)
+    at scriptEvalChild (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-scripts\lib\scriptEvalChild.js:210:5)
+    at scriptExecModuleWrapper (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\scriptExecModuleWrapper.js:34:26)
+    at process.<anonymous> (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\script-manager\lib\worker-processes.js:66:36)
+    at process.emit (events.js:310:20)
+2021-01-18T16:21:47.857Z - warn: Error during processing request at http://localhost:5488/api/report/orders-main
+2021-01-18T16:21:57.665Z - debug: OData query on templates
+2021-01-18T16:21:59.727Z - debug: OData insert into settings
+2021-01-18T16:21:59.817Z - info: Starting rendering request 3 (user: null)
+2021-01-18T16:21:59.818Z - info: Rendering template { name: sales-main, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2021-01-18T16:21:59.820Z - debug: Adding sample data B1lSTrt6NB
+2021-01-18T16:21:59.821Z - debug: Resources not defined for this template.
+2021-01-18T16:21:59.827Z - debug: Base url not specified, skipping its injection.
+2021-01-18T16:21:59.835Z - debug: Replaced assets ["sales-styles.css"]
+2021-01-18T16:21:59.837Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T16:22:00.315Z - warn: Rendering request 3 finished with error in 498 ms
+2021-01-18T16:22:00.323Z - warn: Error when processing render request 3 Error while executing templating engine. require of "moment" module has been blocked. To be able to require custom modules you need to add to configuration { "allowLocalFilesAccess": true } or enable just specific module using { templatingEngines: { allowedModules": ["moment"] }. 
+
+  229 | })(this)
+  230 | 
+> 231 | const moment = require('moment')
+      |                ^
+  232 | const rowOffset = 6
+  233 | 
+  234 | function nowStr () {
+
+ Error: require of "moment" module has been blocked. To be able to require custom modules you need to add to configuration { "allowLocalFilesAccess": true } or enable just specific module using { templatingEngines: { allowedModules": ["moment"] }
+    at _require (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\render\safeSandbox.js:75:19)
+    at Object.base.apply (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-template-engine-helpers.js:231:16
+    at Script.runInContext (vm.js:131:20)
+    at VM.run (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\vm2\lib\main.js:219:62)
+    at run (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\render\safeSandbox.js:171:19)
+    at module.exports (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\render\engineScript.js:236:9)
+    at process.<anonymous> (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\script-manager\lib\worker-processes.js:66:36)
+    at process.emit (events.js:310:20)
+    at emit (internal/child_process.js:876:12)
+2021-01-18T16:22:00.324Z - warn: Error during processing request at http://localhost:5488/api/report/sales-main
+2021-01-18T16:22:31.821Z - debug: OData query on assets
+2021-01-18T16:23:02.168Z - debug: OData query on assets
+2021-01-18T16:24:00.382Z - debug: OData insert into templates
+2021-01-18T16:24:05.001Z - debug: OData query on templates
+2021-01-18T16:24:59.226Z - debug: OData insert into folders
+2021-01-18T16:25:07.939Z - debug: OData query on templates
+2021-01-18T16:25:32.127Z - debug: OData insert into data
+2021-01-18T16:25:34.373Z - debug: OData query on data
+2021-01-18T16:26:03.146Z - debug: OData query on templates
+2021-01-18T16:26:03.186Z - debug: OData query on settings
+2021-01-18T16:26:03.977Z - debug: OData query on templates
+2021-01-18T16:26:05.531Z - info: Starting rendering request 4 (user: null)
+2021-01-18T16:26:05.533Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T16:26:05.534Z - debug: Data item not defined for this template.
+2021-01-18T16:26:05.535Z - debug: Resources not defined for this template.
+2021-01-18T16:26:05.537Z - debug: Base url not specified, skipping its injection.
+2021-01-18T16:26:05.538Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T16:26:05.809Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T16:26:05.814Z - debug: Executing recipe chrome-pdf
+2021-01-18T16:26:06.039Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T16:26:06.161Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/79f9f236-44ba-4a1e-922f-97cd2125854d-chrome-pdf.html
+2021-01-18T16:26:06.171Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/79f9f236-44ba-4a1e-922f-97cd2125854d-chrome-pdf.html
+2021-01-18T16:26:06.174Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T16:26:06.381Z - info: Rendering request 4 finished in 850 ms
+2021-01-18T16:26:06.381Z - debug: Skipping storing report.
+2021-01-18T16:26:29.500Z - debug: OData update on templates
+2021-01-18T16:26:29.532Z - debug: OData query on templates
+2021-01-18T16:26:32.224Z - info: Starting rendering request 5 (user: null)
+2021-01-18T16:26:32.226Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T16:26:32.228Z - debug: Data item not defined for this template.
+2021-01-18T16:26:32.229Z - debug: Resources not defined for this template.
+2021-01-18T16:26:32.230Z - debug: Base url not specified, skipping its injection.
+2021-01-18T16:26:32.234Z - debug: Replaced assets ["invoice-styles.css","invoice-logo.png"]
+2021-01-18T16:26:32.235Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T16:26:32.529Z - warn: Rendering request 5 finished with error in 304 ms
+2021-01-18T16:26:32.532Z - warn: Error when processing render request 5 Error while executing templating engine. Missing helper: "total" Error: Missing helper: "total"
+    at Object.<anonymous> (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\helpers\helper-missing.js:19:13)
+    at Object.wrapper (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.eval [as main] (eval at createFunctionContext (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:262:23), <anonymous>:29:100)
+    at main (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at ret (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:519:21)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-handlebars\lib\handlebarsEngine.js:33:20
+    at Object.base.apply (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-template-engine.js:1:64
+    at Script.runInContext (vm.js:131:20)
+2021-01-18T16:26:32.533Z - warn: Error during processing request at http://localhost:5488/api/report/Inform
+2021-01-18T16:26:38.922Z - debug: OData query on data
+2021-01-18T16:26:42.785Z - debug: OData query on data
+2021-01-18T16:26:56.681Z - info: Starting rendering request 6 (user: null)
+2021-01-18T16:26:56.683Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T16:26:56.684Z - debug: Data item not defined for this template.
+2021-01-18T16:26:56.685Z - debug: Resources not defined for this template.
+2021-01-18T16:26:56.687Z - debug: Base url not specified, skipping its injection.
+2021-01-18T16:26:56.691Z - debug: Replaced assets ["invoice-styles.css","invoice-logo.png"]
+2021-01-18T16:26:56.692Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T16:26:56.979Z - warn: Rendering request 6 finished with error in 299 ms
+2021-01-18T16:26:56.983Z - warn: Error when processing render request 6 Error while executing templating engine. Missing helper: "total" Error: Missing helper: "total"
+    at Object.<anonymous> (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\helpers\helper-missing.js:19:13)
+    at Object.wrapper (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.eval [as main] (eval at createFunctionContext (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:262:23), <anonymous>:29:100)
+    at main (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at ret (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:519:21)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-handlebars\lib\handlebarsEngine.js:33:20
+    at Object.base.apply (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-template-engine.js:1:64
+    at Script.runInContext (vm.js:131:20)
+2021-01-18T16:26:56.984Z - warn: Error during processing request at http://localhost:5488/api/report/Inform
+2021-01-18T16:27:12.261Z - debug: OData query on assets
+2021-01-18T16:27:46.890Z - debug: OData insert into assets
+2021-01-18T16:27:46.905Z - error: Error when processing OData POST: /odata/assets Error: Entity name can not be empty
+    at module.exports (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at module.exports (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\util\validateEntityName.js:26:11)
+    at Object.insert (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\store\collection.js:86:7)
+    at ODataServer.<anonymous> (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\odata.js:34:69)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\simple-odata-server\lib\odataServer.js:201:14
+    at ODataServer.<anonymous> (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\odata.js:29:7)
+    at ODataServer.executeInsert (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\simple-odata-server\lib\odataServer.js:196:12)
+    at processBody (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\simple-odata-server\lib\insert.js:29:9)
+    at module.exports (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\simple-odata-server\lib\insert.js:59:12)
+    at Object.fn (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\simple-odata-server\lib\odataServer.js:90:5)
+    at Router.router.dispatch (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\simple-odata-server\lib\router.js:63:12)
+    at ODataServer.handle (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\simple-odata-server\lib\odataServer.js:64:15)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\routes.js:24:47
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\routes.js:17:5
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\reporter.express.js:188:5
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at cors (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:188:7)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:214:15)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+2021-01-18T16:28:15.375Z - debug: OData insert into assets
+2021-01-18T16:28:15.510Z - debug: OData query on assets
+2021-01-18T16:28:35.980Z - debug: OData update on assets
+2021-01-18T16:28:36.035Z - debug: OData query on assets
+2021-01-18T16:28:41.105Z - debug: OData update on data
+2021-01-18T16:28:41.133Z - debug: OData query on data
+2021-01-18T16:28:55.232Z - info: Starting rendering request 7 (user: null)
+2021-01-18T16:28:55.233Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T16:28:55.234Z - debug: Data item not defined for this template.
+2021-01-18T16:28:55.235Z - debug: Resources not defined for this template.
+2021-01-18T16:28:55.236Z - debug: Base url not specified, skipping its injection.
+2021-01-18T16:28:55.239Z - debug: Replaced assets ["invoice-styles.css","invoice-logo.png"]
+2021-01-18T16:28:55.239Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T16:28:55.513Z - warn: Rendering request 7 finished with error in 281 ms
+2021-01-18T16:28:55.519Z - warn: Error when processing render request 7 Error while executing templating engine. Missing helper: "total" Error: Missing helper: "total"
+    at Object.<anonymous> (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\helpers\helper-missing.js:19:13)
+    at Object.wrapper (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.eval [as main] (eval at createFunctionContext (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:262:23), <anonymous>:29:100)
+    at main (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at ret (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:519:21)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-handlebars\lib\handlebarsEngine.js:33:20
+    at Object.base.apply (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-template-engine.js:1:64
+    at Script.runInContext (vm.js:131:20)
+2021-01-18T16:28:55.519Z - warn: Error during processing request at http://localhost:5488/api/report/Inform
+2021-01-18T16:29:47.202Z - debug: OData update on templates
+2021-01-18T16:29:47.223Z - debug: OData query on templates
+2021-01-18T16:29:49.346Z - info: Starting rendering request 8 (user: null)
+2021-01-18T16:29:49.349Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T16:29:49.350Z - debug: Data item not defined for this template.
+2021-01-18T16:29:49.350Z - debug: Resources not defined for this template.
+2021-01-18T16:29:49.351Z - debug: Base url not specified, skipping its injection.
+2021-01-18T16:29:49.354Z - debug: Replaced assets ["invoice-styles.css","invoice-logo.png"]
+2021-01-18T16:29:49.355Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T16:29:49.694Z - warn: Rendering request 8 finished with error in 349 ms
+2021-01-18T16:29:49.701Z - warn: Error when processing render request 8 Error while executing templating engine. Cannot read property 'forEach' of undefined. Error on line 140:11.
+
+  138 | function total(items) {
+  139 |     var sum = 0
+> 140 |     items.forEach(function (i) {
+      |           ^
+  141 |         console.log('Calculating item ' + i.name + '; you should see this message in debug run')
+  142 |         sum += i.price
+  143 |     })
+
+ TypeError: Cannot read property 'forEach' of undefined
+    at Object.total (evaluate-template-engine-helpers.js:140:11)
+    at Object.<anonymous> (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\render\engineScript.js:207:27)
+    at Object.wrapper (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.eval [as main] (eval at createFunctionContext (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:262:23), <anonymous>:29:100)
+    at main (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at ret (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:519:21)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-handlebars\lib\handlebarsEngine.js:33:20
+    at Object.base.apply (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-template-engine.js:1:64
+2021-01-18T16:29:49.702Z - warn: Error during processing request at http://localhost:5488/api/report/Inform
+2021-01-18T16:32:50.739Z - debug: OData update on templates
+2021-01-18T16:32:50.773Z - debug: OData query on templates
+2021-01-18T16:33:16.554Z - info: Starting rendering request 9 (user: null)
+2021-01-18T16:33:16.558Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T16:33:16.561Z - debug: Inline data specified.
+2021-01-18T16:33:16.563Z - debug: Resources not defined for this template.
+2021-01-18T16:33:16.564Z - debug: Base url not specified, skipping its injection.
+2021-01-18T16:33:16.569Z - debug: Replaced assets ["invoice-styles.css","invoice-logo.png"]
+2021-01-18T16:33:16.570Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T16:33:16.877Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T16:33:16.878Z - debug: Calculating item Website design; you should see this message in debug run
+2021-01-18T16:33:16.880Z - debug: Executing recipe chrome-pdf
+2021-01-18T16:33:17.031Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T16:33:17.152Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/e128d4ed-0c48-49f6-9b34-c1c25aa22fe9-chrome-pdf.html
+2021-01-18T16:33:17.168Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/e128d4ed-0c48-49f6-9b34-c1c25aa22fe9-chrome-pdf.html
+2021-01-18T16:33:17.175Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-18T16:33:17.176Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-18T16:33:17.206Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T16:33:17.567Z - info: Rendering request 9 finished in 1013 ms
+2021-01-18T16:33:17.568Z - debug: Skipping storing report.
+2021-01-18T16:39:14.998Z - debug: OData update on templates
+2021-01-18T16:39:15.036Z - debug: OData query on templates
+2021-01-18T16:40:13.079Z - debug: OData query on assets
+2021-01-18T16:40:15.414Z - debug: OData query on assets
+2021-01-18T16:42:53.612Z - info: Starting rendering request 10 (user: null)
+2021-01-18T16:42:53.613Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T16:42:53.614Z - debug: Inline data specified.
+2021-01-18T16:42:53.614Z - debug: Resources not defined for this template.
+2021-01-18T16:42:53.615Z - debug: Base url not specified, skipping its injection.
+2021-01-18T16:42:53.618Z - debug: Replaced assets ["invoice-styles.css","invoice-logo.png"]
+2021-01-18T16:42:53.619Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T16:42:53.895Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T16:42:53.896Z - debug: Calculating item Website design; you should see this message in debug run
+2021-01-18T16:42:53.898Z - debug: Executing recipe chrome-pdf
+2021-01-18T16:42:54.309Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T16:42:54.444Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/fa76161e-c263-497d-8d37-dd0c03a160e1-chrome-pdf.html
+2021-01-18T16:42:54.456Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/fa76161e-c263-497d-8d37-dd0c03a160e1-chrome-pdf.html
+2021-01-18T16:42:54.463Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-18T16:42:54.464Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-18T16:42:54.495Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T16:42:54.868Z - info: Rendering request 10 finished in 1257 ms
+2021-01-18T16:42:54.869Z - debug: Skipping storing report.
+2021-01-18T16:43:00.091Z - info: Starting rendering request 11 (user: null)
+2021-01-18T16:43:00.092Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T16:43:00.093Z - debug: Inline data specified.
+2021-01-18T16:43:00.094Z - debug: Resources not defined for this template.
+2021-01-18T16:43:00.095Z - debug: Base url not specified, skipping its injection.
+2021-01-18T16:43:00.098Z - debug: Replaced assets ["invoice-styles.css","invoice-logo.png"]
+2021-01-18T16:43:00.099Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T16:43:00.378Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T16:43:00.378Z - debug: Calculating item Website design; you should see this message in debug run
+2021-01-18T16:43:00.381Z - debug: Executing recipe chrome-pdf
+2021-01-18T16:43:00.716Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T16:43:01.014Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/b3f8ff56-4913-44d3-a223-ab6db6eff15c-chrome-pdf.html
+2021-01-18T16:43:01.039Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/b3f8ff56-4913-44d3-a223-ab6db6eff15c-chrome-pdf.html
+2021-01-18T16:43:01.053Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-18T16:43:01.055Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-18T16:43:01.147Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T16:43:01.594Z - info: Rendering request 11 finished in 1504 ms
+2021-01-18T16:43:01.595Z - debug: Skipping storing report.
+2021-01-18T16:44:30.558Z - debug: OData update on data
+2021-01-18T16:44:30.585Z - debug: OData query on data
+2021-01-18T16:44:32.458Z - info: Starting rendering request 12 (user: null)
+2021-01-18T16:44:32.459Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T16:44:32.460Z - debug: Inline data specified.
+2021-01-18T16:44:32.460Z - debug: Resources not defined for this template.
+2021-01-18T16:44:32.461Z - debug: Base url not specified, skipping its injection.
+2021-01-18T16:44:32.464Z - debug: Replaced assets ["invoice-styles.css","invoice-logo.png"]
+2021-01-18T16:44:32.465Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T16:44:32.704Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T16:44:32.705Z - debug: Calculating item Website design; you should see this message in debug run
+2021-01-18T16:44:32.706Z - debug: Executing recipe chrome-pdf
+2021-01-18T16:44:32.926Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T16:44:33.131Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/4b4d5527-9910-40da-b1d1-9398735bd828-chrome-pdf.html
+2021-01-18T16:44:33.145Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/4b4d5527-9910-40da-b1d1-9398735bd828-chrome-pdf.html
+2021-01-18T16:44:33.152Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-18T16:44:33.155Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-18T16:44:33.190Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T16:44:33.587Z - info: Rendering request 12 finished in 1128 ms
+2021-01-18T16:44:33.588Z - debug: Skipping storing report.
+2021-01-18T16:51:01.449Z - debug: OData update on data
+2021-01-18T16:51:01.468Z - debug: OData query on data
+2021-01-18T16:51:03.601Z - info: Starting rendering request 13 (user: null)
+2021-01-18T16:51:03.602Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T16:51:03.603Z - debug: Inline data specified.
+2021-01-18T16:51:03.604Z - debug: Resources not defined for this template.
+2021-01-18T16:51:03.605Z - debug: Base url not specified, skipping its injection.
+2021-01-18T16:51:03.608Z - debug: Replaced assets ["invoice-styles.css","invoice-logo.png"]
+2021-01-18T16:51:03.609Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T16:51:03.860Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T16:51:03.860Z - debug: Calculating item Website design; you should see this message in debug run
+2021-01-18T16:51:03.863Z - debug: Executing recipe chrome-pdf
+2021-01-18T16:51:04.362Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T16:51:04.511Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/3625e856-ad5a-4bdf-ac5e-b8ab4c0f158b-chrome-pdf.html
+2021-01-18T16:51:04.528Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/3625e856-ad5a-4bdf-ac5e-b8ab4c0f158b-chrome-pdf.html
+2021-01-18T16:51:04.537Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-18T16:51:04.538Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-18T16:51:04.575Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T16:51:05.086Z - info: Rendering request 13 finished in 1489 ms
+2021-01-18T16:51:05.087Z - debug: Skipping storing report.
+2021-01-18T16:52:09.284Z - debug: OData update on data
+2021-01-18T16:52:09.346Z - debug: OData query on data
+2021-01-18T16:52:14.320Z - info: Starting rendering request 14 (user: null)
+2021-01-18T16:52:14.321Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T16:52:14.322Z - debug: Inline data specified.
+2021-01-18T16:52:14.323Z - debug: Resources not defined for this template.
+2021-01-18T16:52:14.323Z - debug: Base url not specified, skipping its injection.
+2021-01-18T16:52:14.326Z - debug: Replaced assets ["invoice-styles.css","invoice-logo.png"]
+2021-01-18T16:52:14.327Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T16:52:14.615Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T16:52:14.617Z - debug: Calculating item Website design; you should see this message in debug run
+2021-01-18T16:52:14.620Z - debug: Executing recipe chrome-pdf
+2021-01-18T16:52:14.840Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T16:52:14.976Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/e3cc0f9f-9c17-42c6-adc3-4193b4e9f6c1-chrome-pdf.html
+2021-01-18T16:52:14.997Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/e3cc0f9f-9c17-42c6-adc3-4193b4e9f6c1-chrome-pdf.html
+2021-01-18T16:52:15.007Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-18T16:52:15.008Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-18T16:52:15.188Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T16:52:15.815Z - info: Rendering request 14 finished in 1494 ms
+2021-01-18T16:52:15.817Z - debug: Skipping storing report.
+2021-01-18T16:56:59.513Z - debug: OData update on templates
+2021-01-18T16:56:59.538Z - debug: OData query on templates
+2021-01-18T16:57:12.684Z - debug: OData update on templates
+2021-01-18T16:57:12.703Z - debug: OData query on templates
+2021-01-18T16:57:23.220Z - debug: OData update on templates
+2021-01-18T16:57:23.242Z - debug: OData query on templates
+2021-01-18T16:57:33.650Z - debug: OData update on templates
+2021-01-18T16:57:33.674Z - debug: OData query on templates
+2021-01-18T16:58:01.734Z - debug: OData update on templates
+2021-01-18T16:58:01.758Z - debug: OData query on templates
+2021-01-18T16:58:12.301Z - debug: OData update on templates
+2021-01-18T16:58:12.334Z - debug: OData query on templates
+2021-01-18T16:58:21.354Z - info: Starting rendering request 15 (user: null)
+2021-01-18T16:58:21.355Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T16:58:21.356Z - debug: Inline data specified.
+2021-01-18T16:58:21.356Z - debug: Resources not defined for this template.
+2021-01-18T16:58:21.357Z - debug: Base url not specified, skipping its injection.
+2021-01-18T16:58:21.359Z - debug: Replaced assets ["invoice-styles.css","invoice-logo.png"]
+2021-01-18T16:58:21.360Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T16:58:21.620Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T16:58:21.621Z - debug: Executing recipe chrome-pdf
+2021-01-18T16:58:21.878Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T16:58:22.023Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/85373494-a1ad-4fc3-ba18-c166e0851c94-chrome-pdf.html
+2021-01-18T16:58:22.038Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/85373494-a1ad-4fc3-ba18-c166e0851c94-chrome-pdf.html
+2021-01-18T16:58:22.047Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-18T16:58:22.049Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-18T16:58:22.084Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T16:58:22.461Z - info: Rendering request 15 finished in 1107 ms
+2021-01-18T16:58:22.463Z - debug: Skipping storing report.
+2021-01-18T16:58:31.954Z - debug: OData update on templates
+2021-01-18T16:58:31.987Z - debug: OData query on templates
+2021-01-18T16:58:41.402Z - debug: OData update on templates
+2021-01-18T16:58:41.426Z - debug: OData query on templates
+2021-01-18T16:59:26.979Z - debug: OData update on templates
+2021-01-18T16:59:27.010Z - debug: OData query on templates
+2021-01-18T16:59:28.660Z - info: Starting rendering request 16 (user: null)
+2021-01-18T16:59:28.666Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T16:59:28.668Z - debug: Inline data specified.
+2021-01-18T16:59:28.670Z - debug: Resources not defined for this template.
+2021-01-18T16:59:28.672Z - debug: Base url not specified, skipping its injection.
+2021-01-18T16:59:28.680Z - debug: Replaced assets ["invoice-styles.css","invoice-logo.png"]
+2021-01-18T16:59:28.683Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T16:59:29.022Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T16:59:29.025Z - debug: Executing recipe chrome-pdf
+2021-01-18T16:59:29.284Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T16:59:29.506Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/3129a529-332c-473d-a167-8900a343c0f2-chrome-pdf.html
+2021-01-18T16:59:29.519Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/3129a529-332c-473d-a167-8900a343c0f2-chrome-pdf.html
+2021-01-18T16:59:29.527Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-18T16:59:29.530Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-18T16:59:29.569Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T16:59:29.968Z - info: Rendering request 16 finished in 1342 ms
+2021-01-18T16:59:29.969Z - debug: Skipping storing report.
+2021-01-18T17:02:42.669Z - debug: OData update on templates
+2021-01-18T17:02:42.693Z - debug: OData query on templates
+2021-01-18T17:02:45.802Z - info: Starting rendering request 17 (user: null)
+2021-01-18T17:02:45.803Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T17:02:45.804Z - debug: Inline data specified.
+2021-01-18T17:02:45.805Z - debug: Resources not defined for this template.
+2021-01-18T17:02:45.805Z - debug: Base url not specified, skipping its injection.
+2021-01-18T17:02:45.807Z - debug: Replaced assets ["invoice-styles.css","invoice-logo.png"]
+2021-01-18T17:02:45.808Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T17:02:46.070Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T17:02:46.075Z - debug: Executing recipe chrome-pdf
+2021-01-18T17:02:46.209Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T17:02:46.331Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/d8942eeb-c114-4ceb-9826-ceda3e28bd12-chrome-pdf.html
+2021-01-18T17:02:46.343Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/d8942eeb-c114-4ceb-9826-ceda3e28bd12-chrome-pdf.html
+2021-01-18T17:02:46.349Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-18T17:02:46.350Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-18T17:02:46.378Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T17:02:46.824Z - info: Rendering request 17 finished in 1021 ms
+2021-01-18T17:02:46.825Z - debug: Skipping storing report.
+2021-01-18T17:09:34.254Z - debug: OData update on data
+2021-01-18T17:09:34.297Z - debug: OData query on data
+2021-01-18T17:09:58.986Z - debug: OData update on data
+2021-01-18T17:09:59.017Z - debug: OData query on data
+2021-01-18T17:11:03.610Z - debug: OData update on data
+2021-01-18T17:11:03.730Z - debug: OData query on data
+2021-01-18T17:11:09.346Z - info: Starting rendering request 18 (user: null)
+2021-01-18T17:11:09.348Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T17:11:09.349Z - debug: Inline data specified.
+2021-01-18T17:11:09.350Z - debug: Resources not defined for this template.
+2021-01-18T17:11:09.351Z - debug: Base url not specified, skipping its injection.
+2021-01-18T17:11:09.358Z - debug: Replaced assets ["invoice-styles.css","invoice-logo.png"]
+2021-01-18T17:11:09.359Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T17:11:10.251Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T17:11:10.253Z - debug: Executing recipe chrome-pdf
+2021-01-18T17:11:10.508Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T17:11:10.638Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/f62aff50-5f4c-470c-846a-25cbd2ceb72c-chrome-pdf.html
+2021-01-18T17:11:10.649Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/f62aff50-5f4c-470c-846a-25cbd2ceb72c-chrome-pdf.html
+2021-01-18T17:11:10.657Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-18T17:11:10.659Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-18T17:11:10.693Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T17:11:11.178Z - info: Rendering request 18 finished in 1831 ms
+2021-01-18T17:11:11.179Z - debug: Skipping storing report.
+2021-01-18T17:12:50.431Z - debug: OData update on templates
+2021-01-18T17:12:50.454Z - debug: OData query on templates
+2021-01-18T17:12:52.929Z - info: Starting rendering request 19 (user: null)
+2021-01-18T17:12:52.931Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T17:12:52.933Z - debug: Inline data specified.
+2021-01-18T17:12:52.934Z - debug: Resources not defined for this template.
+2021-01-18T17:12:52.936Z - debug: Base url not specified, skipping its injection.
+2021-01-18T17:12:52.941Z - debug: Replaced assets ["invoice-styles.css","invoice-logo.png"]
+2021-01-18T17:12:52.943Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T17:12:53.311Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T17:12:53.314Z - debug: Executing recipe chrome-pdf
+2021-01-18T17:12:53.519Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T17:12:53.743Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/e059e8ed-64a2-4cf8-919d-59cd33557a40-chrome-pdf.html
+2021-01-18T17:12:53.765Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/e059e8ed-64a2-4cf8-919d-59cd33557a40-chrome-pdf.html
+2021-01-18T17:12:53.778Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-18T17:12:53.779Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-18T17:12:53.816Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T17:12:54.236Z - info: Rendering request 19 finished in 1307 ms
+2021-01-18T17:12:54.236Z - debug: Skipping storing report.
+2021-01-18T17:16:13.075Z - debug: OData query on templates
+2021-01-18T17:16:13.133Z - debug: OData query on folders
+2021-01-18T17:16:13.146Z - debug: OData query on tags
+2021-01-18T17:16:13.153Z - debug: OData query on data
+2021-01-18T17:16:13.157Z - debug: OData query on assets
+2021-01-18T17:16:13.162Z - debug: OData query on scripts
+2021-01-18T17:16:13.168Z - debug: OData query on xlsxTemplates
+2021-01-18T17:16:13.200Z - debug: OData query on schedules
+2021-01-18T17:16:13.228Z - debug: OData query on settings
+2021-01-18T17:16:13.325Z - debug: OData query on templates
+2021-01-18T17:16:34.718Z - debug: OData query on data
+2021-01-18T17:16:36.339Z - debug: OData query on assets
+2021-01-18T17:18:27.102Z - debug: OData insert into assets
+2021-01-18T17:18:27.186Z - debug: OData query on assets
+2021-01-18T17:18:50.368Z - debug: OData update on templates
+2021-01-18T17:18:50.399Z - debug: OData query on templates
+2021-01-18T17:19:25.581Z - info: Starting rendering request 20 (user: null)
+2021-01-18T17:19:25.584Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T17:19:25.607Z - debug: Inline data specified.
+2021-01-18T17:19:25.608Z - debug: Resources not defined for this template.
+2021-01-18T17:19:25.611Z - debug: Base url not specified, skipping its injection.
+2021-01-18T17:19:25.620Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-18T17:19:25.623Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T17:19:26.077Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T17:19:26.080Z - debug: Executing recipe chrome-pdf
+2021-01-18T17:19:26.266Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T17:19:26.479Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/dd0c8f88-5b96-4317-be06-afb1a5ce8214-chrome-pdf.html
+2021-01-18T17:19:26.509Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/dd0c8f88-5b96-4317-be06-afb1a5ce8214-chrome-pdf.html
+2021-01-18T17:19:26.511Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:19:26.513Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:19:26.542Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T17:19:26.972Z - info: Rendering request 20 finished in 1392 ms
+2021-01-18T17:19:26.973Z - debug: Skipping storing report.
+2021-01-18T17:20:08.346Z - debug: OData update on data
+2021-01-18T17:20:08.378Z - debug: OData query on data
+2021-01-18T17:20:10.999Z - info: Starting rendering request 21 (user: null)
+2021-01-18T17:20:11.001Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T17:20:11.022Z - debug: Inline data specified.
+2021-01-18T17:20:11.025Z - debug: Resources not defined for this template.
+2021-01-18T17:20:11.026Z - debug: Base url not specified, skipping its injection.
+2021-01-18T17:20:11.030Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-18T17:20:11.031Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T17:20:11.331Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T17:20:11.332Z - debug: Executing recipe chrome-pdf
+2021-01-18T17:20:11.512Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T17:20:11.770Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/51c420fe-f13d-4184-b9d7-e86403a6f3ba-chrome-pdf.html
+2021-01-18T17:20:11.801Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/51c420fe-f13d-4184-b9d7-e86403a6f3ba-chrome-pdf.html
+2021-01-18T17:20:11.804Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:20:11.807Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:20:11.860Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T17:20:12.375Z - info: Rendering request 21 finished in 1376 ms
+2021-01-18T17:20:12.376Z - debug: Skipping storing report.
+2021-01-18T17:25:56.556Z - debug: OData update on data
+2021-01-18T17:25:56.622Z - debug: OData query on data
+2021-01-18T17:26:42.025Z - error: Error during processing request at http://localhost:5488/api/report/Inform, details: SyntaxError: Unexpected string in JSON at position 271
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\render\request.js:48:17)
+    at module.exports (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\render\request.js:31:23)
+    at module.exports (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\render\render.js:115:19)
+    at Reporter.render (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\reporter.js:324:12)
+    at Object.reporter.express.render (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\routes.js:42:14)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\routes.js:75:22
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:281:22
+    at param (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:354:14)
+    at param (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:410:3)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\routes.js:17:5
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-studio\lib\studio.js:85:7
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\reporter.express.js:188:5
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at cors (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:188:7)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:214:15)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:204:7)
+2021-01-18T17:27:22.784Z - debug: OData update on data
+2021-01-18T17:27:22.856Z - debug: OData query on data
+2021-01-18T17:27:25.062Z - info: Starting rendering request 22 (user: null)
+2021-01-18T17:27:25.121Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T17:27:25.124Z - debug: Inline data specified.
+2021-01-18T17:27:25.131Z - debug: Resources not defined for this template.
+2021-01-18T17:27:25.152Z - debug: Base url not specified, skipping its injection.
+2021-01-18T17:27:25.157Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-18T17:27:25.158Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T17:27:25.508Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T17:27:25.510Z - debug: Executing recipe chrome-pdf
+2021-01-18T17:27:25.814Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T17:27:26.047Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/9cb7acfa-5e48-45bf-8e0a-6689c02a40c7-chrome-pdf.html
+2021-01-18T17:27:26.068Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/9cb7acfa-5e48-45bf-8e0a-6689c02a40c7-chrome-pdf.html
+2021-01-18T17:27:26.070Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:27:26.072Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:27:26.112Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T17:27:26.522Z - info: Rendering request 22 finished in 1460 ms
+2021-01-18T17:27:26.523Z - debug: Skipping storing report.
+2021-01-18T17:27:35.908Z - debug: OData update on data
+2021-01-18T17:27:35.937Z - debug: OData query on data
+2021-01-18T17:28:18.324Z - debug: OData update on assets
+2021-01-18T17:28:18.353Z - debug: OData query on assets
+2021-01-18T17:28:20.070Z - error: Error during processing request at http://localhost:5488/api/report/Inform, details: SyntaxError: Unexpected token } in JSON at position 268
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\render\request.js:48:17)
+    at module.exports (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\render\request.js:31:23)
+    at module.exports (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\render\render.js:115:19)
+    at Reporter.render (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\reporter.js:324:12)
+    at Object.reporter.express.render (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\routes.js:42:14)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\routes.js:75:22
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:281:22
+    at param (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:354:14)
+    at param (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:410:3)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\routes.js:17:5
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-studio\lib\studio.js:85:7
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\reporter.express.js:188:5
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at cors (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:188:7)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:214:15)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:204:7)
+2021-01-18T17:28:24.438Z - debug: OData update on assets
+2021-01-18T17:28:24.460Z - debug: OData query on assets
+2021-01-18T17:28:26.644Z - error: Error during processing request at http://localhost:5488/api/report/Inform, details: SyntaxError: Unexpected token } in JSON at position 268
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\render\request.js:48:17)
+    at module.exports (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\render\request.js:31:23)
+    at module.exports (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\render\render.js:115:19)
+    at Reporter.render (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\reporter.js:324:12)
+    at Object.reporter.express.render (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\routes.js:42:14)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\routes.js:75:22
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:281:22
+    at param (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:354:14)
+    at param (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:410:3)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\routes.js:17:5
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-studio\lib\studio.js:85:7
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-express\lib\reporter.express.js:188:5
+    at Layer.handle [as handle_request] (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at cors (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:188:7)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:214:15)
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\cors\lib\index.js:204:7)
+2021-01-18T17:28:34.868Z - debug: OData update on data
+2021-01-18T17:28:34.890Z - debug: OData query on data
+2021-01-18T17:28:36.821Z - info: Starting rendering request 23 (user: null)
+2021-01-18T17:28:36.823Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T17:28:36.841Z - debug: Inline data specified.
+2021-01-18T17:28:36.842Z - debug: Resources not defined for this template.
+2021-01-18T17:28:36.844Z - debug: Base url not specified, skipping its injection.
+2021-01-18T17:28:36.861Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-18T17:28:36.876Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T17:28:37.171Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T17:28:37.173Z - debug: Executing recipe chrome-pdf
+2021-01-18T17:28:37.415Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T17:28:37.623Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/7713d64e-8340-4da0-bc10-807883b24407-chrome-pdf.html
+2021-01-18T17:28:37.640Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/7713d64e-8340-4da0-bc10-807883b24407-chrome-pdf.html
+2021-01-18T17:28:37.642Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:28:37.644Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:28:37.677Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T17:28:38.233Z - info: Rendering request 23 finished in 1412 ms
+2021-01-18T17:28:38.234Z - debug: Skipping storing report.
+2021-01-18T17:28:47.529Z - debug: OData update on assets
+2021-01-18T17:28:47.550Z - debug: OData query on assets
+2021-01-18T17:28:48.886Z - info: Starting rendering request 24 (user: null)
+2021-01-18T17:28:48.887Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T17:28:48.903Z - debug: Inline data specified.
+2021-01-18T17:28:48.904Z - debug: Resources not defined for this template.
+2021-01-18T17:28:48.905Z - debug: Base url not specified, skipping its injection.
+2021-01-18T17:28:48.908Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-18T17:28:48.909Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T17:28:49.156Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T17:28:49.159Z - debug: Executing recipe chrome-pdf
+2021-01-18T17:28:49.448Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T17:28:49.667Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/67175f17-b5c1-4aab-bca1-87f0a1e1a35c-chrome-pdf.html
+2021-01-18T17:28:49.689Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/67175f17-b5c1-4aab-bca1-87f0a1e1a35c-chrome-pdf.html
+2021-01-18T17:28:49.692Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:28:49.693Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:28:49.740Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T17:28:50.167Z - info: Rendering request 24 finished in 1281 ms
+2021-01-18T17:28:50.168Z - debug: Skipping storing report.
+2021-01-18T17:28:58.350Z - debug: OData update on assets
+2021-01-18T17:28:58.381Z - debug: OData query on assets
+2021-01-18T17:29:59.638Z - debug: OData update on data
+2021-01-18T17:29:59.674Z - debug: OData query on data
+2021-01-18T17:30:40.551Z - debug: OData update on data
+2021-01-18T17:30:40.594Z - debug: OData query on data
+2021-01-18T17:30:47.420Z - debug: OData update on data
+2021-01-18T17:30:47.440Z - debug: OData query on data
+2021-01-18T17:30:51.395Z - info: Starting rendering request 25 (user: null)
+2021-01-18T17:30:51.399Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T17:30:51.430Z - debug: Inline data specified.
+2021-01-18T17:30:51.433Z - debug: Resources not defined for this template.
+2021-01-18T17:30:51.460Z - debug: Base url not specified, skipping its injection.
+2021-01-18T17:30:51.467Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-18T17:30:51.468Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T17:30:51.743Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T17:30:51.745Z - debug: Executing recipe chrome-pdf
+2021-01-18T17:30:51.917Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T17:30:52.117Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/bce425b3-12d6-46b3-91bc-eb779db1b603-chrome-pdf.html
+2021-01-18T17:30:52.138Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/bce425b3-12d6-46b3-91bc-eb779db1b603-chrome-pdf.html
+2021-01-18T17:30:52.140Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:30:52.142Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:30:52.174Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T17:30:52.630Z - info: Rendering request 25 finished in 1236 ms
+2021-01-18T17:30:52.631Z - debug: Skipping storing report.
+2021-01-18T17:32:20.028Z - debug: OData update on templates
+2021-01-18T17:32:20.055Z - debug: OData query on templates
+2021-01-18T17:32:22.062Z - info: Starting rendering request 26 (user: null)
+2021-01-18T17:32:22.064Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T17:32:22.082Z - debug: Inline data specified.
+2021-01-18T17:32:22.084Z - debug: Resources not defined for this template.
+2021-01-18T17:32:22.085Z - debug: Base url not specified, skipping its injection.
+2021-01-18T17:32:22.089Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-18T17:32:22.090Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T17:32:22.374Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T17:32:22.377Z - debug: Executing recipe chrome-pdf
+2021-01-18T17:32:22.617Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T17:32:22.825Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/0fbb7d3d-f61c-467a-8775-0bbe2ba0c9cb-chrome-pdf.html
+2021-01-18T17:32:22.853Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/0fbb7d3d-f61c-467a-8775-0bbe2ba0c9cb-chrome-pdf.html
+2021-01-18T17:32:22.855Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:32:22.857Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:32:22.898Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T17:32:23.327Z - info: Rendering request 26 finished in 1266 ms
+2021-01-18T17:32:23.328Z - debug: Skipping storing report.
+2021-01-18T17:33:23.608Z - debug: OData update on assets
+2021-01-18T17:33:23.649Z - debug: OData query on assets
+2021-01-18T17:33:24.997Z - info: Starting rendering request 27 (user: null)
+2021-01-18T17:33:24.998Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T17:33:24.999Z - debug: Inline data specified.
+2021-01-18T17:33:25.015Z - debug: Resources not defined for this template.
+2021-01-18T17:33:25.016Z - debug: Base url not specified, skipping its injection.
+2021-01-18T17:33:25.019Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-18T17:33:25.020Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T17:33:25.311Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T17:33:25.315Z - debug: Executing recipe chrome-pdf
+2021-01-18T17:33:25.490Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T17:33:25.699Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/59c3c9dc-4b0e-492b-ba3c-54c0aba45676-chrome-pdf.html
+2021-01-18T17:33:25.719Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/59c3c9dc-4b0e-492b-ba3c-54c0aba45676-chrome-pdf.html
+2021-01-18T17:33:25.741Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:33:25.744Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:33:25.782Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T17:33:26.271Z - info: Rendering request 27 finished in 1274 ms
+2021-01-18T17:33:26.272Z - debug: Skipping storing report.
+2021-01-18T17:34:36.100Z - debug: OData update on assets
+2021-01-18T17:34:36.141Z - debug: OData query on assets
+2021-01-18T17:35:15.678Z - debug: OData update on assets
+2021-01-18T17:35:15.702Z - debug: OData query on assets
+2021-01-18T17:35:22.269Z - info: Starting rendering request 28 (user: null)
+2021-01-18T17:35:22.270Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T17:35:22.271Z - debug: Inline data specified.
+2021-01-18T17:35:22.286Z - debug: Resources not defined for this template.
+2021-01-18T17:35:22.288Z - debug: Base url not specified, skipping its injection.
+2021-01-18T17:35:22.291Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-18T17:35:22.305Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T17:35:22.608Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T17:35:22.610Z - debug: Executing recipe chrome-pdf
+2021-01-18T17:35:22.776Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T17:35:23.047Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/9c228715-fb99-4292-a78e-c578d06e784b-chrome-pdf.html
+2021-01-18T17:35:23.082Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/9c228715-fb99-4292-a78e-c578d06e784b-chrome-pdf.html
+2021-01-18T17:35:23.117Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:35:23.121Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:35:23.182Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T17:35:23.735Z - info: Rendering request 28 finished in 1467 ms
+2021-01-18T17:35:23.736Z - debug: Skipping storing report.
+2021-01-18T17:35:30.600Z - debug: OData update on assets
+2021-01-18T17:35:30.631Z - debug: OData query on assets
+2021-01-18T17:40:32.464Z - debug: OData update on templates
+2021-01-18T17:40:32.493Z - debug: OData query on templates
+2021-01-18T17:41:06.778Z - debug: OData update on data
+2021-01-18T17:41:06.809Z - debug: OData query on data
+2021-01-18T17:41:25.700Z - debug: OData update on data
+2021-01-18T17:41:25.735Z - debug: OData query on data
+2021-01-18T17:41:32.260Z - info: Starting rendering request 29 (user: null)
+2021-01-18T17:41:32.262Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T17:41:32.273Z - debug: Inline data specified.
+2021-01-18T17:41:32.279Z - debug: Resources not defined for this template.
+2021-01-18T17:41:32.280Z - debug: Base url not specified, skipping its injection.
+2021-01-18T17:41:32.282Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-18T17:41:32.283Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T17:41:32.591Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T17:41:32.595Z - debug: Executing recipe chrome-pdf
+2021-01-18T17:41:32.762Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T17:41:32.981Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/7db502cf-f705-4ec9-a48a-b5c18a817b27-chrome-pdf.html
+2021-01-18T17:41:33.000Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/7db502cf-f705-4ec9-a48a-b5c18a817b27-chrome-pdf.html
+2021-01-18T17:41:33.019Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:41:33.020Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:41:33.070Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T17:41:33.525Z - info: Rendering request 29 finished in 1262 ms
+2021-01-18T17:41:33.526Z - debug: Skipping storing report.
+2021-01-18T17:48:55.518Z - debug: OData update on templates
+2021-01-18T17:48:55.541Z - debug: OData query on templates
+2021-01-18T17:48:57.344Z - info: Starting rendering request 30 (user: null)
+2021-01-18T17:48:57.346Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T17:48:57.378Z - debug: Inline data specified.
+2021-01-18T17:48:57.380Z - debug: Resources not defined for this template.
+2021-01-18T17:48:57.383Z - debug: Base url not specified, skipping its injection.
+2021-01-18T17:48:57.429Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-18T17:48:57.434Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T17:48:57.801Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T17:48:57.804Z - debug: Executing recipe chrome-pdf
+2021-01-18T17:48:58.034Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T17:48:58.250Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/91b3d06f-cb5f-475f-acb4-c1d1dfc6f5d1-chrome-pdf.html
+2021-01-18T17:48:58.267Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/91b3d06f-cb5f-475f-acb4-c1d1dfc6f5d1-chrome-pdf.html
+2021-01-18T17:48:58.283Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:48:58.297Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:48:58.317Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T17:48:58.855Z - info: Rendering request 30 finished in 1512 ms
+2021-01-18T17:48:58.856Z - debug: Skipping storing report.
+2021-01-18T17:49:11.933Z - debug: OData update on templates
+2021-01-18T17:49:11.957Z - debug: OData query on templates
+2021-01-18T17:49:24.612Z - debug: OData update on templates
+2021-01-18T17:49:24.637Z - debug: OData query on templates
+2021-01-18T17:49:26.084Z - info: Starting rendering request 31 (user: null)
+2021-01-18T17:49:26.085Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T17:49:26.098Z - debug: Inline data specified.
+2021-01-18T17:49:26.099Z - debug: Resources not defined for this template.
+2021-01-18T17:49:26.100Z - debug: Base url not specified, skipping its injection.
+2021-01-18T17:49:26.114Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-18T17:49:26.114Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T17:49:26.430Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T17:49:26.431Z - debug: Executing recipe chrome-pdf
+2021-01-18T17:49:26.676Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T17:49:26.884Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/3c6c18b5-bbad-47ff-ac76-d9b206420d86-chrome-pdf.html
+2021-01-18T17:49:26.898Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/3c6c18b5-bbad-47ff-ac76-d9b206420d86-chrome-pdf.html
+2021-01-18T17:49:26.906Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:49:26.909Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:49:26.943Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T17:49:27.467Z - info: Rendering request 31 finished in 1384 ms
+2021-01-18T17:49:27.468Z - debug: Skipping storing report.
+2021-01-18T17:49:34.181Z - debug: OData update on templates
+2021-01-18T17:49:34.201Z - debug: OData query on templates
+2021-01-18T17:50:17.135Z - debug: OData update on templates
+2021-01-18T17:50:17.192Z - debug: OData query on templates
+2021-01-18T17:50:18.378Z - info: Starting rendering request 32 (user: null)
+2021-01-18T17:50:18.379Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T17:50:18.396Z - debug: Inline data specified.
+2021-01-18T17:50:18.398Z - debug: Resources not defined for this template.
+2021-01-18T17:50:18.400Z - debug: Base url not specified, skipping its injection.
+2021-01-18T17:50:18.421Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-18T17:50:18.449Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T17:50:18.775Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T17:50:18.776Z - debug: Executing recipe chrome-pdf
+2021-01-18T17:50:18.994Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T17:50:19.211Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/138a3798-41a2-433e-9272-7056ef8640cb-chrome-pdf.html
+2021-01-18T17:50:19.232Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/138a3798-41a2-433e-9272-7056ef8640cb-chrome-pdf.html
+2021-01-18T17:50:19.248Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:50:19.264Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:50:19.281Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T17:50:19.719Z - info: Rendering request 32 finished in 1361 ms
+2021-01-18T17:50:19.720Z - debug: Skipping storing report.
+2021-01-18T17:50:53.158Z - debug: OData update on templates
+2021-01-18T17:50:53.180Z - debug: OData query on templates
+2021-01-18T17:50:54.160Z - info: Starting rendering request 33 (user: null)
+2021-01-18T17:50:54.161Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T17:50:54.176Z - debug: Inline data specified.
+2021-01-18T17:50:54.177Z - debug: Resources not defined for this template.
+2021-01-18T17:50:54.179Z - debug: Base url not specified, skipping its injection.
+2021-01-18T17:50:54.183Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-18T17:50:54.184Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T17:50:54.542Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T17:50:54.543Z - debug: Executing recipe chrome-pdf
+2021-01-18T17:50:54.812Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T17:50:55.026Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/c97d0c61-534e-4e12-85d2-fc75d5d5b2ed-chrome-pdf.html
+2021-01-18T17:50:55.045Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/c97d0c61-534e-4e12-85d2-fc75d5d5b2ed-chrome-pdf.html
+2021-01-18T17:50:55.063Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:50:55.066Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:50:55.098Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T17:50:55.625Z - info: Rendering request 33 finished in 1466 ms
+2021-01-18T17:50:55.626Z - debug: Skipping storing report.
+2021-01-18T17:51:38.213Z - debug: OData update on templates
+2021-01-18T17:51:38.255Z - debug: OData query on templates
+2021-01-18T17:51:40.512Z - info: Starting rendering request 34 (user: null)
+2021-01-18T17:51:40.513Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T17:51:40.532Z - debug: Inline data specified.
+2021-01-18T17:51:40.533Z - debug: Resources not defined for this template.
+2021-01-18T17:51:40.549Z - debug: Base url not specified, skipping its injection.
+2021-01-18T17:51:40.573Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-18T17:51:40.574Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T17:51:40.902Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T17:51:40.903Z - debug: Executing recipe chrome-pdf
+2021-01-18T17:51:41.152Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T17:51:41.353Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/38e50862-1f34-4ec0-9db4-afa8a8dfc1a8-chrome-pdf.html
+2021-01-18T17:51:41.368Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/38e50862-1f34-4ec0-9db4-afa8a8dfc1a8-chrome-pdf.html
+2021-01-18T17:51:41.372Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:51:41.375Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:51:41.410Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T17:51:41.857Z - info: Rendering request 34 finished in 1345 ms
+2021-01-18T17:51:41.858Z - debug: Skipping storing report.
+2021-01-18T17:52:54.762Z - debug: OData update on templates
+2021-01-18T17:52:54.813Z - debug: OData query on templates
+2021-01-18T17:52:56.465Z - info: Starting rendering request 35 (user: null)
+2021-01-18T17:52:56.468Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T17:52:56.489Z - debug: Inline data specified.
+2021-01-18T17:52:56.492Z - debug: Resources not defined for this template.
+2021-01-18T17:52:56.495Z - debug: Base url not specified, skipping its injection.
+2021-01-18T17:52:56.516Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-18T17:52:56.540Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T17:52:56.895Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T17:52:56.913Z - debug: Executing recipe chrome-pdf
+2021-01-18T17:52:57.171Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T17:52:57.397Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/fb50b049-9f11-479e-aece-9c11886be8c8-chrome-pdf.html
+2021-01-18T17:52:57.410Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/fb50b049-9f11-479e-aece-9c11886be8c8-chrome-pdf.html
+2021-01-18T17:52:57.414Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:52:57.415Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:52:57.463Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T17:52:58.047Z - info: Rendering request 35 finished in 1582 ms
+2021-01-18T17:52:58.048Z - debug: Skipping storing report.
+2021-01-18T17:53:07.191Z - debug: OData update on templates
+2021-01-18T17:53:07.214Z - debug: OData query on templates
+2021-01-18T17:53:09.518Z - info: Starting rendering request 36 (user: null)
+2021-01-18T17:53:09.520Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T17:53:09.533Z - debug: Inline data specified.
+2021-01-18T17:53:09.538Z - debug: Resources not defined for this template.
+2021-01-18T17:53:09.539Z - debug: Base url not specified, skipping its injection.
+2021-01-18T17:53:09.542Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-18T17:53:09.543Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T17:53:09.849Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T17:53:09.851Z - debug: Executing recipe chrome-pdf
+2021-01-18T17:53:10.065Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T17:53:10.294Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/5c5a1920-edf0-436b-8c28-294eba982264-chrome-pdf.html
+2021-01-18T17:53:10.309Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/5c5a1920-edf0-436b-8c28-294eba982264-chrome-pdf.html
+2021-01-18T17:53:10.314Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:53:10.315Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T17:53:10.352Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T17:53:10.759Z - info: Rendering request 36 finished in 1240 ms
+2021-01-18T17:53:10.760Z - debug: Skipping storing report.
+2021-01-18T18:28:39.864Z - info: Starting rendering request 37 (user: null)
+2021-01-18T18:28:39.865Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T18:28:39.867Z - debug: Inline data specified.
+2021-01-18T18:28:39.868Z - debug: Resources not defined for this template.
+2021-01-18T18:28:39.870Z - debug: Base url not specified, skipping its injection.
+2021-01-18T18:28:39.877Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-18T18:28:39.880Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T18:28:40.479Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T18:28:40.481Z - debug: Executing recipe chrome-pdf
+2021-01-18T18:28:40.768Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T18:28:41.048Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/e19c1591-ecd5-43ae-963b-8870b2365402-chrome-pdf.html
+2021-01-18T18:28:41.064Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/e19c1591-ecd5-43ae-963b-8870b2365402-chrome-pdf.html
+2021-01-18T18:28:41.072Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T18:28:41.073Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T18:28:41.119Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T18:28:41.598Z - info: Rendering request 37 finished in 1735 ms
+2021-01-18T18:28:41.599Z - debug: Skipping storing report.
+2021-01-18T19:14:41.960Z - info: Starting rendering request 38 (user: null)
+2021-01-18T19:14:41.963Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T19:14:41.965Z - debug: Adding sample data 6DH1mVxEXH
+2021-01-18T19:14:41.966Z - debug: Resources not defined for this template.
+2021-01-18T19:14:41.969Z - debug: Base url not specified, skipping its injection.
+2021-01-18T19:14:41.973Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-18T19:14:41.974Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T19:14:42.215Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T19:14:42.216Z - debug: Executing recipe chrome-pdf
+2021-01-18T19:14:43.081Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T19:14:44.314Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/9aeab7c9-24ce-495f-a4d8-ff2bed6cfc6d-chrome-pdf.html
+2021-01-18T19:14:44.326Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/9aeab7c9-24ce-495f-a4d8-ff2bed6cfc6d-chrome-pdf.html
+2021-01-18T19:14:44.332Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T19:14:44.333Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T19:14:44.393Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T19:14:45.108Z - info: Rendering request 38 finished in 3149 ms
+2021-01-18T19:14:45.108Z - debug: Skipping storing report.
+2021-01-18T19:22:11.898Z - info: Starting rendering request 39 (user: null)
+2021-01-18T19:22:11.900Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T19:22:11.902Z - debug: Inline data specified.
+2021-01-18T19:22:11.902Z - debug: Resources not defined for this template.
+2021-01-18T19:22:11.904Z - debug: Base url not specified, skipping its injection.
+2021-01-18T19:22:11.908Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-18T19:22:11.909Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T19:22:12.424Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T19:22:12.426Z - debug: Executing recipe chrome-pdf
+2021-01-18T19:22:13.334Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T19:22:13.745Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/27ec9c30-9885-430c-87e7-d4a8adf0cf1b-chrome-pdf.html
+2021-01-18T19:22:13.761Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/27ec9c30-9885-430c-87e7-d4a8adf0cf1b-chrome-pdf.html
+2021-01-18T19:22:13.766Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T19:22:13.767Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T19:22:13.805Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T19:22:14.308Z - info: Rendering request 39 finished in 2410 ms
+2021-01-18T19:22:14.309Z - debug: Skipping storing report.
+2021-01-18T19:22:17.736Z - info: Starting rendering request 40 (user: null)
+2021-01-18T19:22:17.738Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-18T19:22:17.739Z - debug: Inline data specified.
+2021-01-18T19:22:17.740Z - debug: Resources not defined for this template.
+2021-01-18T19:22:17.741Z - debug: Base url not specified, skipping its injection.
+2021-01-18T19:22:17.745Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-18T19:22:17.745Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-18T19:22:17.998Z - debug: Compiled template not found in the cache, compiling
+2021-01-18T19:22:18.000Z - debug: Executing recipe chrome-pdf
+2021-01-18T19:22:18.404Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-18T19:22:18.629Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/f166234a-d0a5-442d-b2ba-5cfbe084e4ad-chrome-pdf.html
+2021-01-18T19:22:18.644Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/f166234a-d0a5-442d-b2ba-5cfbe084e4ad-chrome-pdf.html
+2021-01-18T19:22:18.649Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T19:22:18.650Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-18T19:22:18.687Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-18T19:22:19.183Z - info: Rendering request 40 finished in 1447 ms
+2021-01-18T19:22:19.184Z - debug: Skipping storing report.
+2021-01-18T19:22:30.500Z - debug: OData query on reports
+2021-01-18T19:23:21.215Z - error: Error during processing request at http://localhost:5488/api/validate-import?fullImport=false&targetFolder=KOAAQHk, details: Error: end of central directory record signature not found
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\yauzl\index.js:187:14
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\yauzl\index.js:631:5
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\fd-slicer\index.js:32:7
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:488:5)
+2021-01-18T19:23:37.450Z - error: Error during processing request at http://localhost:5488/api/validate-import?fullImport=true&targetFolder=KOAAQHk, details: Error: end of central directory record signature not found
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\yauzl\index.js:187:14
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\yauzl\index.js:631:5
+    at D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\fd-slicer\index.js:32:7
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:488:5)
+2021-01-19T18:19:26.075Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-01-19T18:19:26.079Z - info: Searching for available extensions in D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\
+2021-01-19T18:19:26.278Z - info: Extensions location cache contains up to date information, skipping crawling in D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\
+2021-01-19T18:19:26.658Z - info: Found 35 extensions
+2021-01-19T18:19:32.880Z - debug: Writing extension locations cache to C:\Users\sergi\AppData\Local\Temp\jsreport\core\locations.json
+2021-01-19T18:19:32.883Z - debug: Discovered 35 extensions
+2021-01-19T18:19:32.959Z - info: Setting dedicated-process (process based) strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2021-01-19T18:19:33.002Z - debug: Extension authentication@2.6.1 is disabled, skipping
+2021-01-19T18:19:33.003Z - info: Using extension cli@2.2.5
+2021-01-19T18:19:33.192Z - info: Using extension debug@2.1.3
+2021-01-19T18:19:33.257Z - info: Using extension express@2.8.1
+2021-01-19T18:19:38.572Z - info: Using extension freeze@2.0.0
+2021-01-19T18:19:39.551Z - info: Using extension handlebars@2.1.0
+2021-01-19T18:19:39.634Z - info: Using extension import-export@2.1.1
+2021-01-19T18:19:40.666Z - info: Using extension jsrender@2.1.1
+2021-01-19T18:19:40.682Z - info: Using extension tags@2.5.0
+2021-01-19T18:19:40.722Z - info: Using extension templates@2.4.0
+2021-01-19T18:19:40.760Z - info: Using extension authorization@2.4.0
+2021-01-19T18:19:40.787Z - debug: Extension authorization@2.4.0 was disabled
+2021-01-19T18:19:40.788Z - info: Using extension base@2.0.2
+2021-01-19T18:19:40.792Z - info: Using extension browser-client@2.2.2
+2021-01-19T18:19:40.918Z - info: Using extension child-templates@1.4.0
+2021-01-19T18:19:41.006Z - info: Using extension chrome-pdf@1.10.0
+2021-01-19T18:19:42.876Z - debug: Chrome strategy is dedicated-process
+2021-01-19T18:19:42.877Z - info: Using extension data@2.4.0
+2021-01-19T18:19:42.904Z - info: Using extension docx@2.9.0
+2021-01-19T18:19:42.968Z - info: Using extension fs-store@2.9.1
+2021-01-19T18:19:46.799Z - info: Using extension licensing@2.2.3
+2021-01-19T18:19:46.821Z - info: Using extension pdf-utils@1.10.1
+2021-01-19T18:19:49.078Z - info: Using extension pptx@0.7.0
+2021-01-19T18:19:49.109Z - info: Using extension reports@2.5.1
+2021-01-19T18:19:49.137Z - info: Using extension static-pdf@0.4.0
+2021-01-19T18:19:49.247Z - info: Using extension studio@2.10.1
+2021-01-19T18:19:51.974Z - debug: studio request logs are enabled (flush interval: 2000)
+2021-01-19T18:19:51.999Z - info: Using extension text@2.0.0
+2021-01-19T18:19:52.009Z - info: Using extension version-control@1.6.0
+2021-01-19T18:19:56.670Z - info: Using extension assets@1.7.0
+2021-01-19T18:19:56.888Z - info: Using extension html-to-xlsx@2.8.3
+2021-01-19T18:20:11.132Z - info: html-to-xlsx detected chrome as available html engine
+2021-01-19T18:20:11.133Z - info: Using extension scheduling@2.5.0
+2021-01-19T18:20:14.908Z - info: Using extension scripts@2.6.0
+2021-01-19T18:20:14.976Z - info: Using extension studio-theme-dark@0.3.0
+2021-01-19T18:20:14.988Z - info: Using extension xlsx@2.5.0
+2021-01-19T18:20:19.733Z - info: Using extension public-templates@2.2.0
+2021-01-19T18:20:19.765Z - debug: Extension public-templates@2.2.0 was disabled
+2021-01-19T18:20:19.766Z - info: Using extension resources@2.1.0
+2021-01-19T18:20:19.799Z - info: Using extension sample-template@2.6.1
+2021-01-19T18:20:19.812Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-01-19T18:20:19.814Z - info: Using fs provider for template store.
+2021-01-19T18:20:19.823Z - info: fs store is persisting using fs
+2021-01-19T18:20:19.839Z - info: fs store sync is disabled
+2021-01-19T18:20:19.841Z - info: fs store underlying changes synchronization with studio is disabled
+2021-01-19T18:20:19.866Z - info: fs store is loading data
+2021-01-19T18:20:20.298Z - info: fs store is initialized successfully
+2021-01-19T18:20:20.317Z - debug: studio default theme is: light
+2021-01-19T18:20:20.335Z - info: Creating default express app.
+2021-01-19T18:20:21.407Z - info: jsreport server successfully started on http port: 5488
+2021-01-19T18:20:21.409Z - info: Verifying license key free
+2021-01-19T18:20:21.412Z - info: Using free license
+2021-01-19T18:20:21.421Z - info: reporter initialized
+2021-01-19T18:24:37.557Z - debug: OData query on templates
+2021-01-19T18:24:37.562Z - debug: OData query on folders
+2021-01-19T18:24:37.568Z - debug: OData query on tags
+2021-01-19T18:24:37.570Z - debug: OData query on data
+2021-01-19T18:24:37.571Z - debug: OData query on assets
+2021-01-19T18:24:37.573Z - debug: OData query on scripts
+2021-01-19T18:24:37.579Z - debug: OData query on xlsxTemplates
+2021-01-19T18:24:37.582Z - debug: OData query on schedules
+2021-01-19T18:24:37.587Z - debug: OData query on settings
+2021-01-19T18:24:37.695Z - debug: OData query on templates
+2021-01-19T18:25:10.430Z - debug: OData insert into scripts
+2021-01-19T18:39:45.136Z - debug: OData update on scripts
+2021-01-19T18:39:45.178Z - debug: OData query on scripts
+2021-01-19T18:42:55.596Z - debug: OData update on scripts
+2021-01-19T18:42:55.622Z - debug: OData query on scripts
+2021-01-19T18:43:12.094Z - debug: OData update on scripts
+2021-01-19T18:43:12.126Z - debug: OData query on scripts
+2021-01-19T18:43:31.949Z - debug: OData update on scripts
+2021-01-19T18:43:31.970Z - debug: OData query on scripts
+2021-01-19T18:43:55.952Z - debug: OData update on scripts
+2021-01-19T18:43:55.980Z - debug: OData query on scripts
+2021-01-19T18:44:26.612Z - debug: OData update on scripts
+2021-01-19T18:44:26.643Z - debug: OData query on scripts
+2021-01-19T18:44:50.111Z - debug: OData update on scripts
+2021-01-19T18:44:50.139Z - debug: OData query on scripts
+2021-01-19T18:45:30.657Z - debug: OData update on scripts
+2021-01-19T18:45:30.721Z - debug: OData query on scripts
+2021-01-19T18:45:34.412Z - debug: OData update on scripts
+2021-01-19T18:45:34.435Z - debug: OData query on scripts
+2021-01-19T18:45:35.913Z - debug: OData query on data
+2021-01-19T18:46:15.483Z - debug: OData update on scripts
+2021-01-19T18:46:15.532Z - debug: OData query on scripts
+2021-01-19T18:47:04.497Z - debug: OData remove from data
+2021-01-19T18:47:08.317Z - debug: OData update on templates
+2021-01-19T18:47:08.360Z - debug: OData query on templates
+2021-01-19T18:47:16.077Z - info: Starting rendering request 1 (user: null)
+2021-01-19T18:47:16.079Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-19T18:47:16.080Z - debug: Data item not defined for this template.
+2021-01-19T18:47:16.082Z - debug: Resources not defined for this template.
+2021-01-19T18:47:16.085Z - debug: Executing script BDconnection using dedicated-process strategy
+2021-01-19T18:47:21.916Z - warn: Rendering request 1 finished with error in 5838 ms
+2021-01-19T18:47:21.927Z - warn: Error when processing render request 1 Error while executing user script. require of "mysql" module has been blocked. To be able to require custom modules you need to add to configuration { "allowLocalFilesAccess": true } or enable just specific module using { "extensions": { "scripts": { "allowedModules": ["mysql"] } }. 
+
+> 1 | const sql = require('mysql');
+    |             ^
+  2 | const config = {
+  3 |     "user": "root",
+  4 |     "password": "1234",
+
+ Error: require of "mysql" module has been blocked. To be able to require custom modules you need to add to configuration { "allowLocalFilesAccess": true } or enable just specific module using { "extensions": { "scripts": { "allowedModules": ["mysql"] } }
+    at _require (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\render\safeSandbox.js:75:19)
+    at Object.base.apply (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-user-script.js:1:13
+    at Script.runInContext (vm.js:131:20)
+    at VM.run (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\vm2\lib\main.js:219:62)
+    at run (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\render\safeSandbox.js:171:19)
+    at scriptEvalChild (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-scripts\lib\scriptEvalChild.js:210:5)
+    at scriptExecModuleWrapper (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\scriptExecModuleWrapper.js:34:26)
+    at process.<anonymous> (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\script-manager\lib\worker-processes.js:66:36)
+    at process.emit (events.js:310:20)
+2021-01-19T18:47:21.934Z - warn: Error during processing request at http://localhost:5488/api/report/Inform
+2021-01-19T18:48:07.297Z - debug: OData query on templates
+2021-01-19T18:48:07.304Z - debug: OData query on folders
+2021-01-19T18:48:07.311Z - debug: OData query on tags
+2021-01-19T18:48:07.315Z - debug: OData query on data
+2021-01-19T18:48:07.318Z - debug: OData query on assets
+2021-01-19T18:48:07.320Z - debug: OData query on scripts
+2021-01-19T18:48:07.338Z - debug: OData query on xlsxTemplates
+2021-01-19T18:48:07.345Z - debug: OData query on schedules
+2021-01-19T18:48:07.420Z - debug: OData query on settings
+2021-01-19T18:48:07.497Z - debug: OData query on scripts
+2021-01-19T18:48:11.513Z - debug: OData query on templates
+2021-01-19T18:48:12.830Z - info: Starting rendering request 2 (user: null)
+2021-01-19T18:48:12.833Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-19T18:48:12.834Z - debug: Data item not defined for this template.
+2021-01-19T18:48:12.835Z - debug: Resources not defined for this template.
+2021-01-19T18:48:12.836Z - debug: Executing script BDconnection using dedicated-process strategy
+2021-01-19T18:48:13.540Z - warn: Rendering request 2 finished with error in 711 ms
+2021-01-19T18:48:13.552Z - warn: Error when processing render request 2 Error while executing user script. require of "mysql" module has been blocked. To be able to require custom modules you need to add to configuration { "allowLocalFilesAccess": true } or enable just specific module using { "extensions": { "scripts": { "allowedModules": ["mysql"] } }. 
+
+> 1 | const sql = require('mysql');
+    |             ^
+  2 | const config = {
+  3 |     "user": "root",
+  4 |     "password": "1234",
+
+ Error: require of "mysql" module has been blocked. To be able to require custom modules you need to add to configuration { "allowLocalFilesAccess": true } or enable just specific module using { "extensions": { "scripts": { "allowedModules": ["mysql"] } }
+    at _require (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\render\safeSandbox.js:75:19)
+    at Object.base.apply (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-user-script.js:1:13
+    at Script.runInContext (vm.js:131:20)
+    at VM.run (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\vm2\lib\main.js:219:62)
+    at run (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\render\safeSandbox.js:171:19)
+    at scriptEvalChild (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-scripts\lib\scriptEvalChild.js:210:5)
+    at scriptExecModuleWrapper (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-core\lib\scriptExecModuleWrapper.js:34:26)
+    at process.<anonymous> (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\script-manager\lib\worker-processes.js:66:36)
+    at process.emit (events.js:310:20)
+2021-01-19T18:48:13.553Z - warn: Error during processing request at http://localhost:5488/api/report/Inform
+2021-01-19T18:48:33.845Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-01-19T18:48:33.849Z - info: Searching for available extensions in D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\
+2021-01-19T18:48:33.856Z - info: Extensions location cache C:\Users\sergi\AppData\Local\Temp\jsreport\core\locations.json contains older information, crawling
+2021-01-19T18:48:39.707Z - info: Found 35 extensions
+2021-01-19T18:48:39.882Z - debug: Writing extension locations cache to C:\Users\sergi\AppData\Local\Temp\jsreport\core\locations.json
+2021-01-19T18:48:39.894Z - debug: Discovered 35 extensions
+2021-01-19T18:48:39.962Z - info: Setting dedicated-process (process based) strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2021-01-19T18:48:39.973Z - debug: Extension authentication@2.6.1 is disabled, skipping
+2021-01-19T18:48:39.974Z - info: Using extension cli@2.2.5
+2021-01-19T18:48:39.978Z - info: Using extension debug@2.1.3
+2021-01-19T18:48:39.990Z - info: Using extension express@2.8.1
+2021-01-19T18:48:40.173Z - info: Using extension freeze@2.0.0
+2021-01-19T18:48:40.188Z - info: Using extension handlebars@2.1.0
+2021-01-19T18:48:40.192Z - info: Using extension import-export@2.1.1
+2021-01-19T18:48:40.249Z - info: Using extension jsrender@2.1.1
+2021-01-19T18:48:40.251Z - info: Using extension tags@2.5.0
+2021-01-19T18:48:40.255Z - info: Using extension templates@2.4.0
+2021-01-19T18:48:40.260Z - info: Using extension authorization@2.4.0
+2021-01-19T18:48:40.271Z - debug: Extension authorization@2.4.0 was disabled
+2021-01-19T18:48:40.272Z - info: Using extension base@2.0.2
+2021-01-19T18:48:40.274Z - info: Using extension browser-client@2.2.2
+2021-01-19T18:48:40.277Z - info: Using extension child-templates@1.4.0
+2021-01-19T18:48:40.288Z - info: Using extension chrome-pdf@1.10.0
+2021-01-19T18:48:40.376Z - debug: Chrome strategy is dedicated-process
+2021-01-19T18:48:40.377Z - info: Using extension data@2.4.0
+2021-01-19T18:48:40.389Z - info: Using extension docx@2.9.0
+2021-01-19T18:48:40.405Z - info: Using extension fs-store@2.9.1
+2021-01-19T18:48:40.544Z - info: Using extension licensing@2.2.3
+2021-01-19T18:48:40.559Z - info: Using extension pdf-utils@1.10.1
+2021-01-19T18:48:40.650Z - info: Using extension pptx@0.7.0
+2021-01-19T18:48:40.655Z - info: Using extension reports@2.5.1
+2021-01-19T18:48:40.659Z - info: Using extension static-pdf@0.4.0
+2021-01-19T18:48:40.672Z - info: Using extension studio@2.10.1
+2021-01-19T18:48:40.738Z - debug: studio request logs are enabled (flush interval: 2000)
+2021-01-19T18:48:40.749Z - info: Using extension text@2.0.0
+2021-01-19T18:48:40.750Z - info: Using extension version-control@1.6.0
+2021-01-19T18:48:40.851Z - info: Using extension assets@1.7.0
+2021-01-19T18:48:40.862Z - info: Using extension html-to-xlsx@2.8.3
+2021-01-19T18:48:41.286Z - info: html-to-xlsx detected chrome as available html engine
+2021-01-19T18:48:41.287Z - info: Using extension scheduling@2.5.0
+2021-01-19T18:48:41.349Z - info: Using extension scripts@2.6.0
+2021-01-19T18:48:41.355Z - info: Using extension studio-theme-dark@0.3.0
+2021-01-19T18:48:41.358Z - info: Using extension xlsx@2.5.0
+2021-01-19T18:48:41.625Z - info: Using extension public-templates@2.2.0
+2021-01-19T18:48:41.645Z - debug: Extension public-templates@2.2.0 was disabled
+2021-01-19T18:48:41.647Z - info: Using extension resources@2.1.0
+2021-01-19T18:48:41.650Z - info: Using extension sample-template@2.6.1
+2021-01-19T18:48:41.656Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-01-19T18:48:41.657Z - info: Using fs provider for template store.
+2021-01-19T18:48:41.683Z - info: fs store is persisting using fs
+2021-01-19T18:48:41.686Z - info: fs store sync is disabled
+2021-01-19T18:48:41.689Z - info: fs store underlying changes synchronization with studio is disabled
+2021-01-19T18:48:41.714Z - info: fs store is loading data
+2021-01-19T18:48:41.760Z - info: fs store is initialized successfully
+2021-01-19T18:48:41.770Z - debug: studio default theme is: light
+2021-01-19T18:48:41.788Z - info: Creating default express app.
+2021-01-19T18:48:41.816Z - info: jsreport server successfully started on http port: 5488
+2021-01-19T18:48:41.818Z - info: Verifying license key free
+2021-01-19T18:48:41.819Z - info: Using free license
+2021-01-19T18:48:41.829Z - info: reporter initialized
+2021-01-19T18:49:03.486Z - debug: OData query on templates
+2021-01-19T18:49:03.491Z - debug: OData query on folders
+2021-01-19T18:49:03.498Z - debug: OData query on tags
+2021-01-19T18:49:03.499Z - debug: OData query on data
+2021-01-19T18:49:03.502Z - debug: OData query on assets
+2021-01-19T18:49:03.506Z - debug: OData query on scripts
+2021-01-19T18:49:03.558Z - debug: OData query on xlsxTemplates
+2021-01-19T18:49:03.562Z - debug: OData query on schedules
+2021-01-19T18:49:03.568Z - debug: OData query on settings
+2021-01-19T18:49:03.718Z - debug: OData query on templates
+2021-01-19T18:49:07.105Z - info: Starting rendering request 1 (user: null)
+2021-01-19T18:49:07.107Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-19T18:49:07.109Z - debug: Data item not defined for this template.
+2021-01-19T18:49:07.109Z - debug: Resources not defined for this template.
+2021-01-19T18:49:07.113Z - debug: Executing script BDconnection using dedicated-process strategy
+2021-01-19T18:49:07.836Z - warn: Rendering request 1 finished with error in 730 ms
+2021-01-19T18:49:07.843Z - warn: Error when processing render request 1 ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Protocol._enqueue (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\mysql\lib\Connection.js:116:18)
+    at Object.base.apply (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\vm2\lib/contextify.js:469:32)
+    at Object.beforeRender (evaluate-user-script.js:13:9)
+    at Object.__runBefore (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\jsreport-scripts\lib\scriptEvalChild.js:151:26)
+    at Object.base.apply (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-user-script.js:30:1
+    at Script.runInContext (vm.js:131:20)
+    at VM.run (D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\node_modules\vm2\lib\main.js:219:62)
+2021-01-19T18:49:07.845Z - warn: Error during processing request at http://localhost:5488/api/report/Inform
+2021-01-19T18:50:12.514Z - info: Starting rendering request 2 (user: null)
+2021-01-19T18:50:12.516Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-19T18:50:12.517Z - debug: Data item not defined for this template.
+2021-01-19T18:50:12.518Z - debug: Resources not defined for this template.
+2021-01-19T18:50:12.519Z - debug: Executing script BDconnection using dedicated-process strategy
+2021-01-19T18:50:13.135Z - debug: Base url not specified, skipping its injection.
+2021-01-19T18:50:13.144Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-19T18:50:13.146Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-19T18:50:14.516Z - debug: Compiled template not found in the cache, compiling
+2021-01-19T18:50:14.522Z - debug: Executing recipe chrome-pdf
+2021-01-19T18:50:16.808Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-19T18:50:18.978Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/1fc5b349-a000-4406-a5b9-a860c9815e82-chrome-pdf.html
+2021-01-19T18:50:19.064Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/1fc5b349-a000-4406-a5b9-a860c9815e82-chrome-pdf.html
+2021-01-19T18:50:19.248Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-19T18:50:19.251Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-19T18:50:19.531Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-19T18:50:20.706Z - info: Rendering request 2 finished in 8193 ms
+2021-01-19T18:50:20.707Z - debug: Skipping storing report.
+2021-01-19T18:50:47.002Z - debug: OData update on templates
+2021-01-19T18:50:47.025Z - debug: OData query on templates
+2021-01-19T18:50:49.092Z - info: Starting rendering request 3 (user: null)
+2021-01-19T18:50:49.093Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-19T18:50:49.095Z - debug: Data item not defined for this template.
+2021-01-19T18:50:49.096Z - debug: Resources not defined for this template.
+2021-01-19T18:50:49.098Z - debug: Executing script BDconnection using dedicated-process strategy
+2021-01-19T18:50:49.677Z - debug: Base url not specified, skipping its injection.
+2021-01-19T18:50:49.681Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-19T18:50:49.682Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-19T18:50:49.950Z - debug: Compiled template not found in the cache, compiling
+2021-01-19T18:50:49.952Z - debug: Executing recipe chrome-pdf
+2021-01-19T18:50:50.242Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-19T18:50:50.750Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/bceeeb95-3714-4b68-ab03-ec1bad493917-chrome-pdf.html
+2021-01-19T18:50:50.767Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/bceeeb95-3714-4b68-ab03-ec1bad493917-chrome-pdf.html
+2021-01-19T18:50:50.773Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-19T18:50:50.774Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-19T18:50:50.805Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-19T18:50:51.246Z - info: Rendering request 3 finished in 2154 ms
+2021-01-19T18:50:51.247Z - debug: Skipping storing report.
+2021-01-19T18:51:07.330Z - debug: OData update on templates
+2021-01-19T18:51:07.352Z - debug: OData query on templates
+2021-01-19T18:51:09.317Z - info: Starting rendering request 4 (user: null)
+2021-01-19T18:51:09.320Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-19T18:51:09.322Z - debug: Data item not defined for this template.
+2021-01-19T18:51:09.323Z - debug: Resources not defined for this template.
+2021-01-19T18:51:09.326Z - debug: Executing script BDconnection using dedicated-process strategy
+2021-01-19T18:51:10.015Z - debug: Base url not specified, skipping its injection.
+2021-01-19T18:51:10.024Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-19T18:51:10.025Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-19T18:51:10.473Z - debug: Compiled template not found in the cache, compiling
+2021-01-19T18:51:10.476Z - debug: Executing recipe chrome-pdf
+2021-01-19T18:51:10.741Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-19T18:51:11.012Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/0eba69de-91a3-42fb-93b0-3a793869d60c-chrome-pdf.html
+2021-01-19T18:51:11.025Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/0eba69de-91a3-42fb-93b0-3a793869d60c-chrome-pdf.html
+2021-01-19T18:51:11.032Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-19T18:51:11.033Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-19T18:51:11.073Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-19T18:51:11.517Z - info: Rendering request 4 finished in 2200 ms
+2021-01-19T18:51:11.518Z - debug: Skipping storing report.
+2021-01-19T18:54:57.965Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-01-19T18:54:57.968Z - info: Searching for available extensions in D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\
+2021-01-19T18:54:57.980Z - info: Extensions location cache contains up to date information, skipping crawling in D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\
+2021-01-19T18:54:58.006Z - info: Found 35 extensions
+2021-01-19T18:54:58.468Z - debug: Writing extension locations cache to C:\Users\sergi\AppData\Local\Temp\jsreport\core\locations.json
+2021-01-19T18:54:58.497Z - debug: Discovered 35 extensions
+2021-01-19T18:54:58.581Z - info: Setting dedicated-process (process based) strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2021-01-19T18:54:58.591Z - debug: Extension authentication@2.6.1 is disabled, skipping
+2021-01-19T18:54:58.592Z - info: Using extension cli@2.2.5
+2021-01-19T18:54:58.600Z - info: Using extension debug@2.1.3
+2021-01-19T18:54:58.604Z - info: Using extension express@2.8.1
+2021-01-19T18:54:58.865Z - info: Using extension freeze@2.0.0
+2021-01-19T18:54:58.869Z - info: Using extension handlebars@2.1.0
+2021-01-19T18:54:58.875Z - info: Using extension import-export@2.1.1
+2021-01-19T18:54:58.955Z - info: Using extension jsrender@2.1.1
+2021-01-19T18:54:58.957Z - info: Using extension tags@2.5.0
+2021-01-19T18:54:58.965Z - info: Using extension templates@2.4.0
+2021-01-19T18:54:58.978Z - info: Using extension authorization@2.4.0
+2021-01-19T18:54:58.987Z - debug: Extension authorization@2.4.0 was disabled
+2021-01-19T18:54:58.988Z - info: Using extension base@2.0.2
+2021-01-19T18:54:58.994Z - info: Using extension browser-client@2.2.2
+2021-01-19T18:54:58.999Z - info: Using extension child-templates@1.4.0
+2021-01-19T18:54:59.007Z - info: Using extension chrome-pdf@1.10.0
+2021-01-19T18:54:59.113Z - debug: Chrome strategy is dedicated-process
+2021-01-19T18:54:59.114Z - info: Using extension data@2.4.0
+2021-01-19T18:54:59.116Z - info: Using extension docx@2.9.0
+2021-01-19T18:54:59.121Z - info: Using extension fs-store@2.9.1
+2021-01-19T18:54:59.308Z - info: Using extension licensing@2.2.3
+2021-01-19T18:54:59.322Z - info: Using extension pdf-utils@1.10.1
+2021-01-19T18:54:59.450Z - info: Using extension pptx@0.7.0
+2021-01-19T18:54:59.456Z - info: Using extension reports@2.5.1
+2021-01-19T18:54:59.462Z - info: Using extension static-pdf@0.4.0
+2021-01-19T18:54:59.470Z - info: Using extension studio@2.10.1
+2021-01-19T18:54:59.535Z - debug: studio request logs are enabled (flush interval: 2000)
+2021-01-19T18:54:59.538Z - info: Using extension text@2.0.0
+2021-01-19T18:54:59.539Z - info: Using extension version-control@1.6.0
+2021-01-19T18:54:59.716Z - info: Using extension assets@1.7.0
+2021-01-19T18:54:59.724Z - info: Using extension html-to-xlsx@2.8.3
+2021-01-19T18:55:00.117Z - info: html-to-xlsx detected chrome as available html engine
+2021-01-19T18:55:00.118Z - info: Using extension scheduling@2.5.0
+2021-01-19T18:55:00.179Z - info: Using extension scripts@2.6.0
+2021-01-19T18:55:00.184Z - info: Using extension studio-theme-dark@0.3.0
+2021-01-19T18:55:00.185Z - info: Using extension xlsx@2.5.0
+2021-01-19T18:55:00.442Z - info: Using extension public-templates@2.2.0
+2021-01-19T18:55:00.447Z - debug: Extension public-templates@2.2.0 was disabled
+2021-01-19T18:55:00.449Z - info: Using extension resources@2.1.0
+2021-01-19T18:55:00.454Z - info: Using extension sample-template@2.6.1
+2021-01-19T18:55:00.458Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-01-19T18:55:00.462Z - info: Using fs provider for template store.
+2021-01-19T18:55:00.478Z - info: fs store is persisting using fs
+2021-01-19T18:55:00.482Z - info: fs store sync is disabled
+2021-01-19T18:55:00.485Z - info: fs store underlying changes synchronization with studio is disabled
+2021-01-19T18:55:00.496Z - info: fs store is loading data
+2021-01-19T18:55:00.589Z - info: fs store is initialized successfully
+2021-01-19T18:55:00.608Z - debug: studio default theme is: light
+2021-01-19T18:55:00.622Z - info: Creating default express app.
+2021-01-19T18:55:00.664Z - info: jsreport server successfully started on http port: 5488
+2021-01-19T18:55:00.678Z - info: Verifying license key free
+2021-01-19T18:55:00.690Z - info: Using free license
+2021-01-19T18:55:00.718Z - info: reporter initialized
+2021-01-19T19:00:22.828Z - debug: OData query on templates
+2021-01-19T19:00:22.836Z - debug: OData query on folders
+2021-01-19T19:00:22.845Z - debug: OData query on tags
+2021-01-19T19:00:22.848Z - debug: OData query on data
+2021-01-19T19:00:22.852Z - debug: OData query on assets
+2021-01-19T19:00:22.855Z - debug: OData query on scripts
+2021-01-19T19:00:22.864Z - debug: OData query on xlsxTemplates
+2021-01-19T19:00:22.871Z - debug: OData query on schedules
+2021-01-19T19:00:22.886Z - debug: OData query on settings
+2021-01-19T19:00:23.155Z - debug: OData query on templates
+2021-01-19T19:00:23.314Z - debug: OData query on settings
+2021-01-19T19:00:40.440Z - debug: OData query on templates
+2021-01-19T19:00:43.201Z - info: Starting rendering request 1 (user: null)
+2021-01-19T19:00:43.204Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-19T19:00:43.207Z - debug: Adding sample data Sy5S19ncg
+2021-01-19T19:00:43.208Z - debug: Resources not defined for this template.
+2021-01-19T19:00:43.213Z - debug: Base url not specified, skipping its injection.
+2021-01-19T19:00:43.223Z - debug: Replaced assets ["invoice-styles.css","invoice-logo.png"]
+2021-01-19T19:00:43.225Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-19T19:00:45.518Z - debug: Compiled template not found in the cache, compiling
+2021-01-19T19:00:45.519Z - debug: Calculating item Website design; you should see this message in debug run
+2021-01-19T19:00:45.523Z - debug: Executing recipe chrome-pdf
+2021-01-19T19:00:47.136Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-19T19:00:50.036Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/171a1fc5-dd89-496b-89da-37eeeda5cc78-chrome-pdf.html
+2021-01-19T19:00:50.220Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/171a1fc5-dd89-496b-89da-37eeeda5cc78-chrome-pdf.html
+2021-01-19T19:00:50.381Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-19T19:00:50.382Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-19T19:00:50.684Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2021-01-19T19:00:51.434Z - info: Rendering request 1 finished in 8233 ms
+2021-01-19T19:00:51.435Z - debug: Skipping storing report.
+2021-01-19T19:01:20.550Z - debug: OData query on scripts
+2021-01-19T19:04:07.712Z - info: Starting rendering request 2 (user: null)
+2021-01-19T19:04:07.715Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-19T19:04:07.716Z - debug: Data item not defined for this template.
+2021-01-19T19:04:07.717Z - debug: Resources not defined for this template.
+2021-01-19T19:04:07.722Z - debug: Executing script BDconnection using dedicated-process strategy
+2021-01-19T19:04:12.384Z - debug: Base url not specified, skipping its injection.
+2021-01-19T19:04:12.395Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-19T19:04:12.396Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-19T19:04:12.702Z - debug: Compiled template not found in the cache, compiling
+2021-01-19T19:04:12.704Z - debug: Executing recipe chrome-pdf
+2021-01-19T19:04:13.260Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-19T19:04:13.695Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/bf4feee7-36eb-4988-ba52-43109c185f1e-chrome-pdf.html
+2021-01-19T19:04:13.711Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/bf4feee7-36eb-4988-ba52-43109c185f1e-chrome-pdf.html
+2021-01-19T19:04:13.717Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-19T19:04:13.718Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-19T19:04:13.807Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-19T19:04:14.438Z - info: Rendering request 2 finished in 6726 ms
+2021-01-19T19:04:14.440Z - debug: Skipping storing report.
+2021-01-19T19:11:48.083Z - info: Starting rendering request 3 (user: null)
+2021-01-19T19:11:48.084Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-19T19:11:48.085Z - debug: Data item not defined for this template.
+2021-01-19T19:11:48.087Z - debug: Resources not defined for this template.
+2021-01-19T19:11:48.088Z - debug: Executing script BDconnection using dedicated-process strategy
+2021-01-19T19:11:48.802Z - debug: Base url not specified, skipping its injection.
+2021-01-19T19:11:48.807Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-19T19:11:48.809Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-19T19:11:49.124Z - debug: Compiled template not found in the cache, compiling
+2021-01-19T19:11:49.126Z - debug: Executing recipe chrome-pdf
+2021-01-19T19:11:50.539Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-19T19:11:51.138Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/45d28550-1391-4ac2-9c88-cc5e831ba756-chrome-pdf.html
+2021-01-19T19:11:51.149Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/45d28550-1391-4ac2-9c88-cc5e831ba756-chrome-pdf.html
+2021-01-19T19:11:51.156Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-19T19:11:51.158Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-19T19:11:51.198Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-19T19:11:51.688Z - info: Rendering request 3 finished in 3605 ms
+2021-01-19T19:11:51.689Z - debug: Skipping storing report.
+2021-01-19T19:12:58.725Z - info: Starting rendering request 4 (user: null)
+2021-01-19T19:12:58.728Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-19T19:12:58.729Z - debug: Data item not defined for this template.
+2021-01-19T19:12:58.730Z - debug: Resources not defined for this template.
+2021-01-19T19:12:58.734Z - debug: Executing script BDconnection using dedicated-process strategy
+2021-01-19T19:12:59.647Z - debug: Base url not specified, skipping its injection.
+2021-01-19T19:12:59.662Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-19T19:12:59.665Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-19T19:13:00.091Z - debug: Compiled template not found in the cache, compiling
+2021-01-19T19:13:00.095Z - debug: Executing recipe chrome-pdf
+2021-01-19T19:13:00.414Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-19T19:13:00.865Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/1897344a-35ec-4e60-a22e-2352cee7e35c-chrome-pdf.html
+2021-01-19T19:13:00.895Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/1897344a-35ec-4e60-a22e-2352cee7e35c-chrome-pdf.html
+2021-01-19T19:13:00.905Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-19T19:13:00.909Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-19T19:13:00.971Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-19T19:13:01.639Z - info: Rendering request 4 finished in 2913 ms
+2021-01-19T19:13:01.640Z - debug: Skipping storing report.
+2021-01-19T19:14:41.471Z - info: Starting rendering request 5 (user: null)
+2021-01-19T19:14:41.473Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-19T19:14:41.475Z - debug: Data item not defined for this template.
+2021-01-19T19:14:41.475Z - debug: Resources not defined for this template.
+2021-01-19T19:14:41.476Z - debug: Executing script BDconnection using dedicated-process strategy
+2021-01-19T19:14:42.186Z - debug: Base url not specified, skipping its injection.
+2021-01-19T19:14:42.189Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-19T19:14:42.190Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-19T19:14:42.546Z - debug: Compiled template not found in the cache, compiling
+2021-01-19T19:14:42.548Z - debug: Executing recipe chrome-pdf
+2021-01-19T19:14:42.848Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-19T19:14:43.270Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/0b6a7a47-a91a-4d60-8827-df7f350c3135-chrome-pdf.html
+2021-01-19T19:14:43.289Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/0b6a7a47-a91a-4d60-8827-df7f350c3135-chrome-pdf.html
+2021-01-19T19:14:43.298Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-19T19:14:43.299Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-19T19:14:43.338Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-19T19:14:43.880Z - info: Rendering request 5 finished in 2409 ms
+2021-01-19T19:14:43.881Z - debug: Skipping storing report.
+2021-01-19T19:17:15.990Z - debug: OData query on templates
+2021-01-19T19:18:04.151Z - debug: OData query on assets
+2021-01-19T19:18:19.663Z - debug: OData query on assets
+2021-01-19T19:18:45.286Z - info: Starting rendering request 6 (user: null)
+2021-01-19T19:18:45.288Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-19T19:18:45.290Z - debug: Data item not defined for this template.
+2021-01-19T19:18:45.291Z - debug: Resources not defined for this template.
+2021-01-19T19:18:45.292Z - debug: Executing script BDconnection using dedicated-process strategy
+2021-01-19T19:18:46.042Z - debug: Base url not specified, skipping its injection.
+2021-01-19T19:18:46.048Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-19T19:18:46.050Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-19T19:18:46.365Z - debug: Compiled template not found in the cache, compiling
+2021-01-19T19:18:46.369Z - debug: Executing recipe chrome-pdf
+2021-01-19T19:18:46.735Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-19T19:18:47.043Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/24548b1e-64e6-4eb0-aefe-84c13ed33233-chrome-pdf.html
+2021-01-19T19:18:47.069Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/24548b1e-64e6-4eb0-aefe-84c13ed33233-chrome-pdf.html
+2021-01-19T19:18:47.076Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-19T19:18:47.079Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-19T19:18:47.142Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-19T19:18:47.860Z - info: Rendering request 6 finished in 2573 ms
+2021-01-19T19:18:47.861Z - debug: Skipping storing report.
+2021-01-19T19:22:37.936Z - info: Starting rendering request 7 (user: null)
+2021-01-19T19:22:37.939Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-19T19:22:37.943Z - debug: Data item not defined for this template.
+2021-01-19T19:22:37.945Z - debug: Resources not defined for this template.
+2021-01-19T19:22:37.949Z - debug: Executing script BDconnection using dedicated-process strategy
+2021-01-19T19:22:38.816Z - debug: Base url not specified, skipping its injection.
+2021-01-19T19:22:38.822Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-19T19:22:38.823Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-19T19:22:39.153Z - debug: Compiled template not found in the cache, compiling
+2021-01-19T19:22:39.157Z - debug: Executing recipe chrome-pdf
+2021-01-19T19:22:39.470Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-19T19:22:39.732Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/2ec084c8-2c84-4ddc-82be-77972e48eef4-chrome-pdf.html
+2021-01-19T19:22:39.745Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/2ec084c8-2c84-4ddc-82be-77972e48eef4-chrome-pdf.html
+2021-01-19T19:22:39.749Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-19T19:22:39.751Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-19T19:22:39.790Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-19T19:22:40.321Z - info: Rendering request 7 finished in 2385 ms
+2021-01-19T19:22:40.322Z - debug: Skipping storing report.
+2021-01-19T19:45:27.172Z - info: Starting rendering request 8 (user: null)
+2021-01-19T19:45:27.175Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-19T19:45:27.177Z - debug: Data item not defined for this template.
+2021-01-19T19:45:27.178Z - debug: Resources not defined for this template.
+2021-01-19T19:45:27.179Z - debug: Executing script BDconnection using dedicated-process strategy
+2021-01-19T19:45:28.291Z - debug: Base url not specified, skipping its injection.
+2021-01-19T19:45:28.299Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-19T19:45:28.302Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-19T19:45:28.757Z - debug: Compiled template not found in the cache, compiling
+2021-01-19T19:45:28.760Z - debug: Executing recipe chrome-pdf
+2021-01-19T19:45:29.209Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-19T19:45:29.504Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/3bab6185-de32-43c8-8c14-392f7f2a0e15-chrome-pdf.html
+2021-01-19T19:45:29.523Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/3bab6185-de32-43c8-8c14-392f7f2a0e15-chrome-pdf.html
+2021-01-19T19:45:29.529Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-19T19:45:29.533Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-19T19:45:29.576Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-19T19:45:30.151Z - info: Rendering request 8 finished in 2981 ms
+2021-01-19T19:45:30.152Z - debug: Skipping storing report.
+2021-01-19T20:40:34.883Z - debug: OData query on templates
+2021-01-19T20:40:34.887Z - debug: OData query on folders
+2021-01-19T20:40:34.892Z - debug: OData query on tags
+2021-01-19T20:40:34.893Z - debug: OData query on data
+2021-01-19T20:40:34.895Z - debug: OData query on assets
+2021-01-19T20:40:34.897Z - debug: OData query on scripts
+2021-01-19T20:40:34.907Z - debug: OData query on xlsxTemplates
+2021-01-19T20:40:34.917Z - debug: OData query on schedules
+2021-01-19T20:40:34.922Z - debug: OData query on settings
+2021-01-19T20:40:35.036Z - debug: OData query on templates
+2021-01-19T20:40:39.241Z - info: Starting rendering request 9 (user: null)
+2021-01-19T20:40:39.275Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-19T20:40:39.278Z - debug: Data item not defined for this template.
+2021-01-19T20:40:39.281Z - debug: Resources not defined for this template.
+2021-01-19T20:40:39.320Z - debug: Executing script BDconnection using dedicated-process strategy
+2021-01-19T20:40:46.823Z - debug: Base url not specified, skipping its injection.
+2021-01-19T20:40:46.838Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-19T20:40:46.840Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-19T20:40:48.601Z - debug: Compiled template not found in the cache, compiling
+2021-01-19T20:40:48.604Z - debug: Executing recipe chrome-pdf
+2021-01-19T20:40:50.365Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-19T20:40:52.096Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/dc7dd2cd-e92e-4121-980f-a8d7d2986f9a-chrome-pdf.html
+2021-01-19T20:40:52.130Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/dc7dd2cd-e92e-4121-980f-a8d7d2986f9a-chrome-pdf.html
+2021-01-19T20:40:52.179Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-19T20:40:52.183Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-19T20:40:52.325Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-19T20:40:52.800Z - info: Rendering request 9 finished in 13560 ms
+2021-01-19T20:40:52.801Z - debug: Skipping storing report.
+2021-01-19T20:41:19.887Z - info: Starting rendering request 10 (user: null)
+2021-01-19T20:41:19.888Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-19T20:41:19.899Z - debug: Data item not defined for this template.
+2021-01-19T20:41:19.901Z - debug: Resources not defined for this template.
+2021-01-19T20:41:19.902Z - debug: Executing script BDconnection using dedicated-process strategy
+2021-01-19T20:41:20.623Z - debug: Base url not specified, skipping its injection.
+2021-01-19T20:41:20.641Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-19T20:41:20.642Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-19T20:41:20.956Z - debug: Compiled template not found in the cache, compiling
+2021-01-19T20:41:20.958Z - debug: Executing recipe chrome-pdf
+2021-01-19T20:41:21.163Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-19T20:41:21.423Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/6912b851-d59b-49b0-b6f3-e01e0605647a-chrome-pdf.html
+2021-01-19T20:41:21.444Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/6912b851-d59b-49b0-b6f3-e01e0605647a-chrome-pdf.html
+2021-01-19T20:41:21.446Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-19T20:41:21.448Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-19T20:41:21.491Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-19T20:41:21.997Z - info: Rendering request 10 finished in 2111 ms
+2021-01-19T20:41:21.998Z - debug: Skipping storing report.
+2021-01-19T20:41:54.974Z - info: Starting rendering request 11 (user: null)
+2021-01-19T20:41:54.975Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-19T20:41:54.996Z - debug: Data item not defined for this template.
+2021-01-19T20:41:55.001Z - debug: Resources not defined for this template.
+2021-01-19T20:41:55.034Z - debug: Executing script BDconnection using dedicated-process strategy
+2021-01-19T20:41:55.498Z - debug: Base url not specified, skipping its injection.
+2021-01-19T20:41:55.574Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-19T20:41:55.575Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-19T20:41:55.805Z - debug: Compiled template not found in the cache, compiling
+2021-01-19T20:41:55.806Z - debug: Executing recipe chrome-pdf
+2021-01-19T20:41:55.953Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-19T20:41:56.122Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/67e8c522-7ab6-4c2c-a8d8-1af93784a5ff-chrome-pdf.html
+2021-01-19T20:41:56.142Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/67e8c522-7ab6-4c2c-a8d8-1af93784a5ff-chrome-pdf.html
+2021-01-19T20:41:56.143Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-19T20:41:56.154Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-19T20:41:56.180Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-19T20:41:56.707Z - info: Rendering request 11 finished in 1733 ms
+2021-01-19T20:41:56.708Z - debug: Skipping storing report.
+2021-01-19T20:42:10.629Z - debug: OData query on scripts
+2021-01-19T20:45:06.329Z - debug: OData query on assets
+2021-01-19T20:45:09.310Z - debug: OData query on assets
+2021-01-29T17:18:44.746Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-01-29T17:18:44.749Z - info: Searching for available extensions in D:\2-DAM\PGL-PGV\Health\Backend\app\jsreportapp\
+2021-01-29T17:18:44.755Z - info: Extensions location cache not found, crawling directories
+2021-01-29T17:19:03.981Z - info: Found 35 extensions
+2021-01-29T17:19:09.615Z - debug: Writing extension locations cache to C:\Users\sergi\AppData\Local\Temp\jsreport\core\locations.json
+2021-01-29T17:19:09.618Z - debug: Discovered 35 extensions
+2021-01-29T17:19:09.706Z - info: Setting dedicated-process (process based) strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2021-01-29T17:19:09.728Z - debug: Extension authentication@2.6.1 is disabled, skipping
+2021-01-29T17:19:09.729Z - info: Using extension cli@2.2.5
+2021-01-29T17:19:09.752Z - info: Using extension debug@2.1.3
+2021-01-29T17:19:09.770Z - info: Using extension express@2.8.1
+2021-01-29T17:19:11.471Z - info: Using extension freeze@2.0.0
+2021-01-29T17:19:11.484Z - info: Using extension handlebars@2.1.0
+2021-01-29T17:19:11.498Z - info: Using extension import-export@2.1.1
+2021-01-29T17:19:14.136Z - info: Using extension jsrender@2.1.1
+2021-01-29T17:19:14.139Z - info: Using extension tags@2.5.0
+2021-01-29T17:19:14.143Z - info: Using extension templates@2.4.0
+2021-01-29T17:19:14.209Z - info: Using extension authorization@2.4.0
+2021-01-29T17:19:14.825Z - debug: Extension authorization@2.4.0 was disabled
+2021-01-29T17:19:14.827Z - info: Using extension base@2.0.2
+2021-01-29T17:19:14.843Z - info: Using extension browser-client@2.2.2
+2021-01-29T17:19:14.861Z - info: Using extension child-templates@1.4.0
+2021-01-29T17:19:14.899Z - info: Using extension chrome-pdf@1.10.0
+2021-01-29T17:19:15.569Z - debug: Chrome strategy is dedicated-process
+2021-01-29T17:19:15.570Z - info: Using extension data@2.4.0
+2021-01-29T17:19:15.575Z - info: Using extension docx@2.9.0
+2021-01-29T17:19:15.600Z - info: Using extension fs-store@2.9.1
+2021-01-29T17:19:16.519Z - info: Using extension licensing@2.2.3
+2021-01-29T17:19:16.551Z - info: Using extension pdf-utils@1.10.1
+2021-01-29T17:19:17.323Z - info: Using extension pptx@0.7.0
+2021-01-29T17:19:17.351Z - info: Using extension reports@2.5.1
+2021-01-29T17:19:17.388Z - info: Using extension static-pdf@0.4.0
+2021-01-29T17:19:17.448Z - info: Using extension studio@2.10.1
+2021-01-29T17:19:17.757Z - debug: studio request logs are enabled (flush interval: 2000)
+2021-01-29T17:19:17.760Z - info: Using extension text@2.0.0
+2021-01-29T17:19:17.769Z - info: Using extension version-control@1.6.0
+2021-01-29T17:19:18.602Z - info: Using extension assets@1.7.0
+2021-01-29T17:19:18.657Z - info: Using extension html-to-xlsx@2.8.3
+2021-01-29T17:19:21.555Z - info: html-to-xlsx detected chrome as available html engine
+2021-01-29T17:19:21.556Z - info: Using extension scheduling@2.5.0
+2021-01-29T17:19:23.370Z - info: Using extension scripts@2.6.0
+2021-01-29T17:19:23.463Z - info: Using extension studio-theme-dark@0.3.0
+2021-01-29T17:19:23.536Z - info: Using extension xlsx@2.5.0
+2021-01-29T17:19:26.190Z - info: Using extension public-templates@2.2.0
+2021-01-29T17:19:26.196Z - debug: Extension public-templates@2.2.0 was disabled
+2021-01-29T17:19:26.197Z - info: Using extension resources@2.1.0
+2021-01-29T17:19:26.216Z - info: Using extension sample-template@2.6.1
+2021-01-29T17:19:26.244Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-01-29T17:19:26.247Z - info: Using fs provider for template store.
+2021-01-29T17:19:26.272Z - info: fs store is persisting using fs
+2021-01-29T17:19:26.277Z - info: fs store sync is disabled
+2021-01-29T17:19:26.280Z - info: fs store underlying changes synchronization with studio is disabled
+2021-01-29T17:19:26.286Z - info: fs store is loading data
+2021-01-29T17:19:26.439Z - info: fs store is initialized successfully
+2021-01-29T17:19:26.469Z - debug: studio default theme is: light
+2021-01-29T17:19:26.483Z - info: Creating default express app.
+2021-01-29T17:19:26.729Z - info: jsreport server successfully started on http port: 5488
+2021-01-29T17:19:26.732Z - info: Verifying license key free
+2021-01-29T17:19:26.733Z - info: Using free license
+2021-01-29T17:19:26.740Z - info: reporter initialized
+2021-01-29T17:28:36.436Z - info: Starting rendering request 1 (user: null)
+2021-01-29T17:28:36.440Z - info: Rendering template { name: Inform, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-29T17:28:36.442Z - debug: Data item not defined for this template.
+2021-01-29T17:28:36.443Z - debug: Resources not defined for this template.
+2021-01-29T17:28:36.445Z - debug: Executing script BDconnection using dedicated-process strategy
+2021-01-29T17:28:40.403Z - debug: Base url not specified, skipping its injection.
+2021-01-29T17:28:40.416Z - debug: Replaced assets ["rincon.png","invoice-styles.css"]
+2021-01-29T17:28:40.418Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-29T17:28:41.399Z - debug: Compiled template not found in the cache, compiling
+2021-01-29T17:28:41.401Z - debug: Executing recipe chrome-pdf
+2021-01-29T17:28:43.044Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-29T17:28:47.133Z - debug: Page request: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/9414d4a3-9441-42d9-9450-f7cccc3d95ca-chrome-pdf.html
+2021-01-29T17:28:47.252Z - debug: Page request finished: GET (document) file:///C:/Users/sergi/AppData/Local/Temp/jsreport/autocleanup/9414d4a3-9441-42d9-9450-f7cccc3d95ca-chrome-pdf.html
+2021-01-29T17:28:47.293Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-29T17:28:47.296Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAB3VBMVEUcQoD7/P0dQ4AeRIH9/v4fRY...
+2021-01-29T17:28:47.600Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2021-01-29T17:28:48.414Z - info: Rendering request 1 finished in 11978 ms
+2021-01-29T17:28:48.415Z - debug: Skipping storing report.

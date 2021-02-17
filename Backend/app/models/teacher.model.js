@@ -1,5 +1,5 @@
 module.exports = (sequelize, Sequelize) => {
-    const Teacher = sequelize.define("teacher", {
+    const Teacher = sequelize.define("teachers", {
       password: {
         type: Sequelize.STRING
       },
@@ -12,15 +12,14 @@ module.exports = (sequelize, Sequelize) => {
       // isAdmin: {
       //   type: Sequelize.BOOLEAN
       // }
-    });
+    }, { timestamps: false });
 
-    // Teacher.associate = function(models) {
-    //   Teacher.belongsToMany(models.teachers, {
-    //       through: "teacherSchool",
-    //       foreignKey: "id_Teacher",
-    //       as: "teacher"
-    //     });
-    // }
+    Teacher.associate = function (models) {
+      Teacher.hasOne(models.teacher_schools, {
+        through: "teacher_schools",
+        foreignKey: "id_Teacher",
+      });
+    }
   
     return Teacher;
   };
