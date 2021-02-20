@@ -9,6 +9,26 @@
 
 <ion-content>
   <form [formGroup]="DatosForm" (ngSubmit)="onFormSubmit()">
+
+    <!-- <ion-item>
+      <ion-label>School</ion-label>
+      <ion-select *ngFor="let s of schools" formControlName="id" placeholder="Select One" >
+        <ion-select-option value="s.id">{{s.name}}</ion-select-option>
+        <div id="schools"></div>
+        <ion-select-option value="2">IES Felo Monzón</ion-select-option>
+      </ion-select>
+    </ion-item> -->
+
+    <!-- <ion-item>
+      <ion-label>Course</ion-label>
+      <ion-select [disabled]="form.invalid" formControlName="name" placeholder="Select One">
+        <ion-select-option value="1DAM">1 DAM</ion-select-option>
+        <ion-select-option value="2DAM">2 DAM</ion-select-option>
+        <ion-select-option value="1DAMT">1 DAMT</ion-select-option>
+        <ion-select-option value="2DAMT">2 DAMT</ion-select-option>
+      </ion-select>
+    </ion-item> -->
+
     <ion-item>
       <ion-label position="floating">Metabolic Age</ion-label>
       <ion-input formControlName="metabolic_age" type="number" required></ion-input>
@@ -66,7 +86,7 @@
       <!-- <ion-label position="floating">Municipio</ion-label> -->
       <!-- <ion-input formControlName="municipio" type="text" required></ion-input> -->
       <ion-label>BMI</ion-label>
-      <ion-select placeholder="Select One">
+      <ion-select formControlName="BMI" placeholder="Select One">
         <ion-select-option value="18,5">Underweight</ion-select-option>
         <ion-select-option value="18,5-24,9">Normal or Healthy Weight</ion-select-option>
         <ion-select-option value="25-29,9">Overweight</ion-select-option>
@@ -84,7 +104,7 @@
       <!-- <ion-label position="floating">Municipio</ion-label> -->
       <!-- <ion-input formControlName="municipio" type="text" required></ion-input> -->
       <ion-label>Physical Activity Level</ion-label>
-      <ion-select placeholder="Select One">
+      <ion-select formControlName="physical_activity_level" placeholder="Select One">
         <ion-select-option value="0">0 Días por semana</ion-select-option>
         <ion-select-option value="1">1 Días por semana(60min)</ion-select-option>
         <ion-select-option value="2">2 Días por semana(60min*2)</ion-select-option>
@@ -111,6 +131,12 @@
           <ion-select-option  value="M">Masculino</ion-select-option>
           <ion-select-option  value="other">Otro</ion-select-option>
         </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Registration Date</ion-label>
+      <ion-input formControlName="registration_date" type="date" required>
+      </ion-input>
     </ion-item>
 
     <ion-row>

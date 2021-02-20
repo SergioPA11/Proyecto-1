@@ -91,9 +91,9 @@ exports.findOne = (req, res) => {
 // Update a Stats by the id in the request
 exports.update = (req, res) => {
   const id = req.params.id;
-
+  console.log(req.body)
   Student.update(req.body, {
-    where: { id: id }
+    where: { studentId: id, courseId: req.body.courseId, id_School: req.body.id_School }
   })
     .then(num => {
       if (num == 1) {
@@ -118,7 +118,7 @@ exports.delete = (req, res) => {
   const id = req.params.id;
 
   Student.destroy({
-    where: { studentid: id }
+    where: { studentId: id, courseId: req.body.courseId, id_School: req.body.id_School  }
   })
     .then(num => {
       if (num == 1) {

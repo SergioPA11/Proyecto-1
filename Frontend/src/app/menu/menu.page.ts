@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { ModalController } from '@ionic/angular';
 import { AuthService } from '../auth/auth.service';
+import { ModalSchoolPage } from '../modal-school/modal-school.page';
 
 @Component({
   selector: 'app-menu',
@@ -8,8 +10,9 @@ import { AuthService } from '../auth/auth.service';
   styleUrls: ['./menu.page.scss'],
 })
 export class MenuPage implements OnInit {
+  [x: string]: any;
 
-  constructor(private authService: AuthService, private router: Router) { }
+  constructor(private authService: AuthService, private router: Router, private modalCtrl: ModalController,) { }
 
   ngOnInit() {
   }
@@ -20,8 +23,16 @@ export class MenuPage implements OnInit {
     });
   }
 
-  config(){
+  config() {
     this.router.navigateByUrl("/config");
+  }
+
+  async openSchoolModal() {
+    const modal = await this.modalCtrl.create({
+      component: ModalSchoolPage,
+      cssClass: 'my-custom-class'
+    });
+    modal.present();
   }
 
 }

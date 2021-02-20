@@ -19,14 +19,24 @@
     </ion-card-header>
   
     <ion-card-content>
-    vesicular_mass: {{s.vesicular_mass}};<br/>
-    fat_mass: {{s.fat_mass}};<br/>
+    metabolic_age: {{s.metabolic_age}}<br/>
+    average_of_fat: {{s.average_of_fat}}<br/>
+    average_of_Hydration: {{s.average_of_Hydration}}<br/>
+    muscle_weight: {{s.muscle_weight}}<br/>
+    muscle_mass_level: {{s.muscle_mass_level}};<br/>
+    bone_weight: {{s.bone_weight}}<br/>
+    kilocalories: {{s.kilocalories}}<br/>
+    weight: {{s.weight}};<br/>
+    height: {{s.height}}<br/>
+    BMI: {{s.BMI}}<br/>
+    abdominal_perimeter: {{s.abdominal_perimeter}};<br/>
+    physical_activity_level: {{s.physical_activity_level}}<br/>
     year: {{s.year}};<br/>
     sex: {{s.sex}};
     </ion-card-content>
     <ion-item>
-      <ion-icon (click)="updateStudent(s.id)" name="git-compare" slot="end" color="secondary"></ion-icon>
-      <ion-icon (click)="deleteStudent(s.id)" name="trash" slot="end" color="danger"></ion-icon>
+      <ion-icon (click)="updateStudent(s.studentId)" name="git-compare" slot="end" color="secondary"></ion-icon>
+      <ion-icon (click)="deleteStudent(s.studentId)" name="trash" slot="end" color="danger"></ion-icon>
     </ion-item>
   </ion-card>
 </ion-content>

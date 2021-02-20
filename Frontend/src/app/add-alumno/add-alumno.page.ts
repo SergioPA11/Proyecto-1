@@ -1,8 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import { School } from '../CRUD/models/school';
 import { AddAlumnoService } from '../CRUD/services/add-alumno.service';
-
+import { AddCourseService } from '../CRUD/services/add-course.service';
+import { AddSchoolService } from '../CRUD/services/add-school.service';
 
 @Component({
   selector: 'app-add-alumno',
@@ -12,30 +14,32 @@ import { AddAlumnoService } from '../CRUD/services/add-alumno.service';
 export class AddAlumnoPage implements OnInit {
 
   DatosForm: FormGroup;
+  schools: School[];
 
-  constructor(public fb: FormBuilder, 
+  constructor(public fb: FormBuilder,
     private addAlumnoService: AddAlumnoService,
+    private AddCourseService: AddCourseService,
+    private AddSchoolService: AddSchoolService,
     private router: Router) {
-      this.DatosForm = this.fb.group({
-        courseId: ['', Validators.required],
-        metabolic_age: ['', Validators.required],
-        average_of_fat: ['', Validators.required],
-        average_of_Hydration: ['', Validators.required],
-        muscle_weight: ['', Validators.required],
-        muscle_mass_level: ['', Validators.required],
-        bone_weight: ['', Validators.required],
-        kilocalories: ['', Validators.required],
-        registration_date: ['', Validators.required],
-        BMI: ['', Validators.required],
-        weight: ['', Validators.required],
-        height: ['', Validators.required],
-        abdominal_perimeter: ['', Validators.required],
-        physical_activity_level: ['', Validators.required],
-        year: ['', Validators.required],
-        sex: ['']
-      });
-
-     }
+    this.DatosForm = this.fb.group({
+      courseId: ['', Validators.required],
+      metabolic_age: ['', Validators.required],
+      average_of_fat: ['', Validators.required],
+      average_of_Hydration: ['', Validators.required],
+      muscle_weight: ['', Validators.required],
+      muscle_mass_level: ['', Validators.required],
+      bone_weight: ['', Validators.required],
+      kilocalories: ['', Validators.required],
+      registration_date: ['', Validators.required],
+      BMI: ['', Validators.required],
+      weight: ['', Validators.required],
+      height: ['', Validators.required],
+      abdominal_perimeter: ['', Validators.required],
+      physical_activity_level: ['', Validators.required],
+      year: ['', Validators.required],
+      sex: [''],
+    })
+  }
 
   ngOnInit() {
   }
@@ -46,8 +50,8 @@ export class AddAlumnoPage implements OnInit {
     } else {
       let student = {
         studentId: null,
-        courseId: null,
-        id_School: null,
+        courseId: this.AddCourseService.getCurrentNameId(),
+        id_School: this.AddSchoolService.getCurrentSchoolId(),
         metabolic_age: this.DatosForm.value.metabolic_age,
         average_of_fat: this.DatosForm.value.average_of_fat,
         average_of_Hydration: this.DatosForm.value.average_of_Hydration,
@@ -68,7 +72,7 @@ export class AddAlumnoPage implements OnInit {
         .subscribe((res) => {
           this.router.navigateByUrl('/datos');
         });
-      }
     }
+  }
 
 }

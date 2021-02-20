@@ -43,6 +43,14 @@ const routes: Routes = [
     path: 'config',
     loadChildren: () => import('./config/config.module').then( m => m.ConfigPageModule)
   },
+  {
+    path: 'modal-school',
+    loadChildren: () => import('./modal-school/modal-school.module').then( m => m.ModalSchoolPageModule)
+  },
+  {
+    path: 'modal-course',
+    loadChildren: () => import('./modal-course/modal-course.module').then( m => m.ModalCoursePageModule)
+  },
 ];
 
 @NgModule({

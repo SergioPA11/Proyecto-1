@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Schools List</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form [formGroup]="SchoolForm" (ngSubmit)="onFormSubmit()">
+    <ion-card-content>
+      <ion-label>School</ion-label>
+      <ion-select *ngFor="let s of schools" formControlName="schools" placeholder="Select One" >
+        <ion-select-option value="s.id">{{s.name}}</ion-select-option>
+      </ion-select>
+    </ion-card-content>
+
+    <!-- <ion-list>
+      <ion-radio-group *ngFor="let s of schools">
+        <ion-list-header>
+          <ion-label>Schools</ion-label>
+        </ion-list-header>
+    
+        <ion-item>
+          <ion-label>{{s.name}}</ion-label>
+          <ion-radio slot="start" value="s.id"></ion-radio>
+        </ion-item>
+    
+      </ion-radio-group>
+    </ion-list> -->
+
+    <ion-row>
+      <ion-col>
+        <ion-button type="submit" color="success" shape="full" expand="block">Siguiente</ion-button>
+      </ion-col>
+    </ion-row>
+  </form>
+</ion-content>
