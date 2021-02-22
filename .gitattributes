@@ -1,2 +1,0 @@
-*.dll filter=lfs diff=lfs merge=lfs -text
-*Backend/app/jsreportapp/node_modules filter=lfs diff=lfs merge=lfs -text
