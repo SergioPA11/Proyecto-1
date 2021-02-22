@@ -63,10 +63,8 @@ export class AddCourseService {
     let bodyEncoded = new URLSearchParams();
     bodyEncoded.append("courseId", course.name);
     bodyEncoded.append("id_School", course.id_School.toString());
-    
-    let body = bodyEncoded.toString();
 
-    return this.http.put(apiUrl + "/" + course.name, body, httpOptions);
+    return this.http.put(apiUrl + "/" + course.name, course.id_School, httpOptions);
   }
 
   getMenuOpts() {

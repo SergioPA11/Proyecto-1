@@ -20,14 +20,6 @@ const routes: Routes = [
     loadChildren: () => import('./auth/login/login.module').then( m => m.LoginPageModule)
   },
   {
-    path: 'menu',
-    loadChildren: () => import('./menu/menu.module').then( m => m.MenuPageModule)
-  },
-  {
-    path: 'map',
-    loadChildren: () => import('./map/map.module').then( m => m.MapPageModule)
-  },
-  {
     path: 'register',
     loadChildren: () => import('./auth/register/register.module').then( m => m.RegisterPageModule)
   },
@@ -36,8 +28,16 @@ const routes: Routes = [
     loadChildren: () => import('./edit-datos/edit-datos.module').then( m => m.EditDatosPageModule)
   },
   {
+    path: 'menu',
+    loadChildren: () => import('./menu/menu.module').then( m => m.MenuPageModule)
+  },
+  {
     path: 'datos',
     loadChildren: () => import('./datos/datos.module').then( m => m.DatosPageModule)
+  },
+  {
+    path: 'map',
+    loadChildren: () => import('./map/map.module').then( m => m.MapPageModule)
   },
   {
     path: 'config',
@@ -50,6 +50,10 @@ const routes: Routes = [
   {
     path: 'modal-course',
     loadChildren: () => import('./modal-course/modal-course.module').then( m => m.ModalCoursePageModule)
+  },
+  {
+    path: 'tabs-navigator',
+    loadChildren: () => import('./tabs-navigator/tabs-navigator.module').then( m => m.TabsNavigatorPageModule)
   },
 ];
 

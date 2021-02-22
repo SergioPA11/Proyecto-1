@@ -16,4 +16,8 @@ describe('AddAlumnoService', () => {
   it('should be created', () => {
     expect(service).toBeTruthy();
   });
+
+  it('create student', () => {
+    expect(AddAlumnoService).toBeTruthy();
+  })
 });

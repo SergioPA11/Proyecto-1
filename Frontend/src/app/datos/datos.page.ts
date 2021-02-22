@@ -28,8 +28,8 @@ export class DatosPage implements OnInit {
     });
   }
 
-  deleteStudent(id: number){
-    this.addAlumnoService.deleteStudent(id).subscribe(() => {
+  deleteStudent(studentId: number){
+    this.addAlumnoService.deleteStudent(studentId).subscribe(() => {
       this.getAllStudent();
     })
   };
@@ -38,8 +38,8 @@ export class DatosPage implements OnInit {
     this.router.navigateByUrl("/add-alumno");
   }
 
-  updateStudent(id: number){
-    this.addAlumnoService.setCurrentStudentId(id);
+  updateStudent(studentId: number){
+    this.addAlumnoService.setCurrentStudentId(studentId);
     this.router.navigateByUrl("/edit-datos");
   }
 

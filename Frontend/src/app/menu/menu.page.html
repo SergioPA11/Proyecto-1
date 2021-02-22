@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar class="topColor">
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
@@ -17,22 +17,10 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <!-- <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Menu</ion-title>
-    </ion-toolbar>
-  </ion-header> -->
+<ion-content class="background">
 
   <div id="container1">
-    <ion-button expand="block" size="large" (click)="openSchoolModal()" color="primary">Añadir Datos</ion-button>
+    <ion-button expand="block" size="large" (click)="openSchoolModal()">Añadir Datos</ion-button>
   </div>
 
-  <div id="container2">
-    <ion-button expand="block" size="large" href="/datos" color="primary">Editar Datos</ion-button>
-  </div>
-    
-  <div id="container3">
-    <ion-button expand="block" size="large" href="/map" color="primary">Ver Mapa</ion-button>
-  </div>
 </ion-content>

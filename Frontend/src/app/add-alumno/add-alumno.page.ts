@@ -22,6 +22,7 @@ export class AddAlumnoPage implements OnInit {
     private AddSchoolService: AddSchoolService,
     private router: Router) {
     this.DatosForm = this.fb.group({
+      id_School: ['', Validators.required],
       courseId: ['', Validators.required],
       metabolic_age: ['', Validators.required],
       average_of_fat: ['', Validators.required],

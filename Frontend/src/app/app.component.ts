@@ -37,7 +37,7 @@ export class AppComponent {
   }
 
   search() {
-    this.router.navigateByUrl("/menu");
+    this.router.navigateByUrl("/tabs-navigator");
   }
 
   searchMapa() {

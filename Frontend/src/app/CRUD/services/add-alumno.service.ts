@@ -102,7 +102,7 @@ export class AddAlumnoService {
     bodyEncoded.append("physical_activity_level", student.physical_activity_level.toString());
     bodyEncoded.append("year", student.year.toString());
     bodyEncoded.append("sex", student.sex);
-    let body = bodyEncoded.toString();
+    let body = bodyEncoded;
 
     return this.http.put(apiUrl + "/" + student.studentId, body, httpOptions);
   }

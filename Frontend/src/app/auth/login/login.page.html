@@ -1,27 +1,4 @@
-<!-- <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-back-button defaultHref="/home" name="arrow-back"></ion-back-button>
-    </ion-buttons>
-    <ion-title>
-      Login
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true" class="background">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Login</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <ion-button expand="block" size="large" href="/menu" color="primary">Login</ion-button>
-  </div>
-</ion-content> -->
-
-<ion-content color="primary" padding>
+<ion-content class="color" padding>
   <div id="container">
   <form #form="ngForm" (ngSubmit)="login(form)">
     <ion-grid>
@@ -39,7 +16,7 @@
             </ion-item>
           </div>
           <div  class="ion-text-center">
-            <ion-button size="large" type="submit" [disabled]="form.invalid" expand="block" href="/menu">Login</ion-button>
+            <ion-button size="large" type="submit" [disabled]="form.invalid" expand="block" href="/tabs-navigator">Login</ion-button>
           </div>
         </ion-col>
       </ion-row>
