@@ -15,6 +15,7 @@ export class ModalSchoolPage implements OnInit {
 
   schools: School[];
   SchoolForm: FormGroup;
+  currentSchool;
 
   constructor(public fb: FormBuilder,
     private modalController:ModalController, 
@@ -48,7 +49,7 @@ export class ModalSchoolPage implements OnInit {
   if(!this.SchoolForm.value.schools){
     return false;
   }else{
-    this.AddSchoolService.setCurrentSchoolId(this.SchoolForm.value.schools);
+    this.AddSchoolService.setCurrentSchoolId(this.currentSchool.id);
     this.openCourseModal();
     this.CloseModal();
   }

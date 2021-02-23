@@ -8,8 +8,8 @@
   <form [formGroup]="CourseForm" (ngSubmit)="onFormSubmit()">
     <ion-card-content>
       <ion-label>Course</ion-label>
-      <ion-select formControlName="courses" placeholder="Select One" >
-        <ion-select-option *ngFor="let c of courses" value="c.name">{{c.name}}</ion-select-option>
+      <ion-select formControlName="courses" [(ngModel)]="currentCourse" placeholder="Select One" >
+        <ion-select-option *ngFor="let c of courses" [value]="c">{{c.name}}</ion-select-option>
       </ion-select>
     </ion-card-content>
 

@@ -8,6 +8,7 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { AppComponent } from './app.component';
 import { Router } from '@angular/router';
+import { ModalCoursePage } from './modal-course/modal-course.page';
 
 describe('AppComponent', () => {
 

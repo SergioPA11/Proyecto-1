@@ -14,6 +14,7 @@ export class ModalCoursePage implements OnInit {
 
   courses: Course[];
   CourseForm: FormGroup;
+  currentCourse: Course;
 
   constructor(public fb: FormBuilder,
     private modalController:ModalController, 
@@ -30,6 +31,7 @@ export class ModalCoursePage implements OnInit {
   getCourse() {
     this.AddCourseService.getCourse().subscribe(course => { 
       this.courses = course;
+      console.log(course);
     });
   }
 
@@ -41,7 +43,7 @@ export class ModalCoursePage implements OnInit {
   if(!this.CourseForm.value.courses){
     return false;
   }else{
-    this.AddCourseService.setCurrentNameId(this.CourseForm.value.courses);
+    this.AddCourseService.setCurrentNameId(this.currentCourse.name);
     this.router.navigateByUrl('add-alumno');
     this.CloseModal();
   }

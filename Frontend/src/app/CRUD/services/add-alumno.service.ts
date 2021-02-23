@@ -61,6 +61,7 @@ export class AddAlumnoService {
 
   addStudent(student: Student): Observable<any>{
     let bodyEncoded = new URLSearchParams();
+    console.log(student);
     bodyEncoded.append("courseId", student.courseId);
     bodyEncoded.append("id_School", student.id_School.toString());
     bodyEncoded.append("metabolic_age", student.metabolic_age.toString());

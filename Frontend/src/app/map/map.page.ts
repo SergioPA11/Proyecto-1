@@ -13,6 +13,7 @@ export class MapPage implements OnInit {
 
   ngOnInit() {
     var map = L.map('map').setView([28.140811, -15.4921491], 10.5);
+    // var marker = L.marker([28.1281568, -15.4489092]).addTo(map);
     var popup = L.popup();
 
     L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -61,6 +62,8 @@ export class MapPage implements OnInit {
           .setLatLng(e.latlng)
           .setContent("You clicked the map at " + e.latlng)
           .openOn(map);
+      // marker
+      //     .bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
   }
   
   map.on('click', onMapClick);
