@@ -19,6 +19,10 @@
               <ion-label>Datos</ion-label>
               <ion-icon slot="end" name="document-text-outline"></ion-icon>
             </ion-item>
+            <ion-item detail="false" href="#" (click)="searchAyuda()">
+              <ion-label>Ayuda</ion-label>
+              <ion-icon slot="end" name="information"></ion-icon>
+            </ion-item>
             <ion-item>
               <ion-label>Modo Oscuro</ion-label>
               <ion-toggle slot="end" (ionChange)= toggleTheme($event) ></ion-toggle>

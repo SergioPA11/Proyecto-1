@@ -78,7 +78,7 @@ exports.update = (req, res) => {
   const id = req.params.id;
 
   Course.update(req.body, {
-    where: { id: id }
+    where: { name: id , id_School: req.body.id_School}
   })
     .then(num => {
       if (num == 1) {
@@ -103,7 +103,7 @@ exports.delete = (req, res) => {
   const id = req.params.id;
 
   Course.destroy({
-    where: { id: id }
+    where: { name: id}
   })
     .then(num => {
       if (num == 1) {

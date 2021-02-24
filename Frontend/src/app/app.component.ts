@@ -47,5 +47,9 @@ export class AppComponent {
   searchDatos() {
     this.router.navigateByUrl("/datos");
   }
+
+  searchAyuda() {
+    window.open("http://localhost:8080/Ayuda%20para%20el%20Proyecto%201.html");
+  }
   
 }

@@ -118,7 +118,7 @@ exports.delete = (req, res) => {
   const id = req.params.id;
 
   Student.destroy({
-    where: { studentId: id, courseId: req.body.courseId, id_School: req.body.id_School  }
+    where: { studentId: id }
   })
     .then(num => {
       if (num == 1) {
