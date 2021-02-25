@@ -34,7 +34,7 @@ In the second part that will be published, we see a radical change in statics, o
 * [Mockup](#Mockup) Explained in the 6.1 documentation section
 * [Usability](#Usability) Explained in the 6.2 documentation section
 * [Proyect Usability](#Proyect-Usability)
-* [Manuals](#Manuals)
+* [Manuals](#-Manuals)
 * [Technology Stack](#Technology-Stack)
 * [Technology Comparison](#Technology-Comparison)
 * [Data model](#Data-Model)
