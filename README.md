@@ -29,11 +29,14 @@ In the second part that will be published, we see a radical change in statics, o
 ## 📋 Documentation
 
   This is the official documentation of this work, in the following sections you will see each section of the project
-  
-* [Mockup](#Mockup) Explicado en el apartado 6.1 de la documentación
-* [Usability](#Usability) Explicado en el apartado 6.2 de la documentación
 * [Postman](https://documenter.getpostman.com/view/12915849/TVspjUH7)
-
+  
+* [Mockup](#Mockup) Explained in the 6.1 documentation section
+* [Usability](#Usability) Explained in the 6.2 documentation section
+* [Proyect Usability](#Proyect-Usability)
+* [Manuals](#Manuals)
+* [Technology Stack](#Technology-Stack)
+* [Technology Comparison](#Technology-Comparison)
 * [Data model](#Data-Model)
 * [User Requirements](#User-Requirements)
 * [Use Case](#Use-Case)
@@ -165,7 +168,7 @@ of the institutes, and if we want to go back we have the menu already explained 
 
 ### Usability
 
-### Mockup usability
+### Mockup Usability
 
 ![Usability](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Mockup_scale/usability.PNG)
 
@@ -178,7 +181,7 @@ The application shown as we can see in the three images provided, we see a very 
 * Forecast of errors: as we see in image 2 and in the explanation of the mockup, if the user performs the form incorrectly or leaves it blank, that screen would appear.
 * Simplicity in its design: as I have already emphasized, the most that stands out is its simple design, thus helping the user.
 
-# Proyect usability
+# Proyect Usability
 
 ## Color palette
 
@@ -355,7 +358,7 @@ RestFull
 * To go up to the start:
 * [Go up](#-Proyecto-1)
 
-## Technology comparison
+## Technology Comparison
 
 * Frontend technology comparison
 
