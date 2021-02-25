@@ -1,7 +1,8 @@
 ![enter image description here](https://img.shields.io/badge/Author-Sergio_Peñate_Alejo-cyan)
 
 # 💻 Proyecto-1
-First project on obesity in the Canary Islands
+
+Project based on obesity in the Canary Islands, in order to reach every point of the island to lower the obesity index
 
 ![logo Ies El Rincon](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/rincon.png)
 
@@ -20,14 +21,15 @@ In this case it is not a company, it is a Physical Education Teacher at the Felo
 
 The main idea of the development is to visualize with some statistics introduced by the physical education teacher, in the application I would add the following data: Height, Weight, Age, Center, Municipality in order to get a statistic by municipality, it is done in that mode to see it on a graph or map of the island, and when selecting the municipality, show some statistics.
 
-After the meeting with Gillermo, he told us that he needs something simple, something fast and easy to use, that the teachers who use it do not spend more than x time to enter the data in the app
+In the second part that will be published, we see a radical change in statics, operation and easier to use by the user, soon it will be possible to interact with the map to include data, see the institutes, the media and everything that the user wants to see in that moment
 
 * [Mockup Images](https://github.com/SergioPA11/Proyecto-1/tree/master/Mockup) Mockup del Proyecto
 * [Prototype](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Prototype%201.vp) Prototipado del Proyecto
 
 ## 📋 Documentation
 
-* [Documentación](https://github.com/SergioPA11/Proyecto-1/blob/master/Documentaci%C3%B3n.pdf) Documentación del Proyecto
+  This is the official documentation of this work, in the following sections you will see each section of the project
+  
 * [Mockup](#Mockup) Explicado en el apartado 6.1 de la documentación
 * [Usability](#Usability) Explicado en el apartado 6.2 de la documentación
 * [Postman](https://documenter.getpostman.com/view/12915849/TVspjUH7)
@@ -44,11 +46,10 @@ After the meeting with Gillermo, he told us that he needs something simple, some
 You want to register the data of the students of several institutes of the sila of Gran Canaria, for this we have the table School where the institutes of the island would be stored, and from the institutes, we have the table of students where the data of the body mass, visceral mass, age or group, sex, in order to obtain a statistic where we will look at the obesity index in the Canary Islands.
 
 ### E/R Diagram
-![e/r](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/er.PNG)
+![e/r](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/ERFinish.png)
 
 * To go up to the start:
 * [Go up](#-Proyecto-1)
-* [Go to Documentation](#-Documentation)
 
 ### Medium step
 ```
@@ -65,16 +66,35 @@ Primary key from **id_Teacher** and foreing **id_School***
 
 Primary key from **id_School** and foreing **id_Teacher***
 
-School (**id**, idTeacher, Name, Street, municipality)
 
-Student (**id**, Fat_mass, Vesicular_mass, sex, year)
+District(**id**, Name)
+
+Municipality (**id**, Name)
+
+School (**id**, Name, Street)
+
+District_School(**id_School**, **id_District**)
+
+Primary key from **id_School** and foreing **id_District***
+
+Primary key from **id_District** and foreing **id_School***
+
+
+Course(**Name**, **id_School***)
+
+Student (**studentId**, **courseId***, **id_School***, metabolic_age, average_of_fat, average_of_Hydration, muscle_weight, muscle_mass_level, bone_weight, kilocalories, 
+    registration_date, BMI, weight, height, abdominal_perimeter, physical_activity_level, year, sex)
+
+Primary key from **courseId** and foreing **course**
+
+Primary key from **id_School** and foreing **id_School***
+
 
 ### Relational Model
-![realtional model](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Uml.PNG)
+![realtional model](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/UML%20Healht.png)
 
 * To go up to the start:
 * [Go up](#-Proyecto-1)
-* [Go to Documentation](#-Documentation)
 
 ## User Requirements
 
@@ -82,13 +102,14 @@ Student (**id**, Fat_mass, Vesicular_mass, sex, year)
 
 * R1.1 The application is mobile, both ios and android
 * R1.2 It can be web too, but in principle it is mobile
-* R1.3 It is about 6 simple interfaces, with a menu
+* R1.3 It is an interactive application, for the map
 
 ### R2 User
 
-* R2.1 The only user who has to register is the teacher
+* R2.1 Any user who can manipulate data can be registered
 * R2.2 External users only see the map, only the map will appear in the app
 * R2.3 Registered teacher can add, edit and view the map
+* R2.4 No need to register to enter the application
 
 ### R3 App
 
@@ -107,7 +128,6 @@ Student (**id**, Fat_mass, Vesicular_mass, sex, year)
 
 * To go up to the start:
 * [Go up](#-Proyecto-1)
-* [Go to Documentation](#-Documentation)
 
 ## Interfaces
 
@@ -142,7 +162,6 @@ of the institutes, and if we want to go back we have the menu already explained 
 
 * To go up to the start:
 * [Go up](#-Proyecto-1)
-* [Go to Documentation](#-Documentation)
 
 ### Usability
 
@@ -159,9 +178,20 @@ The application shown as we can see in the three images provided, we see a very 
 * Forecast of errors: as we see in image 2 and in the explanation of the mockup, if the user performs the form incorrectly or leaves it blank, that screen would appear.
 * Simplicity in its design: as I have already emphasized, the most that stands out is its simple design, thus helping the user.
 
-### Proyect usability
+# Proyect usability
 
-![UsabilityProyect](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Mockup_scale/Usabilidad.PNG)
+## Color palette
+
+<div>
+  <img src="https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/ImgProyect/EditPaleta%20de%20colores.jpg" width="500">
+</div>
+
+<br/>
+<br/>
+
+## Usability
+
+![UsabilityProyect](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/ImgProyect/menu_desple.png)
 
 * Useful: for what has been done since the application shows the statistics of each municipality to see the obesity rates in each of them
 * Easy to use: thanks to its simple design, it is easy to use due to the simplicity shown in the images such as the implementation of 3 buttons to access 3 different screens as needed by the user. The buttons are so simple that only the user would have to press them to use them
@@ -180,7 +210,7 @@ The application shown as we can see in the three images provided, we see a very 
 * Interface consistency: To facilitate the use of the application, it has been designed with a simple design, quick to learn since it is used intuitively, a great speed of use behind its menu that facilitates information to the user
 * Feedback: The answers are appropriate to the user, if you add data, modify or want to see the map, the application will do it
 
-![mapa](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Mockup_scale/map.PNG)
+![mapa](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/ImgProyect/menu_mapa.png)
 
 * Simplicity of design: As we see in the image that I have given, we see that we do not saturate the user with many buttons or a lot of information on the screen so that he does not feel lost at any time
 * Minimal surprise: The application is created in such a way so that it is used without any problem and nothing happens that the user cannot react at the moment
@@ -190,23 +220,22 @@ In the first image we see the menu buttons
 
 * Visual design: The visual design is designed so that the user focuses on the most fundamental functions of the application, such as viewing the data, adding or editing it.
 
-![registro](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Mockup_scale/registre.PNG)
+![registro](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/ImgProyect/login_register.png)
 
 * Layout of form windows: The position of the forms are placed in such a way that, as we see in the image above, we have the registration form in the center so that the user pays the maximum attention, just as at login and the two remaining forms are located on top
 
 
 * To go up to the start:
 * [Go up](#-Proyecto-1)
-* [Go to Documentation](#-Documentation)
 
-## Manuals
+# Manuals
 
-## 🖥️ Backend
+## Installation Manual
+
+### 🖥️ Backend
 
 In order to use the server we need to install Node.Js and a sql service such as Sql Workbench or Xampp
 And install git to be able to use the git clone
-
-
 
 In order to use the application you will have to modify the .env and adapt your passwords
 ```
@@ -214,8 +243,8 @@ JWT_SECRET=V3RY#1MP0RT@NT$3CR3T#
 
 MYSQL_DATABASE=health_db
 MYSQL_USER=root
-MYSQL_PASSWORD=1234
-MYSQL_ROOT_PASSWORD=1234
+MYSQL_PASSWORD="your password"
+MYSQL_ROOT_PASSWORD="your password"
 
 DB_HOST=localhost
 
@@ -235,9 +264,29 @@ $ npm install
 ```
 
 To start the server in Node.Js we will use the following line:
-
+The First:
+  - To go to the directory where the server is located
+  
+```
+$ cd Backend
+```
+  - After going to the directory we do:
+  
 ```
 $ node server.js
+```
+
+To start the report generator server we will follow the following steps:
+The First:
+  - To go to the directory where the server is located
+  
+```
+$ cd Backend/app/jsreportapp
+```
+  - After going to the directory we do:
+  
+```
+$ jsreport start
 ```
 
 ## 🖥️ Frontend
@@ -254,6 +303,11 @@ To install all the packages of the project we use the following line:
 $ npm install
 ```
 
+In order to use the previous line we need to install the following:
+```
+$ npm install @ionic/lab --save-dev
+```
+
 To start the server in Node.Js we will use the following line:
 
 ```
@@ -264,10 +318,23 @@ Or this line if we want to see it as mobile
 $ ionic serve --lab
 ```
 
-In order to use the previous line we need to install the following:
-```
-$ npm install @ionic/lab --save-dev
-```
+## ℹ️ HelpNdoc
+
+Let's start the help, for this we use HelpNdoc, here I will leave the link of the file or if the project is cloned it will be in the folder called Help
+
+First we need to download the program at the following link:
+[HelpNdoc Donwload](https://www.helpndoc.com/es/descarga/)
+
+Follow the recommendations given on the installation page once installed. 
+
+To upload the file we will go here:
+[HelpNdocFile](https://github.com/SergioPA11/Proyecto-1/tree/master/Ayuda)
+
+Once loaded, we go to tools and we will find this icon, we start the server and it would be:
+[HelpNdocServer](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/iniciar_help.png)
+
+## User manual
+
 
 * To go up to the start:
 * [Go up](#-Proyecto-1)
@@ -320,6 +387,9 @@ The main advantage of Microsoft PowerApps is that they are very simple: companie
 * [Git]( https://git-scm.com/)
 * [MySql]( https://www.mysql.com/)
 * [Node.Js]( https://nodejs.org/en/)
+* [Ionic](https://ionicframework.com/)
+* [Angular](https://angular.io/api/common/http/HttpClient)
+* [HelpNdoc](https://www.helpndoc.com/es/)
 
 * To go up to the start:
 * [Go up](#-Proyecto-1)
@@ -334,6 +404,7 @@ The main advantage of Microsoft PowerApps is that they are very simple: companie
 * [Ionic](https://ionicframework.com/)
 * [Angular](https://angular.io/api/common/http/HttpClient)
 * [Leaflet](https://leafletjs.com/)
+* [HelpNdoc](https://www.helpndoc.com/es/)
 
 To go up to the start:
 * [Go up](#-Proyecto-1)
