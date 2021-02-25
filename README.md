@@ -340,18 +340,33 @@ To upload the file we will go here:
 [HelpNdocFile](https://github.com/SergioPA11/Proyecto-1/tree/master/Ayuda)
 
 Once loaded, we go to tools and we will find this icon, we start the server and it would be:
-[HelpNdocServer](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/iniciar_help.png)
+![HelpNdocServer](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/iniciar_help.png)
 
 ## 📗 User manual
 
 When we start with this app we will find this initial screen, which will appear as you start the app, we have a navigator tabs or a menu with three sections where we can access each page much easier
-[Menu Principal](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/ImgProyect/tabs.png)
+![Menu Principal](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/ImgProyect/tabs.png)
+
+If we look at the top left, we see a button with three stripes, which if we press it, a side menu with various options is displayed, to see help, activate dark mode...
+![Menu](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/ImgProyect/menu.png)
 
 If we are a teacher, we give the floating button to add the data, We select from the drop-down the fields we want to enter
-[addData](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/ImgProyect/add_data1.png)
+![addData](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/ImgProyect/add_data1.png)
 
 We select again from another drop-down the fields we want to enter
-[addData2](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/ImgProyect/add_data2.png)
+![addData2](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/ImgProyect/add_data2.png)
+
+Once we have selected the school and the course where we want to enter the data, we see the rest of the data that can be entered from the sample
+![addData3](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/ImgProyect/add_data3.png)
+
+To see the data already entered we will go to the Data page, where some data cards are shown
+![datos](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/ImgProyect/menu_datos.png)
+
+Then we have the map to consult the municipality and in the future we will see the data on the map
+![map](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/ImgProyect/menu_mapa.png)
+
+And finally, to create an account we register, once we have registered we can start session in the app
+![login](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/ImgProyect/login_register.png)
 
 * To go up to the start:
 * [Go up](#-Proyecto-1)
