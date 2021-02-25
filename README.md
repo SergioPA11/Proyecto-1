@@ -132,6 +132,12 @@ Primary key from **id_School** and foreing **id_School***
 * To go up to the start:
 * [Go up](#-Proyecto-1)
 
+## Arquitecture
+
+The user will install this app on his mobile phone, whether it is Ios or Android, the main function of the application is to see data on the map, add data from the samples taken in the institutes
+
+The server would be hosted on the institute's server at first, or in the town hall depending on whether it is approved by the sports council, the server will save all the data collected from the Las Palmas schools, the teacher will register in the application to enter the data, if he is not a teacher, no registration is necessary to access it.
+
 ## Interfaces
 
 ### Mockup
@@ -338,6 +344,14 @@ Once loaded, we go to tools and we will find this icon, we start the server and 
 
 ## 📗 User manual
 
+When we start with this app we will find this initial screen, which will appear as you start the app, we have a navigator tabs or a menu with three sections where we can access each page much easier
+[Menu Principal](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/ImgProyect/tabs.png)
+
+If we are a teacher, we give the floating button to add the data, We select from the drop-down the fields we want to enter
+[addData](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/ImgProyect/add_data1.png)
+
+We select again from another drop-down the fields we want to enter
+[addData2](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/ImgProyect/add_data2.png)
 
 * To go up to the start:
 * [Go up](#-Proyecto-1)
