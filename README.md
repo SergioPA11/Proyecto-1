@@ -228,9 +228,9 @@ In the first image we see the menu buttons
 * To go up to the start:
 * [Go up](#-Proyecto-1)
 
-# Manuals
+# 📖 Manuals
 
-## Installation Manual
+## 📙 Installation Manual
 
 ### 🖥️ Backend
 
@@ -333,7 +333,7 @@ To upload the file we will go here:
 Once loaded, we go to tools and we will find this icon, we start the server and it would be:
 [HelpNdocServer](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/iniciar_help.png)
 
-## User manual
+## 📗 User manual
 
 
 * To go up to the start:
