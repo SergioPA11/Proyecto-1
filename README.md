@@ -141,33 +141,37 @@ The server would be hosted on the institute's server at first, or in the town ha
 ## Interfaces
 
 ### Mockup
-![login](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Mockup_scale/login1.PNG)
+![login](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/NewMockup/Login.png)
 
 This is the first screen when starting the application, on this screen we will log in where we will register to use the App, We have 3
 fields to fill in, where it asks us for the name, username and password.
 
-![login error](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Mockup_scale/login2.PNG)
+![login error](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/NewMockup/LoginMal.png)
 
 This is also the first screen when starting the application, on this screen we performed the login but in this case the registration goes wrong. We have 3
 fields to fill in, where we are asked for the name, username and password, but they are not filled in correctly and that is why it comes out this way.
 
-![Menu](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Mockup_scale/menu.PNG)
+![Menu](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/NewMockup/Menu.png)
 
 After successfully logging in, it will show us this screen, on this screen we find 2 icons at the top where one is a login icon, which when touched will take us back to the initial screen, on the right is the icon of configuration, in the center of the screen we find three buttons that tell us the following:
 Enter Data (Explanation in image 4), Edit Data (Explanation in image 5), View Map (Explanation in image 6).
 
-![IntroData](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Mockup_scale/intruDatos.PNG)
+![add](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/NewMockup/AddSchool.png)
+![add1](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/NewMockup/addCourse.png)
+![IntroData](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/NewMockup/a%C3%B1adirDAtos.png)
 
 When pressing the Enter Data button, it will show us this screen where we have already explained what was previously explained with the blue bar at the top, but in that case an icon of an arrow is added that is to go to the menu screen when it is pressed, We see the tanita icon that is the brand of the scales where teachers take the data to be able to enter them in the following fields, Body Fat, Visceral Fat, BMI and the age to be able to compare, this field is not taken out by the tanita I have put it I additionally, when entering all the data we press the "Add Data" button.
 
-![EditData](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Mockup_scale/editDatos.PNG)
+![EditData](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/NewMockup/EditDatos.png)
 
 When pressing the Edit Data button, it will show us this screen where we have already explained what was explained above with the blue bar at the top, we see the tanita icon the same as in Enter Data, the difference with the screen to enter data, is that the data the following fields are already occupied, Body Fat, Visceral Fat, BMI and age, you can modify the data and press the button to edit it.
 
-![Map](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Mockup_scale/mapa.PNG)
+![Map](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/NewMockup/Mapa.png)
 
 When pressing the button See Map, this screen will show us where we have the map of Gran Canaria, and we can look at each municipality to see the statistics,
 of the institutes, and if we want to go back we have the menu already explained above.
+
+Here I leave the prototype where you can see how it works [Prototype](https://www.fluidui.com/editor/live/preview/cF9oV2wzTGJ4N3phWGd0WlZsUE1vYzF2ZTVXU2kzZmRJQw==)
 
 * To go up to the start:
 * [Go up](#-Proyecto-1)
@@ -176,7 +180,7 @@ of the institutes, and if we want to go back we have the menu already explained 
 
 ### Mockup Usability
 
-![Usability](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/Mockup_scale/usability.PNG)
+![Usability](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/NewMockup/MockupUsability.png)
 
 The application shown as we can see in the three images provided, we see a very simple design where we have 1 button to log in, and another 3 buttons to use the application, the application meets the following characteristics:
 * Useful: for what has been done since the application shows the statistics of each municipality to see the obesity rates in each of them.
@@ -186,6 +190,10 @@ The application shown as we can see in the three images provided, we see a very 
 * It is Efficient: in its use, due to the little time it takes to use the application, it has a fast interface, thus appreciating its use.
 * Forecast of errors: as we see in image 2 and in the explanation of the mockup, if the user performs the form incorrectly or leaves it blank, that screen would appear.
 * Simplicity in its design: as I have already emphasized, the most that stands out is its simple design, thus helping the user.
+
+* To go up to the start:
+* [Go up](#-Proyecto-1)
+* [Go to Documentation](#-Documentation)
 
 # Proyect Usability
 
@@ -197,6 +205,10 @@ The application shown as we can see in the three images provided, we see a very 
 
 <br/>
 <br/>
+
+* To go up to the start:
+* [Go up](#-Proyecto-1)
+* [Go to Documentation](#-Documentation)
 
 ## Usability
 
@@ -236,6 +248,7 @@ In the first image we see the menu buttons
 
 * To go up to the start:
 * [Go up](#-Proyecto-1)
+* [Go to Documentation](#-Documentation)
 
 # 📖 Manuals
 
@@ -298,6 +311,10 @@ $ cd Backend/app/jsreportapp
 $ jsreport start
 ```
 
+* To go up to the start:
+* [Go up](#-Proyecto-1)
+* [Go to Documentation](#-Documentation)
+
 ## 🖥️ Frontend
 
 To load the project we will use the following line:
@@ -327,6 +344,10 @@ Or this line if we want to see it as mobile
 $ ionic serve --lab
 ```
 
+* To go up to the start:
+* [Go up](#-Proyecto-1)
+* [Go to Documentation](#-Documentation)
+
 ## ℹ️ HelpNdoc
 
 Let's start the help, for this we use HelpNdoc, here I will leave the link of the file or if the project is cloned it will be in the folder called Help
@@ -341,6 +362,10 @@ To upload the file we will go here:
 
 Once loaded, we go to tools and we will find this icon, we start the server and it would be:
 ![HelpNdocServer](https://github.com/SergioPA11/Proyecto-1/blob/master/Mockup/iniciar_help.png)
+
+* To go up to the start:
+* [Go up](#-Proyecto-1)
+* [Go to Documentation](#-Documentation)
 
 ## 📗 User manual
 
