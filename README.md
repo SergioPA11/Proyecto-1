@@ -478,7 +478,6 @@ To go up to the start:
 
 * [Néstor Batista](https://github.com/Nestorbd)
 * [Tiburcio Cruz](https://github.com/tcrurav)
-* [Eliel Bruna](https://github.com/elbrus19)
 
 ## 🙏🏽 Thanks for your visit
 
